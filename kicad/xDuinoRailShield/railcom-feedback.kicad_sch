@@ -511,7 +511,7 @@
     (uuid e31c5264-19c3-44c4-b382-001e1cf741e2)
   )
 
-  (label "RailCom feedback channel" (at 100.33 44.45 0) (fields_autoplaced)
+  (label "RailCom feedback generator" (at 100.33 44.45 0) (fields_autoplaced)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 856d0efc-0de8-4dfa-821a-bb3ab3ec023a)
   )
