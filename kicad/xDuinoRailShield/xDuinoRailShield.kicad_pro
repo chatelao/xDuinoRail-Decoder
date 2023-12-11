@@ -464,8 +464,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "Net-(D10-K)": "PowerRail",
-      "Net-(D4-K)_1": "PowerRail"
+      "Net-(D205-K)": "PowerRail"
     },
     "netclass_patterns": [
       {

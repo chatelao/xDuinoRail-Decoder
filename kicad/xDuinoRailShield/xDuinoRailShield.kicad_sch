@@ -191,6 +191,10 @@
     (uuid f8435dc4-5a78-48a1-96ac-12791b5e5ed1)
   )
 
+  (wire (pts (xy 147.32 40.64) (xy 147.32 46.99))
+    (stroke (width 0) (type default))
+    (uuid 05937364-9b23-477c-8c9c-e702ea86821b)
+  )
   (wire (pts (xy 80.01 77.47) (xy 83.82 77.47))
     (stroke (width 0) (type default))
     (uuid 14279b6c-8d3d-49f8-b358-e1d12c7a9a50)
@@ -366,10 +370,35 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 147.32 40.64 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 18de0110-2e3e-4d33-a111-c6ea818fc24a)
+    (property "Reference" "#PWR0107" (at 147.32 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 146.9644 37.592 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 147.32 40.64 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "" (at 147.32 40.64 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 028c9888-7bcf-44fe-9ad1-008765463dd5))
+    (instances
+      (project "xDuinoRailShield"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR0107") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:VCC") (at 142.24 40.64 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2dfd1935-6683-4659-943e-21cec3f0f406)
-    (property "Reference" "#PWR010" (at 142.24 44.45 0)
+    (property "Reference" "#PWR0101" (at 142.24 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 141.859 37.592 90)
@@ -385,7 +414,7 @@
     (instances
       (project "xDuinoRailShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -415,7 +444,7 @@
       )
       (project "xDuinoRailShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -445,7 +474,7 @@
       )
       (project "xDuinoRailShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -454,7 +483,7 @@
   (symbol (lib_id "power:+5V") (at 152.4 137.16 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac82c4ad-def6-4de5-8847-221581d47e94)
-    (property "Reference" "#PWR017" (at 152.4 140.97 0)
+    (property "Reference" "#PWR0106" (at 152.4 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 152.0444 134.112 90)
@@ -470,7 +499,7 @@
     (instances
       (project "xDuinoRailShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -479,7 +508,7 @@
   (symbol (lib_id "power:+5V") (at 147.32 90.17 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e882d57f-5019-416f-b526-48f51b6b4055)
-    (property "Reference" "#PWR015" (at 147.32 93.98 0)
+    (property "Reference" "#PWR0105" (at 147.32 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 146.9644 87.122 90)
@@ -495,7 +524,7 @@
     (instances
       (project "xDuinoRailShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -525,7 +554,7 @@
       )
       (project "xDuinoRailShield"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -549,13 +578,17 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 8f82cce4-cdd6-46af-8f2b-9e8c9e3f1c87)
     )
-    (pin "+9V" input (at 142.24 46.99 90)
+    (pin "+9V" output (at 142.24 46.99 90)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid cf4f689e-33c9-4ef9-9378-297154959c2c)
     )
     (pin "GND" bidirectional (at 143.51 59.69 270)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 5f86a7fa-1a20-46fe-a48d-99405ed757a9)
+    )
+    (pin "+5V" output (at 147.32 46.99 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 46c6031f-f1eb-457b-a8d9-88af78d87a78)
     )
     (instances
       (project "xDuinoRailShield"

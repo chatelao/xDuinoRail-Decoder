@@ -726,7 +726,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/73623b68-3f11-49c2-b33b-f7aef9e34c5f"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR0501") (unit 1)
         )
       )
     )
@@ -758,7 +758,7 @@
           (reference "D1") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/73623b68-3f11-49c2-b33b-f7aef9e34c5f"
-          (reference "D1") (unit 1)
+          (reference "D501") (unit 1)
         )
       )
     )
@@ -790,7 +790,7 @@
           (reference "R1") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/73623b68-3f11-49c2-b33b-f7aef9e34c5f"
-          (reference "R1") (unit 1)
+          (reference "R501") (unit 1)
         )
       )
     )
@@ -852,7 +852,7 @@
           (reference "A1") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/73623b68-3f11-49c2-b33b-f7aef9e34c5f"
-          (reference "A1") (unit 1)
+          (reference "A501") (unit 1)
         )
       )
     )
@@ -880,7 +880,7 @@
           (reference "#PWR08") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/73623b68-3f11-49c2-b33b-f7aef9e34c5f"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR0504") (unit 1)
         )
       )
     )
@@ -912,7 +912,7 @@
           (reference "R2") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/73623b68-3f11-49c2-b33b-f7aef9e34c5f"
-          (reference "R2") (unit 1)
+          (reference "R502") (unit 1)
         )
       )
     )
@@ -945,7 +945,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/73623b68-3f11-49c2-b33b-f7aef9e34c5f"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR0502") (unit 1)
         )
       )
     )
@@ -966,7 +966,7 @@
     (property "Datasheet" "~" (at 72.39 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 72.39 59.69 0)
+    (property "LCSC" "C8269" (at 72.39 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f1de876b-0bce-412b-8fc8-a56e3a81f584))
@@ -977,7 +977,7 @@
           (reference "J5") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/73623b68-3f11-49c2-b33b-f7aef9e34c5f"
-          (reference "J1") (unit 1)
+          (reference "J501") (unit 1)
         )
       )
     )
@@ -1005,7 +1005,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/73623b68-3f11-49c2-b33b-f7aef9e34c5f"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR0503") (unit 1)
         )
       )
     )
@@ -1037,7 +1037,7 @@
           (reference "D3") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/73623b68-3f11-49c2-b33b-f7aef9e34c5f"
-          (reference "D3") (unit 1)
+          (reference "D502") (unit 1)
         )
       )
     )
