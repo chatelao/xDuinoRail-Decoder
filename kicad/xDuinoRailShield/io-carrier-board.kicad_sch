@@ -1504,6 +1504,12 @@
 		(uuid "784d9772-2492-4468-9836-0e1c8f3e9390")
 	)
 	(junction
+		(at 162.56 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a59d6568-7776-4989-9c0e-14a6b3f05d06")
+	)
+	(junction
 		(at 100.33 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1540,10 +1546,6 @@
 	(no_connect
 		(at 175.26 82.55)
 		(uuid "2d20e2da-a835-4b63-8664-42ec88047394")
-	)
-	(no_connect
-		(at 175.26 87.63)
-		(uuid "31896f13-ea39-470d-a3b1-28b403a308f3")
 	)
 	(no_connect
 		(at 175.26 69.85)
@@ -1759,6 +1761,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 110.49) (xy 162.56 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab96b5f3-f5a1-4d4a-939a-2b7eadbb8847")
+	)
+	(wire
+		(pts
 			(xy 160.02 50.8) (xy 160.02 52.07)
 		)
 		(stroke
@@ -1799,7 +1811,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 109.22) (xy 162.56 107.95)
+			(xy 162.56 110.49) (xy 162.56 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47a0899-1ca3-4dba-aa09-663f723f5bfe")
+	)
+	(wire
+		(pts
+			(xy 162.56 111.76) (xy 162.56 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1856,6 +1878,16 @@
 			(type default)
 		)
 		(uuid "f030a5bd-f51c-47cd-b6ef-957a04d8cbb0")
+	)
+	(wire
+		(pts
+			(xy 175.26 87.63) (xy 184.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f3534b-1c81-4346-b38d-3a5e9df65064")
 	)
 	(wire
 		(pts
@@ -1925,6 +1957,18 @@
 		)
 		(uuid "2eb10f31-a74b-4c32-b327-0c69c2a2b6c5")
 	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 167.64 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f7ab207-b3ed-4267-9450-7e0bfc2615b4")
+	)
 	(hierarchical_label "DCC_MM"
 		(shape input)
 		(at 146.05 69.85 180)
@@ -1936,6 +1980,18 @@
 			(justify right)
 		)
 		(uuid "599b5685-5bc4-4688-a6a9-1ba21691ac60")
+	)
+	(hierarchical_label "ANALOG_5V"
+		(shape input)
+		(at 184.15 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70f54ae4-a5e8-4e62-bdaf-5145bdc5cd65")
 	)
 	(hierarchical_label "RAILCOM_DATA"
 		(shape output)
@@ -2501,7 +2557,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 109.22 0)
+		(at 162.56 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2510,7 +2566,7 @@
 		(fields_autoplaced yes)
 		(uuid "a843a8bc-8c89-4c3b-b653-0c175fe36b0a")
 		(property "Reference" "#PWR05"
-			(at 162.56 115.57 0)
+			(at 162.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +2575,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 114.3 0)
+			(at 162.56 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 109.22 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 109.22 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2601,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 109.22 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
