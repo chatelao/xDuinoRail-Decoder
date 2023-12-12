@@ -561,6 +561,16 @@
 		)
 		(uuid "748f18ab-8a05-4254-b426-182eed4bca71")
 	)
+	(wire
+		(pts
+			(xy 77.47 41.91) (xy 77.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79afd4c3-84fb-4812-81f7-7a9767a03a38")
+	)
 	(bus
 		(pts
 			(xy 104.14 96.52) (xy 104.14 143.51)
@@ -570,6 +580,16 @@
 			(type default)
 		)
 		(uuid "82bfcb15-d6b5-4b52-9715-d47212223d00")
+	)
+	(wire
+		(pts
+			(xy 74.93 41.91) (xy 74.93 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fdfe419-7779-4219-9eff-a721a0b97f7b")
 	)
 	(wire
 		(pts
@@ -875,6 +895,73 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 74.93 41.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04e97808-79fc-4202-9a8f-79dd00efec88")
+		(property "Reference" "#PWR01"
+			(at 74.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.549 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d33fc063-0de7-4ce8-85b2-93ce61ac5d08")
+		)
+		(instances
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR01")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1220,6 +1307,71 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 77.47 41.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8b9c7e7-59e4-4f05-bffd-77a05e65757e")
+		(property "Reference" "#PWR02"
+			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 77.1144 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4070ede5-4830-4f7a-b885-26f239393dd9")
+		)
+		(instances
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 147.32 90.17 0)
 		(mirror y)
 		(unit 1)
@@ -1510,6 +1662,26 @@
 				(justify right)
 			)
 			(uuid "fc1ee8e2-3c15-4a67-a338-038df59a4249")
+		)
+		(pin "+5V" output
+			(at 77.47 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83bc2f41-dae0-4b55-8606-385719fb90c0")
+		)
+		(pin "+9V" input
+			(at 74.93 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6da5c739-5b37-487b-ae5f-aee8db812db3")
 		)
 		(instances
 			(project "xDuinoRailShield"
