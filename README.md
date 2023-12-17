@@ -33,8 +33,12 @@ The XIAO formfactor may even fit some H0 locomotives, so COMING SOON:
 | ARM M0+ | SAMD21 | SeeedStudio | [XIAO SAMD21](https://wiki.seeedstudio.com/Seeeduino-XIAO) |
 | Dual ARM M0+ | RP2040 | SeeedStudio | [XIAO RP2040](https://wiki.seeedstudio.com/XIAO-RP2040/) |
 | ARM M4 | nRF52840  | SeeedStudio | [XIAO BLE](https://wiki.seeedstudio.com/XIAO_BLE/) |
-| ARM M0 | SAMD21 | Adafruit | [QT Py SAMD21](https://www.adafruit.com/product/4600) 
+| RV32IMC  | ESP32-C3 | SeeedStudio | https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/ |
+| Xtensa LX7  | ESP32-S3 | SeeedStudio | https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/
+
+| ARM M0+ | SAMD21 | Adafruit | [QT Py SAMD21](https://www.adafruit.com/product/4600) 
 | Dual ARM M0+ | RP2040 | Adafruit | [QT Py RP2040](https://www.adafruit.com/product/4900) 
+| RV32IMC | ESP32-C3 | Adafruit | [QT Py ESP32-C3](https://www.adafruit.com/product/5405)
 | Xtensa LX7 | Adafruit | [QT Py ESP32-S2](https://www.adafruit.com/product/5325)
 | Xtensa LX7  | ESP32-S3 | Adafruit | [QT Py ESP32-S3](https://www.adafruit.com/product/5426)
 
