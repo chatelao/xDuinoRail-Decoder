@@ -28,7 +28,7 @@ The primary tinker formfactor is the "Arduino UNO R3":
 
 ### Decoder development for XIAO formfactor
 
-The XIAO formfactor may even fit some H0 locomotives, so COMING SOON:
+The [XIAO](http://www.ulisp.com/show?3NRF) formfactor may even fit some H0 locomotives, so COMING SOON:
 
 | CPU | MCU | Vendor | Product Name & Page |
 |--- | --- | --- | --- | 
