@@ -4,6 +4,8 @@ View this project on [CADLAB.io](https://cadlab.io/project/27556).
 
 The friendly decoder development plattform for model railroad tinkers.
 
+![alternative text](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/chatelao/xDuinoRail-Decoder/main/overview.puml)
+
 ## Target plattforms
 
 ### Arduino (UNO R3) formfactor
