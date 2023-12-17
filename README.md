@@ -15,11 +15,14 @@ The primary tinker formfactor is the "Arduino UNO R3":
 | ? Atmega ? | Atmega328 | Arduino & Clones|
 |--- | Atmega32u4 | Arduino & Clones |
 |--- | AtmegaMEGA | Arduino & Clones |
-| ARM M0 | SAMD21 | Adafruit | [Metro M0 Express](https://www.adafruit.com/product/3505) | 
-| ARM M0 | SAMD21 | SparkFun |
+| ARM M0+ | SAMD21 | Adafruit | [Metro M0 Express](https://www.adafruit.com/product/3505) | 
+| ARM M0+ | SAMD21 | SparkFun |
 | ARM M4 | SAMD51 | Adafruit | [Metro M4 Express](https://www.adafruit.com/product/4000) | 
 | Dual ARM M0+ | RP2040 | Adafruit | [Metro RP2040](https://www.adafruit.com/product/5786) | 
-| RV32IMAC | RISC-V | SparkFun | [SparkFun RED-V RedBoard](https://www.sparkfun.com/products/15594) 
+| ARM M4 | nRF52840 | Nordic | [nRF52840 DK](https://www.mouser.ch/ProductDetail/Nordic-Semiconductor/nRF52840-DK?qs=F5EMLAvA7IA76ZLjlwrwMw%3D%3D&gad_source=1&gclid=CjwKCAiA1fqrBhA1EiwAMU5m_9iVmasRrajTl6bT0wZal1_tMu6lTCWF3Ct0FWfQw9FYF_E3vaRdBRoC_tcQAvD_BwE)
+| ARM M4 | nRF52840 | Waveshare | [nRF52840 Bluetooth 5.0 Evaluation Kit](https://www.waveshare.com/nrf52840-eval-kit.htm)
+| RV32IMAC | SiFive RISC-V | SparkFun | [SparkFun RED-V RedBoard](https://www.sparkfun.com/products/15594) 
+| RV32IMAFC | WCH RISC-V | AliExpress | https://de.aliexpress.com/item/1005004151524708.html
 
 ### Decoder development for XIAO formfactor
 
@@ -27,7 +30,13 @@ The XIAO formfactor may even fit some H0 locomotives, so COMING SOON:
 
 | CPU | MCU | Vendor | Product Name & Page |
 |--- | --- | --- | --- | 
-| ? Atmega ? | Atmega328 | Arduino & Clones|
+| ARM M0+ | SAMD21 | SeeedStudio | [XIAO SAMD21](https://wiki.seeedstudio.com/Seeeduino-XIAO) |
+| Dual ARM M0+ | RP2040 | SeeedStudio | [XIAO RP2040](https://wiki.seeedstudio.com/XIAO-RP2040/) |
+| ARM M4 | nRF52840  | SeeedStudio | [XIAO BLE](https://wiki.seeedstudio.com/XIAO_BLE/) |
+| ARM M0 | SAMD21 | Adafruit | [QT Py SAMD21](https://www.adafruit.com/product/4600) 
+| Dual ARM M0+ | RP2040 | Adafruit | [QT Py RP2040](https://www.adafruit.com/product/4900) 
+| Xtensa LX7 | Adafruit | [QT Py ESP32-S2](https://www.adafruit.com/product/5325)
+| Xtensa LX7  | ESP32-S3 | Adafruit | [QT Py ESP32-S3](https://www.adafruit.com/product/5426)
 
 ## Features
 Power:
