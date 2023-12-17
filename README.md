@@ -6,7 +6,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/27556).
 An easy decoder development plattfrom for Arduino (UNO R3) formfactor MCU boards:
 
 | CPU | MCU | Vendor | Product Name & Page |
-|--- | --- | --- | --- | --- |
+|--- | --- | --- | --- | 
 | ? Atmega ? | Atmega328 | Arduino & Clones|
 |--- | Atmega32u4 | Arduino & Clones |
 |--- | AtmegaMEGA | Arduino & Clones |
