@@ -2,8 +2,13 @@ View this project on [CADLAB.io](https://cadlab.io/project/27556).
 
 # xDuinoRail-Decoder
 
-## Features
-An easy decoder development plattfrom for Arduino (UNO R3) formfactor MCU boards:
+The friendly decoder development plattform for model railroad tinkers.
+
+## Target plattforms
+
+### Arduino (UNO R3) formfactor
+
+The primary tinker formfactor is the "Arduino UNO R3":
 
 | CPU | MCU | Vendor | Product Name & Page |
 |--- | --- | --- | --- | 
@@ -14,8 +19,17 @@ An easy decoder development plattfrom for Arduino (UNO R3) formfactor MCU boards
 | ARM M0 | SAMD21 | SparkFun |
 | ARM M4 | SAMD51 | Adafruit | [Metro M4 Express](https://www.adafruit.com/product/4000) | 
 | Dual ARM M0+ | RP2040 | Adafruit | [Metro RP2040](https://www.adafruit.com/product/5786) | 
+| RV32IMAC | RISC-V | SparkFun | [SparkFun RED-V RedBoard](https://www.sparkfun.com/products/15594) 
 
+### Decoder development for XIAO formfactor
 
+The XIAO formfactor may even fit some H0 locomotives, so COMING SOON:
+
+| CPU | MCU | Vendor | Product Name & Page |
+|--- | --- | --- | --- | 
+| ? Atmega ? | Atmega328 | Arduino & Clones|
+
+## Features
 Power:
 - It extracts power from the rails.
 
