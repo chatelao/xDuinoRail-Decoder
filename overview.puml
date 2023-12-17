@@ -8,8 +8,10 @@ Decoder <- Central : MM / DCC
 Central <- Decoder : mfx / RailCom / RailComPlus
 
 component "I2C/TWI" as I2C
+component "USB-C\n- Mass storage\n- CVs\n- Firmware\n- Sounds" as USBC
 
 I2C <-> Decoder: "QWIIC / Stemma QT"
+Decoder <..> USBC : "
 
 component "MCU base boards" as MCU {
 
@@ -21,6 +23,7 @@ component "RISC-V"
 
 }
 Decoder <--> MCU : "Arduino Headers (D2/D3/VIN)\nXIAO pinout"
+USBC <.> MCU
 
 component "Sensors & Actors" as SENS {
 
