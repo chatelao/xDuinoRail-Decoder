@@ -2,7 +2,7 @@
 
 component "Central" as Central
 
-component "xDuinoRail" as Decoder
+component "xDuinoRail" as Decoder#Salmon
 
 Decoder <- Central : MM / DCC
 Central <- Decoder : mfx / RailCom / RailComPlus
@@ -17,7 +17,7 @@ component STM32
 component "RISC-V"
 
 }
-Decoder <--> MCU : "Arduino Headers (D2/D3)\nXIAO pinout"
+Decoder <--> MCU : "Arduino Headers (D2/D3/VIN)\nXIAO pinout"
 
 component "Sensors & Actors" as SENS {
 
