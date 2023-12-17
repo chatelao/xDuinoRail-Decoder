@@ -38,7 +38,7 @@ The XIAO formfactor may even fit some H0 locomotives, so COMING SOON:
 | ARM M0+ | SAMD21 | Adafruit | [QT Py SAMD21](https://www.adafruit.com/product/4600) 
 | Dual ARM M0+ | RP2040 | Adafruit | [QT Py RP2040](https://www.adafruit.com/product/4900) 
 | RV32IMC | ESP32-C3 | Adafruit | [QT Py ESP32-C3](https://www.adafruit.com/product/5405)
-| Xtensa LX7 | Adafruit | [QT Py ESP32-S2](https://www.adafruit.com/product/5325)
+| Xtensa LX7 |  ESP32-S2 |Adafruit | [QT Py ESP32-S2](https://www.adafruit.com/product/5325)
 | Xtensa LX7  | ESP32-S3 | Adafruit | [QT Py ESP32-S3](https://www.adafruit.com/product/5426)
 
 ## Features
