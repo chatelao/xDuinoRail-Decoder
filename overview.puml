@@ -7,6 +7,9 @@ component "xDuinoRail" as Decoder#Salmon
 Decoder <- Central : MM / DCC
 Central <- Decoder : mfx / RailCom / RailComPlus
 
+component "I2C/TWI" as I2C
+
+I2C <-> Decoder: "QWIIC / Stemma QT"
 
 component "MCU base boards" as MCU {
 
@@ -21,9 +24,7 @@ Decoder <--> MCU : "Arduino Headers (D2/D3/VIN)\nXIAO pinout"
 
 component "Sensors & Actors" as SENS {
 
-component "Motor Driver"
-component "Servo Driver"
-component "LED Driver"
+component "Motor/LED Drivers"
 component "Sensors"
 
 }
