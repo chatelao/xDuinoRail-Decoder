@@ -1,0 +1,36 @@
+@startuml
+
+component "Central" as Central
+
+component "xDuinoRail" as Decoder#Salmon
+
+Decoder <- Central : MM / DCC
+Central <- Decoder : mfx / RailCom / RailComPlus
+
+component "I2C/TWI" as I2C
+component "USB-C\n- Mass storage\n- CVs\n- Firmware\n- Sounds" as USBC
+
+I2C <-> Decoder: "QWIIC / Stemma QT"
+Decoder <..> USBC : "
+
+component "MCU base boards" as MCU {
+
+component ATMEGA328
+component RP2040
+component SAMD21
+component STM32
+component "RISC-V"
+
+}
+Decoder <--> MCU : "Arduino Headers (D2/D3/VIN)\nXIAO pinout"
+USBC <.> MCU
+
+component "Sensors & Actors" as SENS {
+
+component "Motor/LED Drivers"
+component "Sensors"
+
+}
+SENS <--> Decoder : "Arduino Headers\nXIAO pinout"
+
+@enduml
