@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "7.99")
-	(uuid "07fb2f41-51dd-47aa-bea8-455535da49cb")
+	(uuid "fcccac48-6e6b-491c-b569-290c1829c6bd")
 	(paper "A4")
 	(lib_symbols
 		(symbol "power:GND"
@@ -203,7 +203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad56f99c-d35b-4f87-8254-e741dc96ba3f")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR028"
 			(at 92.71 72.39 0)
 			(effects
 				(font
@@ -253,7 +253,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f59f9ae7-6afc-4bf7-ac97-b34cf3a86d49"
-					(reference "#PWR03")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)

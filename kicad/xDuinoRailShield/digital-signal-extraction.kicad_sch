@@ -1994,12 +1994,6 @@
 		(uuid "92fbf015-3cec-438d-a31b-57b7358cb6d7")
 	)
 	(junction
-		(at 82.55 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5eabd59-989c-4bd9-a3cb-2dea7bb90c44")
-	)
-	(junction
 		(at 74.93 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2042,16 +2036,6 @@
 			(type default)
 		)
 		(uuid "045264cc-c169-4a95-a8e2-7f26689bdf39")
-	)
-	(wire
-		(pts
-			(xy 82.55 71.12) (xy 88.9 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bf578ec-5812-4c1f-abe7-17d4769e1783")
 	)
 	(wire
 		(pts
@@ -2532,6 +2516,28 @@
 			)
 		)
 	)
+	(global_label "DCC_0_1K3"
+		(shape output)
+		(at 88.9 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a7f3848-ff9e-46f5-b6a0-9accecc223e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.624 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "DCC_MM_SIGNAL"
 		(shape output)
 		(at 91.44 111.76 0)
@@ -2694,7 +2700,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "037306a0-8dc9-4088-b9bb-238889f61fc7")
 		(property "Reference" "R1"
@@ -2713,7 +2719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 168.148 66.04 90)
 			(effects
 				(font
@@ -2764,7 +2770,7 @@
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "R304")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2777,11 +2783,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2bc0077b-46f2-4396-8ebe-7ec024bbdfe8")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR020"
 			(at 74.93 162.56 0)
 			(effects
 				(font
@@ -2831,7 +2837,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "#PWR0303")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2843,7 +2849,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "2f380abd-e67d-4bd3-a1ea-ecb117da0442")
 		(property "Reference" "Q1"
@@ -2919,7 +2925,7 @@
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "Q301")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2932,10 +2938,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "397ede9a-2253-4dc6-80dc-decee926b504")
-		(property "Reference" "D301"
+		(property "Reference" "D6"
 			(at 80.01 66.04 90)
 			(effects
 				(font
@@ -3016,7 +3022,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "D301")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3029,11 +3035,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "42b9937c-a18d-4b04-a3cb-057f769ea009")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR018"
 			(at 74.93 97.79 0)
 			(effects
 				(font
@@ -3083,7 +3089,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "#PWR0301")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3095,11 +3101,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "70326659-7336-4b6c-80f0-efdfd908af78")
-		(property "Reference" "R303"
+		(property "Reference" "R5"
 			(at 83.82 100.33 90)
 			(effects
 				(font
@@ -3115,7 +3121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 83.82 104.902 90)
 			(effects
 				(font
@@ -3160,7 +3166,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "R303")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3173,11 +3179,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7a082a6e-c818-460c-8147-54bb93ae3d86")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR021"
 			(at 76.2 123.19 0)
 			(effects
 				(font
@@ -3227,7 +3233,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "#PWR0304")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3240,11 +3246,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8508d968-96ec-4e5f-ab79-24b268238d65")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR019"
 			(at 74.93 149.86 0)
 			(effects
 				(font
@@ -3294,7 +3300,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "#PWR0302")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3307,7 +3313,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "87fd55f5-75bf-4ad2-a6d5-b49c976627ae")
 		(property "Reference" "#PWR08"
@@ -3366,7 +3372,7 @@
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "#PWR0305")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3378,11 +3384,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9ff31c4f-5d54-409c-9f29-2201e0908d39")
-		(property "Reference" "U302"
+		(property "Reference" "U4"
 			(at 66.04 142.24 0)
 			(effects
 				(font
@@ -3452,7 +3458,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "U302")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3464,11 +3470,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b3fc806c-d71f-411e-b563-9a7ac9e7e29d")
-		(property "Reference" "R302"
+		(property "Reference" "R4"
 			(at 78.74 142.24 90)
 			(effects
 				(font
@@ -3484,7 +3490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 78.74 146.812 90)
 			(effects
 				(font
@@ -3529,7 +3535,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "R302")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3542,10 +3548,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "c58b2885-ccb3-433d-bb83-46c4de689dfe")
-		(property "Reference" "C301"
+		(property "Reference" "C8"
 			(at 64.77 66.04 0)
 			(effects
 				(font
@@ -3608,7 +3614,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "C301")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3620,7 +3626,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "cdc15280-d732-454b-a104-57ac0a35ea7d")
 		(property "Reference" "R2"
@@ -3639,7 +3645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 168.148 78.74 90)
 			(effects
 				(font
@@ -3690,7 +3696,7 @@
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "R305")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3703,7 +3709,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0797c61-864b-4094-a39d-051cb3f05407")
 		(property "Reference" "R5"
@@ -3722,7 +3728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 176.53 118.618 90)
 			(effects
 				(font
@@ -3773,7 +3779,7 @@
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "R306")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3785,11 +3791,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f3442632-3eff-4ad8-bbcd-ac83d0c1b2ee")
-		(property "Reference" "R301"
+		(property "Reference" "R3"
 			(at 60.96 57.15 90)
 			(effects
 				(font
@@ -3805,7 +3811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 60.96 65.278 90)
 			(effects
 				(font
@@ -3850,7 +3856,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "R301")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3862,11 +3868,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fd4faa7e-4d70-426d-99fc-74d65fb274b4")
-		(property "Reference" "U301"
+		(property "Reference" "U3"
 			(at 66.04 99.06 0)
 			(effects
 				(font
@@ -3942,7 +3948,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "U301")
+					(reference "U3")
 					(unit 1)
 				)
 			)

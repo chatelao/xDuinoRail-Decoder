@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "xDuinoRailShield.kicad_prl",
+    "filename": "xDuinoRailControl.kicad_prl",
     "version": 3
   },
   "project": {
