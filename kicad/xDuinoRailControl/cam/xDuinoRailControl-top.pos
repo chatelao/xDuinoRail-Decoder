@@ -1,0 +1,23 @@
+### Footprint positions - created on 2023-12-21T17:12:11+0100 ###
+### Printed by KiCad version 7.99.0-3954-g9b2cde9571
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                   Package                                                                     PosX       PosY       Rot  Side
+C1        1uF                   C_0805_2012Metric_Pad1.18x1.45mm_HandSolder                             130.2821   -57.6166  -90.0000  top
+C2        47uF                  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder                             139.7000   -81.2800    0.0000  top
+C3        22nF                  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder                             135.6830   -61.6950  180.0000  top
+C4        100nF                 C_0805_2012Metric_Pad1.18x1.45mm_HandSolder                             137.1600   -58.4200    0.0000  top
+C5        22nF                  C_0805_2012Metric_Pad1.18x1.45mm_HandSolder                             144.7800   -76.8775    0.0000  top
+D1        LED                   LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder                           144.7800   -83.8200    0.0000  top
+D2        LED                   LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder                           144.8046   -81.3226  180.0000  top
+J1        Barrel_Jack_Switch    BarrelJack_Wuerth_6941xx301002                                          125.1800   -60.3600  -90.0000  top
+J2        Screw_Terminal_01x02  TerminalBlock_MetzConnect_Type701_RT11L02HGLU_1x02_P6.35mm_Horizontal   149.0700   -60.9600  -90.0000  top
+J3        OLED_SOCKET           PinSocket_1x04_P2.54mm_Vertical                                         149.8600   -83.8200  180.0000  top
+R1        47k                   R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                             144.7800   -86.3600  180.0000  top
+R2        47k                   R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                             138.1600   -76.2000  180.0000  top
+R3        1k5                   R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                             144.7800   -73.6600    0.0000  top
+SW1       SW_Nidec_CAS-120A1    Nidec_Copal_CAS-120A                                                    137.9500   -87.5100  -90.0000  top
+U1        L78L05_SOT89          SOT-89-3                                                                129.5132   -62.9754  180.0000  top
+U2        XIAO-ESP32C3          MOUDLE14P-SMD-2.54-21X17.8MM                                            131.5262   -68.1434  180.0000  top
+U4        DRV8874PWPR           HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46_HiAmp                  137.0900   -68.5800   90.0000  top
+## End
