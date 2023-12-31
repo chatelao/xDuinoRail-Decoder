@@ -963,6 +963,34 @@
 		(color 0 0 0 0)
 		(uuid "f3a2985b-d156-4620-8aa1-3a2ee83b2c6f")
 	)
+	(bus_entry
+		(at 109.22 86.36)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f788f03-9c5c-4060-b220-c99db036633e")
+	)
+	(bus_entry
+		(at 109.22 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4abd8b-9227-4db0-98e5-a0e263e026c9")
+	)
+	(bus
+		(pts
+			(xy 109.22 72.39) (xy 109.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f99b3f-0c8c-4fb6-9222-4b00ee4a066e")
+	)
 	(wire
 		(pts
 			(xy 160.02 72.39) (xy 160.02 69.85)
@@ -1103,6 +1131,16 @@
 		)
 		(uuid "5323e723-851a-413c-aabf-693cd52d3d40")
 	)
+	(bus
+		(pts
+			(xy 109.22 76.2) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c0a63d-b247-4629-9703-8b40a93848a4")
+	)
 	(wire
 		(pts
 			(xy 127 101.6) (xy 127 99.06)
@@ -1112,6 +1150,16 @@
 			(type default)
 		)
 		(uuid "69e09673-8071-4ec4-87da-c430b2d62f7c")
+	)
+	(bus
+		(pts
+			(xy 105.41 69.85) (xy 106.68 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f1d485-eba5-4ad6-8a12-0cd499fd70c7")
 	)
 	(wire
 		(pts
@@ -1183,6 +1231,16 @@
 		)
 		(uuid "a55d065e-68fa-4ec2-a9b1-baea70edea71")
 	)
+	(bus
+		(pts
+			(xy 106.68 69.85) (xy 109.22 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a863ca25-ed70-49d8-bc3a-285ba9662c77")
+	)
 	(wire
 		(pts
 			(xy 134.62 88.9) (xy 142.24 88.9)
@@ -1243,8 +1301,30 @@
 		)
 		(uuid "e31c5264-19c3-44c4-b382-001e1cf741e2")
 	)
+	(label "DCC0"
+		(at 114.3 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "259db5c1-0899-400e-bcbe-13cf37714d44")
+	)
+	(label "DCC1"
+		(at 114.3 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53c3089d-ad5b-4f79-b29e-e64d8c96c5db")
+	)
 	(label "RailCom feedback generator"
-		(at 100.33 44.45 0)
+		(at 110.49 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1254,9 +1334,9 @@
 		)
 		(uuid "856d0efc-0de8-4dfa-821a-bb3ab3ec023a")
 	)
-	(hierarchical_label "DCC_1"
+	(hierarchical_label "DCC[0..1]"
 		(shape output)
-		(at 111.76 88.9 180)
+		(at 105.41 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1264,19 +1344,7 @@
 			)
 			(justify right)
 		)
-		(uuid "16019873-c913-49c5-852f-51679767d273")
-	)
-	(hierarchical_label "DCC_0"
-		(shape output)
-		(at 111.76 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "207577fc-d924-4b6c-8816-e482102f15c0")
+		(uuid "572be95d-ba37-4aa0-a5d0-3014c88756c9")
 	)
 	(hierarchical_label "GND"
 		(shape input)

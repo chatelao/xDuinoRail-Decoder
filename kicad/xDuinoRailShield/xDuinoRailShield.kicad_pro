@@ -685,12 +685,16 @@
   },
   "sheets": [
     [
+      "a459cb8a-26f3-41b6-8de3-7368533e27fd",
+      "Connectors 21mtc / PluXX / NEMA"
+    ],
+    [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       "Stammblatt"
     ],
     [
-      "36fdb63c-0a19-4659-9df1-d7f58d97597f",
-      "AC-DC power supply"
+      "89db4163-62dc-424d-9343-e2bee6963b15",
+      "Audio Interfaces"
     ],
     [
       "b84a333b-f29e-43df-b84d-edef752a64aa",
@@ -709,12 +713,12 @@
       "Analog Signal Extraction"
     ],
     [
-      "89db4163-62dc-424d-9343-e2bee6963b15",
-      "Audio Jack 3.5mm"
+      "36fdb63c-0a19-4659-9df1-d7f58d97597f",
+      "AC-DC power supply"
     ],
     [
-      "a459cb8a-26f3-41b6-8de3-7368533e27fd",
-      "Loco Adapters"
+      "10556c7b-ce49-4892-a771-0d8fda915d8b",
+      "Motor and Power drivers"
     ]
   ],
   "text_variables": {}

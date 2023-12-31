@@ -1952,6 +1952,12 @@
 		)
 	)
 	(junction
+		(at 74.93 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ba68004-643b-4cb8-8289-1632009832bd")
+	)
+	(junction
 		(at 68.58 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1982,6 +1988,12 @@
 		(uuid "5b40a6e7-0a29-4d7c-9972-52313f844846")
 	)
 	(junction
+		(at 74.93 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "751cfad6-a8f4-48b2-bf78-bba2bcd509e9")
+	)
+	(junction
 		(at 166.37 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1992,12 +2004,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92fbf015-3cec-438d-a31b-57b7358cb6d7")
-	)
-	(junction
-		(at 74.93 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6bde2cc-3678-4f8e-b6e6-c51dbe4b9caa")
 	)
 	(junction
 		(at 166.37 90.17)
@@ -2089,7 +2095,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 146.05) (xy 74.93 148.59)
+			(xy 74.93 140.97) (xy 74.93 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2329,6 +2335,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 139.7) (xy 74.93 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ffcdac-78d3-4179-a19d-01cfd01717c4")
+	)
+	(wire
+		(pts
 			(xy 74.93 156.21) (xy 74.93 153.67)
 		)
 		(stroke
@@ -2409,7 +2425,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 148.59) (xy 85.09 148.59)
+			(xy 74.93 148.59) (xy 85.09 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2418,7 +2434,7 @@
 		(uuid "f397a4d4-c250-40a9-8131-ed329ef88b02")
 	)
 	(label "Optocopler Low-Speed (PC817)"
-		(at 43.18 137.16 0)
+		(at 39.37 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3242,7 +3258,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 74.93 146.05 0)
+		(at 74.93 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3251,7 +3267,7 @@
 		(fields_autoplaced yes)
 		(uuid "8508d968-96ec-4e5f-ab79-24b268238d65")
 		(property "Reference" "#PWR019"
-			(at 74.93 149.86 0)
+			(at 74.93 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3260,7 +3276,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 74.93 140.97 0)
+			(at 74.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +3284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 146.05 0)
+			(at 74.93 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,7 +3293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 146.05 0)
+			(at 74.93 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +3302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 146.05 0)
+			(at 74.93 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,83 +3481,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 78.74 148.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "b3fc806c-d71f-411e-b563-9a7ac9e7e29d")
-		(property "Reference" "R4"
-			(at 78.74 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220R"
-			(at 78.74 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 78.74 146.812 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17557"
-			(at 78.74 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "34f252be-986f-479c-83b4-85061190e6dc")
-		)
-		(pin "1"
-			(uuid "a12ffcc2-be88-44ae-92f7-3b5f3cfbce0e")
-		)
-		(instances
-			(project "xDuinoRailShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 68.58 67.31 0)
 		(mirror y)
@@ -3697,6 +3636,85 @@
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "dc67d283-50a9-4c6a-9ba4-56160217a65e")
+		(property "Reference" "R4"
+			(at 77.47 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220R"
+			(at 77.47 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 73.152 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17557"
+			(at 74.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ae89a72-d6c8-4d4d-816c-5c4d6764150a")
+		)
+		(pin "1"
+			(uuid "b4e0f137-fe61-4837-8d11-7ead80e35fde")
+		)
+		(instances
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
+					(reference "R4")
 					(unit 1)
 				)
 			)
