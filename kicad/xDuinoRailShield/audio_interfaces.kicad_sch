@@ -1548,10 +1548,10 @@
 		(at 91.44 52.07 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "4cedc74b-d864-448a-8cd3-7064362bdcb1")
 		(property "Reference" "RV301"
 			(at 93.98 50.7999 0)
@@ -1598,6 +1598,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 91.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f0977e43-2cb5-4c36-a521-07bc5253bbed")
 		)
@@ -1620,10 +1629,10 @@
 		(lib_id "Connector_Audio:AudioJack2_Ground")
 		(at 55.88 52.07 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "6c5502f0-1b24-4b23-9d98-de73756c2f9d")
 		(property "Reference" "J301"
 			(at 55.245 43.18 0)
@@ -1660,6 +1669,15 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 55.88 52.07 0)
 			(effects
 				(font
@@ -1955,10 +1973,10 @@
 		(at 82.55 52.07 270)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "cdf105ac-80fb-4b54-a3c1-1bd59bea4cb3")
 		(property "Reference" "C301"
 			(at 83.439 44.45 90)
@@ -2003,6 +2021,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 82.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b58121bc-9ebd-4654-959d-90b26f58e2f0")
 		)
@@ -2023,10 +2050,10 @@
 		(at 147.32 109.22 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "fbfd4729-3751-440e-9953-565e447fdace")
 		(property "Reference" "J303"
 			(at 144.78 107.9499 0)
@@ -2073,6 +2100,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1c6fdfc-193d-4d0b-aa8e-84c839786ac8")
 		)
@@ -2101,10 +2137,10 @@
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 68.58 109.22 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "fe74e3f2-27cf-40e1-b0de-1edccdf1793d")
 		(property "Reference" "J302"
 			(at 66.04 109.2201 0)
@@ -2143,6 +2179,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 68.58 109.22 0)
 			(effects
 				(font
