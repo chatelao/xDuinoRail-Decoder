@@ -102,6 +102,84 @@
 			)
 		)
 	)
+	(bus_entry
+		(at 50.8 45.72)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8aa924-0336-42a7-b9b4-9c15fa125964")
+	)
+	(bus_entry
+		(at 50.8 60.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c120ce0-3239-42ee-b304-153ecd056f66")
+	)
+	(bus
+		(pts
+			(xy 50.8 44.45) (xy 50.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d7e65f-f0bf-4536-a463-60e5ac184f34")
+	)
+	(bus
+		(pts
+			(xy 50.8 44.45) (xy 49.53 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290fd0e6-e1e6-434f-933d-a8d613c86b44")
+	)
+	(wire
+		(pts
+			(xy 53.34 63.5) (xy 63.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ab853c-eb3c-46e3-a069-3542db73321c")
+	)
+	(bus
+		(pts
+			(xy 46.99 43.18) (xy 49.53 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f2b344-9fae-41a8-9eb3-6dd2c704461e")
+	)
+	(wire
+		(pts
+			(xy 53.34 48.26) (xy 63.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b46db4-d67e-464b-a096-f9582f8effdb")
+	)
+	(bus
+		(pts
+			(xy 50.8 45.72) (xy 50.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922371c9-c35a-4746-926f-5158cf792c97")
+	)
 	(wire
 		(pts
 			(xy 99.06 64.77) (xy 92.71 64.77)
@@ -121,6 +199,28 @@
 			(type default)
 		)
 		(uuid "b8e1fd32-6ab5-4cdf-9c15-c0edaa38396e")
+	)
+	(label "DCC1"
+		(at 57.15 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35044700-4c1b-4b64-9cc9-7fed33214493")
+	)
+	(label "DCC0"
+		(at 57.15 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac57bd34-da0f-4b09-8287-c580591b64d4")
 	)
 	(label "Magic Analog Signal detection {slash} extraction"
 		(at 44.45 34.29 0)
@@ -145,30 +245,6 @@
 		)
 		(uuid "0ac142e5-d86d-4bce-b7b6-cb77920c194c")
 	)
-	(hierarchical_label "DCC_0"
-		(shape input)
-		(at 76.2 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46f26975-6593-4d8e-a63c-7885f7040fbb")
-	)
-	(hierarchical_label "DCC_1"
-		(shape input)
-		(at 76.2 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "924b1a16-fc4c-4b0e-abc0-a2a57fda1d55")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 99.06 64.77 0)
@@ -180,6 +256,18 @@
 			(justify left)
 		)
 		(uuid "c722187a-0d42-41a6-9f4f-488637b4a465")
+	)
+	(hierarchical_label "DCC[0..1]"
+		(shape input)
+		(at 46.99 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5046266-cf41-4d8d-b814-ff276231f5eb")
 	)
 	(hierarchical_label "ACDC_SIGNAL_5V"
 		(shape output)
@@ -203,7 +291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad56f99c-d35b-4f87-8254-e741dc96ba3f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0701"
 			(at 92.71 72.39 0)
 			(effects
 				(font
@@ -253,7 +341,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f59f9ae7-6afc-4bf7-ac97-b34cf3a86d49"
-					(reference "#PWR028")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)

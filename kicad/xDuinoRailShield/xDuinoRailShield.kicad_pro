@@ -515,7 +515,8 @@
     },
     "netclass_assignments": {
       "Net-(D205-K)": "PowerRail",
-      "Net-(D5-K)": "PowerRail"
+      "Net-(D5-K)": "PowerRail",
+      "Net-(D805-K)": "PowerRail"
     },
     "netclass_patterns": [
       {
@@ -689,10 +690,6 @@
       "Connectors 21mtc / PluXX / NEMA"
     ],
     [
-      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "Stammblatt"
-    ],
-    [
       "89db4163-62dc-424d-9343-e2bee6963b15",
       "Audio Interfaces"
     ],
@@ -719,6 +716,10 @@
     [
       "10556c7b-ce49-4892-a771-0d8fda915d8b",
       "Motor and Power drivers"
+    ],
+    [
+      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      "Stammblatt"
     ]
   ],
   "text_variables": {}

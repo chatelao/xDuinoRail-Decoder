@@ -1487,7 +1487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2307fde2-32ec-46f9-8705-52fa77925ab2")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0304"
 			(at 91.44 67.31 0)
 			(effects
 				(font
@@ -1537,7 +1537,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR031")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -1553,7 +1553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cedc74b-d864-448a-8cd3-7064362bdcb1")
-		(property "Reference" "RV1"
+		(property "Reference" "RV301"
 			(at 93.98 50.7999 0)
 			(effects
 				(font
@@ -1610,7 +1610,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "RV1")
+					(reference "RV301")
 					(unit 1)
 				)
 			)
@@ -1625,7 +1625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c5502f0-1b24-4b23-9d98-de73756c2f9d")
-		(property "Reference" "J2"
+		(property "Reference" "J301"
 			(at 55.245 43.18 0)
 			(effects
 				(font
@@ -1680,7 +1680,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "J2")
+					(reference "J301")
 					(unit 1)
 				)
 			)
@@ -1696,7 +1696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a14d712-18da-4dda-aaaa-43009fb693ca")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0301"
 			(at 55.88 67.31 0)
 			(effects
 				(font
@@ -1746,7 +1746,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR029")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -1762,7 +1762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a61f8c5-06ba-42f1-9260-38dcaf57874d")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0302"
 			(at 73.66 50.8 0)
 			(effects
 				(font
@@ -1812,7 +1812,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR030")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -1828,7 +1828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85b683e6-2f28-4648-b28d-f3e8e223b31b")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0303"
 			(at 78.74 123.19 0)
 			(effects
 				(font
@@ -1878,7 +1878,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR038")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -1894,7 +1894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aae0885-6507-4dd4-9c38-1e3362a89278")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0305"
 			(at 157.48 125.73 0)
 			(effects
 				(font
@@ -1944,7 +1944,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR039")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -1960,7 +1960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdf105ac-80fb-4b54-a3c1-1bd59bea4cb3")
-		(property "Reference" "C9"
+		(property "Reference" "C301"
 			(at 83.439 44.45 90)
 			(effects
 				(font
@@ -2012,7 +2012,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "C9")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -2028,7 +2028,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbfd4729-3751-440e-9953-565e447fdace")
-		(property "Reference" "J9"
+		(property "Reference" "J303"
 			(at 144.78 107.9499 0)
 			(effects
 				(font
@@ -2091,7 +2091,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "J9")
+					(reference "J303")
 					(unit 1)
 				)
 			)
@@ -2106,7 +2106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe74e3f2-27cf-40e1-b0de-1edccdf1793d")
-		(property "Reference" "J8"
+		(property "Reference" "J302"
 			(at 66.04 109.2201 0)
 			(effects
 				(font
@@ -2166,7 +2166,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "J8")
+					(reference "J302")
 					(unit 1)
 				)
 			)
