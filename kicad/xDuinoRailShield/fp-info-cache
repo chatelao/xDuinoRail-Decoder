@@ -1,4 +1,4 @@
-22549261184619344
+22666603071597467
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+BDR6133
+BDR6133
+
+
+0
+9
+9
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -257,6 +264,13 @@ CR2032 retainer clip, SMT ( http://www.farnell.com/datasheets/1505853.pdf )
 BC-2001 CR2032 2032 Battery Holder
 0
 3
+2
+Battery
+BatteryHolder_Renata_SMTU2032-LF_1x2032
+https://www.renata.com/fr/downloads/?product=smtu2032-lf&fileid=6a9833a4d49dfb7b550194fe0f
+Renata SMT battery holder coin cell 2032
+0
+2
 2
 Battery
 BatteryHolder_Seiko_MS621F
@@ -8196,6 +8210,13 @@ connector cf
 0
 54
 50
+Connector_Card
+SD-SIM_microSD-microSIM_Molex_104168-1620
+microSD and microSIM connector, https://www.molex.com/pdm_docs/sd/1041681620_sd.pdf
+Combo Connector microSD and microSIM
+0
+25
+18
 Connector_Card
 SD_Hirose_DM1AA_SF_PEJ82
 SD, SMD, top-mount, push-push (https://www.hirose.com/product/document?clcode=CL0609-0004-8-82&productname=DM1AA-SF-PEJ(82)&series=DM1&documenttype=2DDrawing&lang=en&documentid=0000915301)
@@ -51653,6 +51674,13 @@ DCDC-Converter TRACO TMRxxxx Single/Dual_output
 7
 7
 Converter_DCDC
+Converter_DCDC_TRACO_TMR4-xxxxWI_THT
+DCDC-Converter, TRACO, TMR4-xxxxWI, 4W, Rev. December 06. 2023 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tmr4wi.pdf)
+DCDC-Converter TRACO TMR4WI THT SIP-8 4W
+0
+7
+7
+Converter_DCDC
 Converter_DCDC_TRACO_TMU3-05xx_12xx_THT
 DCDC-Converter, TRACO, TMU3-05xx, TMU3-12xx, 3W, Rev. November 10. 2023 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tmu3.pdf)
 DCDC-Converter TRACO TMU3 THT SIP-4 3W
@@ -53073,6 +53101,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DRVC8874
+HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46_HiAmp
+HTSSOP, 16 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/LTC7810.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+HTSSOP SO
+0
+50
+17
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -56629,6 +56664,118 @@ Bourns SRU5016 SMD inductor
 0
 4
 3
+Inductor_SMD
+L_Cenker_CKCS3012
+Inductor, Cenker, CKCS3012, 3.0x3.0x1.3mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+Inductor_SMD
+L_Cenker_CKCS3015
+Inductor, Cenker, CKCS3015, 3.0x3.0x1.7mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+Inductor_SMD
+L_Cenker_CKCS4018
+Inductor, Cenker, CKCS4018, 4.0x4.0x1.8mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+Inductor_SMD
+L_Cenker_CKCS4020
+Inductor, Cenker, CKCS4020, 4.0x4.0x2.0mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+Inductor_SMD
+L_Cenker_CKCS4030
+Inductor, Cenker, CKCS4030, 4.0x4.0x3.0mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+Inductor_SMD
+L_Cenker_CKCS5020
+Inductor, Cenker, CKCS5020, 5.0x5.0x2.1mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+Inductor_SMD
+L_Cenker_CKCS5040
+Inductor, Cenker, CKCS5040, 5.0x5.0x4.0mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+Inductor_SMD
+L_Cenker_CKCS6020
+Inductor, Cenker, CKCS6020, 6.0x6.0x2.1mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+Inductor_SMD
+L_Cenker_CKCS6028
+Inductor, Cenker, CKCS6028, 6.0x6.0x3.0mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+Inductor_SMD
+L_Cenker_CKCS6045
+Inductor, Cenker, CKCS6045, 6.0x6.0x4.7mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+Inductor_SMD
+L_Cenker_CKCS8040
+Inductor, Cenker, CKCS8040, 8.0x8.0x4.2mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+Inductor_SMD
+L_Cenker_CKCS8060
+Inductor, Cenker, CKCS8060, 8.0x8.0x6.2mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+Inductor_SMD
+L_Cenker_CKCS8080
+Inductor, Cenker, CKCS8080, 8.0x8.0x8.0mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+Inductor_SMD
+L_Cenker_CKCS201610
+Inductor, Cenker, CKCS201610, 2.0x1.6x1.05mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+Inductor_SMD
+L_Cenker_CKCS252010
+Inductor, Cenker, CKCS252010, 2.5x2.0x1.05mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
+Inductor_SMD
+L_Cenker_CKCS252012
+Inductor, Cenker, CKCS252012, 2.5x2.0x1.25mm, https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf
+Inductor ckcs
+0
+2
+2
 Inductor_SMD
 L_Changjiang_FNR3010S
 Inductor, Changjiang, FNR3010S, 3.0x3.0x1.0mm, https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf
@@ -60500,6 +60647,13 @@ Inductor Radial series Radial pin pitch 10.00mm  diameter 14.2mm Neosid SD14
 0
 2
 2
+Inductor_THT
+L_Radial_D16.0mm_P10.00mm_Panasonic_15E-L
+Panasonic ELC Type 15E-L inductor, radial, shielded, pin pitch=10.00mm, diameter=16.0mm, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AGB0000/AGB0000CE10.pdf
+ELC15ExxxL
+0
+3
+3
 Inductor_THT
 L_Radial_D16.8mm_P11.43mm_Vishay_IHB-1
 Inductor, Radial series, Radial, pin pitch=11.43mm, , diameter=16.8mm, Vishay, IHB-1, http://www.vishay.com/docs/34015/ihb.pdf
@@ -65324,6 +65478,13 @@ TSL2550 ambient light sensor
 4
 4
 OptoDevice
+AMS_TSL25911FN
+DFN, 6 Pin (https://ams.com/documents/20143/9331680/TSL2591_DS000338_7-00.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+6
+6
+OptoDevice
 Broadcom_AFBR-16xxZ_Horizontal
 Fiber Optic Transmitter and Receiver, https://docs.broadcom.com/docs/AV02-4369EN
 Fiber Optic Transmitter and Receiver
@@ -67669,6 +67830,13 @@ Analog LFCSP-UQ NoLead
 10
 10
 Package_CSP
+DiodesInc_GEA20_WLCSP-20_1.70x2.10mm_Layout4x5_P0.4mm
+Diodes Incorporated WLCSP-20, GEA20, 1.7x2.1mm, 20 Ball, 4x5 Layout, 0.4mm Pitch, https://www.diodes.com/assets/Package-Files/GEA20.pdf
+CSP 20 0.4
+0
+20
+20
+Package_CSP
 Efinix_WLCSP-64_3.5353x3.3753mm_Layout8x8_P0.4mm
 Efinix WLCSP, NSMD pad definition Page 60, 3.5353x3.3753mm, 64 Ball, 8x8 Layout, 0.4mm Pitch, https://www.efinixinc.com/docs/titanium-packaging-ug-v5.2.pdf
 CSP 64 0.4 64-ball WLCSP
@@ -69398,6 +69566,20 @@ Maxim TDFN NoLead
 11
 7
 Package_DFN_QFN
+Maxim_TDFN-12-1EP_3x3mm_P0.5mm_EP1.7x2.5mm
+Maxim TDFN, 12 Pin (https://www.analog.com/media/en/package-pcb-resources/land-pattern/tdfn/90-0397.pdf)
+DFN NoLead
+0
+17
+13
+Package_DFN_QFN
+Maxim_TDFN-12-1EP_3x3mm_P0.5mm_EP1.7x2.5mm_ThermalVias
+Maxim TDFN, 12 Pin (https://www.analog.com/media/en/package-pcb-resources/land-pattern/tdfn/90-0397.pdf)
+DFN NoLead
+0
+23
+13
+Package_DFN_QFN
 Micrel_MLF-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm
 Micrel  MLF, 8 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/mic23050.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 Micrel MLF NoLead
@@ -70159,6 +70341,20 @@ QFN, 28 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/
 QFN NoLead
 0
 48
+29
+Package_DFN_QFN
+QFN-28-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+QFN, 28 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2202_TMC2208_TMC2224_datasheet_rev1.14.pdf#page=77), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+38
+29
+Package_DFN_QFN
+QFN-28-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias
+QFN, 28 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2202_TMC2208_TMC2224_datasheet_rev1.14.pdf#page=77), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+71
 29
 Package_DFN_QFN
 QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm
@@ -72106,6 +72302,13 @@ RHL0020A
 0
 41
 21
+Package_DFN_QFN
+Texas_VQFN-RNR0011A-11
+RNR0011A, VQFN-11 (https://www.ti.com/lit/ds/symlink/tps61089.pdf#Page=27)
+TI RNR0011A
+0
+20
+11
 Package_DFN_QFN
 Texas_VSON-HR-8_1.5x2mm_P0.5mm
 Texas  VSON-HR, 8 Pin (http://www.ti.com/lit/ds/symlink/tps62823.pdf#page=29), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -75404,6 +75607,13 @@ PQFP 0.8
 44
 44
 Package_QFP
+PQFP-64_14x14mm_P0.8mm
+PQFP, 64 Pin (https://www.renesas.com/us/en/document/psc/package-drawing-qfp-64pin-prqp0064gb), generated with kicad-footprint-generator ipc_gullwing_generator.py
+PQFP QFP
+0
+64
+64
+Package_QFP
 PQFP-80_14x20mm_P0.8mm
 PQFP80 14x20 / QIP80E CASE 122BS (see ON Semiconductor 122BS.PDF)
 QFP 0.8
@@ -75452,6 +75662,13 @@ PQFP QFP
 0
 160
 160
+Package_QFP
+PQFP-168_28x28mm_P0.65mm
+PQFP, 168 Pin (https://www.renesas.cn/cn/zh/document/psc/package-drawing-qfp-168pin-prqp0168jb), generated with kicad-footprint-generator ipc_gullwing_generator.py
+PQFP QFP
+0
+168
+168
 Package_QFP
 PQFP-208_28x28mm_P0.5mm
 PQFP, 208 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -76643,12 +76860,33 @@ QSOP 0.635
 24
 24
 Package_SO
+ROHM_SOT-457_ClockwisePinNumbering
+ROHM SOT-457 SC-74, 6 Pin (https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/imh3at110-e.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+ROHM SC-74 SO
+0
+6
+6
+Package_SO
 SC-74-6_1.5x2.9mm_P0.95mm
 SC-74, 6 Pin (https://www.nxp.com/docs/en/package-information/SOT457.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SC-74 SO
 0
 6
 6
+Package_SO
+SC-74-6_1.55x2.9mm_P0.95mm
+SC-74, 6 Pin (https://www.jeita.or.jp/japanese/standard/book/ED-7500B/#target/page_no=39), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SC-74 SO
+0
+6
+6
+Package_SO
+SC-74A-5_1.55x2.9mm_P0.95mm
+SC-74A, 5 Pin (https://www.jeita.or.jp/japanese/standard/book/ED-7500B/#target/page_no=41), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SC-74A SO
+0
+5
+5
 Package_SO
 SO-4_4.4x2.3mm_P1.27mm
 4-Lead Plastic Small Outline (SO), see http://datasheet.octopart.com/OPIA403BTRE-Optek-datasheet-5328560.pdf
@@ -77119,6 +77357,13 @@ SOP SO
 16
 16
 Package_SO
+SOP-18_7.495x11.515mm_P1.27mm
+SOP, 18 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=30523), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+18
+18
+Package_SO
 SOP-18_7x12.5mm_P1.27mm
 SOP, 18 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=30523), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOP SO
@@ -77139,6 +77384,13 @@ SOP SO
 0
 24
 24
+Package_SO
+SOP-44_12.6x28.5mm_P1.27mm
+SOP, 44 Pin (https://www.mxic.com.tw/Lists/Datasheet/Attachments/8177/MX23C6410,%205V,%2064Mb,%20v3.1.pdf#page=5), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+44
+44
 Package_SO
 SSO-4_6.7x5.1mm_P2.54mm_Clearance8mm
 4-Lead Plastic Stretched Small Outline (SSO/Stretched SO), see https://www.vishay.com/docs/84299/vor1142b4.pdf
@@ -77601,6 +77853,13 @@ TSOP-II 32
 0
 32
 32
+Package_SO
+TSOP-II-40-44_10.16x18.37mm_P0.8mm
+TSOP-II, 40 Pin (https://www.renesas.com/us/en/document/psc/package-drawing-tsop2-44pin-ptsb0044ge-e), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSOP-II SO
+0
+40
+40
 Package_SO
 TSOP-II-44_10.16x18.41mm_P0.8mm
 TSOP-II, 44 Pin (http://www.issi.com/WW/pdf/61-64C5128AL.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -82390,6 +82649,13 @@ Skyworks
 7
 7
 RF_Antenna
+AVX_M620720
+868Mhz, 915Mhz ISM antenna, 6 x 2 x 1.08mm, http://datasheets.avx.com/ethertronics/AVX-E_M620720.pdf
+868 915 Mhz ISM antenna
+0
+6
+3
+RF_Antenna
 Abracon_APAES868R8060C16-T
 Abracon RHCP ceramic patch antenna 854-882Mhz, 5dBi
 APAES patch antenna
@@ -82452,6 +82718,13 @@ rf antenna
 0
 4
 2
+RF_Antenna
+NiceRF_SW868-TH13_868Mhz
+868Mhz copper string antenna, right angle, approx. 15mm coil length, 5.5mm OD, 0.8 wire diameter, https://www.nicerf.com/item/868mhz-spring-antenna-sw868-th13
+antenna rf
+0
+1
+1
 RF_Antenna
 Pulse_W3000
 Pulse Electronics W3000 tri-band antenna for GPS (1.575Ghz), 868Mhz and 2.4Ghz ISM bands, https://productfinder.pulseeng.com/products/datasheets/W3000.pdf
@@ -83215,6 +83488,13 @@ wireless 2.4 GHz Bluetooth ble zigbee 802.15.4 thread nordic raytac nrf52840 nrf
 0
 61
 61
+RF_Module
+ST-SiP-LGA-86-11x7.3mm
+STM32WB5MMG  Module, LGA86L 11x7.3
+bluetooth bluetooth5 bluetooth5.0 802.15.4 zigbee thread module stm32 rf
+0
+86
+86
 RF_Module
 ST_SPBTLE
 Bluetooth Low Energy Module
@@ -84231,9 +84511,30 @@ SPST relay slim
 4
 4
 Relay_THT
+Relay_Socket_3PDT_Omron_PLE11-0
+29mm Dia, round mounting socket, 10A, 2kV AC / minute, 1e3Mohm, https://www.omron.com.tw/data_pdf/cat/common_sockets_ds_e_6_1_csm1819.pdf?#page=27
+tube type relay
+0
+11
+11
+Relay_THT
+Relay_Socket_4PDT_Omron_PY14-02
+21.4x25.8mm, 4Pole mounting socket, 3A, 1.5kV AC / minute, 1e2Mohm, https://www.omron.com.tw/data_pdf/cat/common_sockets_ds_e_6_1_csm1819.pdf?#page=19
+relay socket
+0
+14
+14
+Relay_THT
 Relay_Socket_DPDT_Finder_96.12
-https://gfinder.findernet.com/public/attachments/56/DE/S56DE.pdf
-Relay socket DPDT Finder 96.12 56.32
+DPDT relay socket, 15A max 10A per contact, 2kV AC Isolation, https://gfinder.findernet.com/public/attachments/56/DE/S56DE.pdf
+finder relay socket 96.12 56.32
+0
+8
+8
+Relay_THT
+Relay_Socket_DPDT_Omron_PLE08-0
+29mm Dia, round mounting socket, 10A, 2kV AC / minute, 1e3Mohm, https://www.omron.com.tw/data_pdf/cat/common_sockets_ds_e_6_1_csm1819.pdf?#page=27
+tube type relay
 0
 8
 8
@@ -92798,6 +93099,13 @@ MOUDLE14P-SMD-2.54-21X17.8MM
 0
 14
 14
+xDuinoRailShield
+BDR6133
+
+
+0
+0
+0
 xiao ESP32C3_PCB
 MOUDLE14P-SMD-2.54-21X17.8MM
 

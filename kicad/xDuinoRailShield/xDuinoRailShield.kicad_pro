@@ -465,7 +465,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -505,6 +505,7 @@
     "netclass_assignments": {
       "Net-(D205-K)": "PowerRail",
       "Net-(D5-K)": "PowerRail",
+      "Net-(D705-K)": "PowerRail",
       "Net-(D805-K)": "PowerRail"
     },
     "netclass_patterns": [
@@ -523,7 +524,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Gerbers/",
+      "plot": "../Gerbers-Loco/",
       "pos_files": "cam/",
       "specctra_dsn": "",
       "step": "",
@@ -711,6 +712,10 @@
     [
       "10556c7b-ce49-4892-a771-0d8fda915d8b",
       "Motor and Power drivers"
+    ],
+    [
+      "0bfd6d18-10ce-426c-863e-9c05fb8adf3f",
+      "Special-I2C-Sensors"
     ],
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",

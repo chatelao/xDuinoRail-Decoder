@@ -8,102 +8,6 @@
 		(date "mar. 31 mars 2015")
 	)
 	(lib_symbols
-		(symbol "GND_1"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_names
@@ -156,7 +60,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -276,7 +180,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -372,7 +276,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -485,6 +389,16 @@
 		)
 		(uuid "01ba102b-bbe7-499c-96cc-acc78f3bb915")
 	)
+	(bus
+		(pts
+			(xy 114.3 33.02) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0531803d-4a00-4563-850f-05fde1533a2a")
+	)
 	(wire
 		(pts
 			(xy 218.44 35.56) (xy 218.44 41.91)
@@ -575,6 +489,26 @@
 		)
 		(uuid "1b64cdae-1dd5-4357-b17e-5a7334a78abc")
 	)
+	(wire
+		(pts
+			(xy 36.83 76.2) (xy 36.83 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca44d8d-77e8-4110-bb3b-7fe921d24822")
+	)
+	(bus
+		(pts
+			(xy 110.49 127) (xy 125.73 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d64a745-9044-42bc-a7bc-0f33a5d5635c")
+	)
 	(bus
 		(pts
 			(xy 116.84 124.46) (xy 110.49 124.46)
@@ -625,9 +559,19 @@
 		)
 		(uuid "2e7f350e-3a4c-4e11-abd5-947162396ab2")
 	)
+	(bus
+		(pts
+			(xy 115.57 88.9) (xy 115.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33f6a3a6-dfdd-4aed-8436-49b26be43f2c")
+	)
 	(wire
 		(pts
-			(xy 97.79 49.53) (xy 129.54 49.53)
+			(xy 88.9 55.88) (xy 95.25 55.88)
 		)
 		(stroke
 			(width 0)
@@ -697,6 +641,16 @@
 	)
 	(bus
 		(pts
+			(xy 64.77 33.02) (xy 114.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57420aa7-1082-498b-9cc1-815ec0ec2304")
+	)
+	(bus
+		(pts
 			(xy 118.11 120.65) (xy 116.84 121.92)
 		)
 		(stroke
@@ -704,6 +658,16 @@
 			(type default)
 		)
 		(uuid "5a5a5162-1e67-4b67-8149-0a2f9052a9c2")
+	)
+	(wire
+		(pts
+			(xy 146.05 40.64) (xy 146.05 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a93a05c-8a41-454a-8690-1a237048ad90")
 	)
 	(bus
 		(pts
@@ -714,6 +678,16 @@
 			(type default)
 		)
 		(uuid "5d5e42f1-de66-4512-9ae3-b580c2e789a2")
+	)
+	(wire
+		(pts
+			(xy 85.09 73.66) (xy 85.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3bdbe7-ea81-4a34-b0bd-9a7d23451a3b")
 	)
 	(bus
 		(pts
@@ -747,17 +721,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 67.31) (xy 90.17 71.12)
+			(xy 52.07 40.64) (xy 52.07 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7885b05e-8327-460d-9891-38e83e69706d")
+		(uuid "76234a74-bc8c-4f94-af2f-96a97fdae6d8")
 	)
 	(wire
 		(pts
-			(xy 148.59 39.37) (xy 148.59 43.18)
+			(xy 143.51 40.64) (xy 143.51 43.18)
 		)
 		(stroke
 			(width 0)
@@ -805,15 +779,35 @@
 		)
 		(uuid "870e5b84-dbc6-424e-ad63-f3ff6d42ef7a")
 	)
+	(bus
+		(pts
+			(xy 114.3 45.72) (xy 129.54 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3ef4ea-dad2-4751-bd55-152e0ab7278c")
+	)
 	(wire
 		(pts
-			(xy 146.05 39.37) (xy 146.05 43.18)
+			(xy 140.97 40.64) (xy 140.97 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8fdfe419-7779-4219-9eff-a721a0b97f7b")
+	)
+	(wire
+		(pts
+			(xy 95.25 55.88) (xy 95.25 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90587eca-1668-4b4e-9d89-6a5332deac9f")
 	)
 	(bus
 		(pts
@@ -854,6 +848,16 @@
 			(type default)
 		)
 		(uuid "98209021-26fb-45b0-a7f2-5079350b738e")
+	)
+	(wire
+		(pts
+			(xy 95.25 49.53) (xy 129.54 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3f245d-b458-4450-a6da-5914ec3f852b")
 	)
 	(bus
 		(pts
@@ -917,6 +921,16 @@
 	)
 	(bus
 		(pts
+			(xy 115.57 55.88) (xy 129.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c2c482-2e9e-4f1a-ae13-c3e7e758a8d0")
+	)
+	(bus
+		(pts
 			(xy 175.26 54.61) (xy 171.45 50.8)
 		)
 		(stroke
@@ -924,6 +938,26 @@
 			(type default)
 		)
 		(uuid "b4a6c10e-6826-4bf1-8254-fd91af6b5140")
+	)
+	(bus
+		(pts
+			(xy 63.5 88.9) (xy 115.57 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57e4039-0718-41c7-93ce-2f2fb8b95a13")
+	)
+	(wire
+		(pts
+			(xy 208.28 35.56) (xy 208.28 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b682575f-c387-48d1-99e8-0013a1395bf0")
 	)
 	(wire
 		(pts
@@ -965,6 +999,16 @@
 		)
 		(uuid "c530d634-74c6-437c-99a4-354389505436")
 	)
+	(wire
+		(pts
+			(xy 62.23 21.59) (xy 62.23 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca828ec4-2907-4a78-854d-b3a6bf145ffc")
+	)
 	(bus
 		(pts
 			(xy 63.5 119.38) (xy 76.2 119.38)
@@ -1005,6 +1049,16 @@
 		)
 		(uuid "d88551f0-a5ba-4cbf-8188-348fefb62254")
 	)
+	(wire
+		(pts
+			(xy 80.01 49.53) (xy 80.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba0039d-f831-483d-bbc5-310e6cfc4182")
+	)
 	(bus
 		(pts
 			(xy 151.13 50.8) (xy 171.45 50.8)
@@ -1014,6 +1068,16 @@
 			(type default)
 		)
 		(uuid "de909f4c-486d-4fae-ace6-f22836050a75")
+	)
+	(bus
+		(pts
+			(xy 125.73 66.04) (xy 129.54 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19bcb7a-af03-46d8-9f26-e42d01d329c6")
 	)
 	(bus
 		(pts
@@ -1034,6 +1098,46 @@
 			(type default)
 		)
 		(uuid "ee51a6b3-df7a-4e5c-ba5d-71508931a104")
+	)
+	(wire
+		(pts
+			(xy 142.24 43.18) (xy 142.24 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f073dec5-c260-4f65-b6db-123c1256055f")
+	)
+	(wire
+		(pts
+			(xy 43.18 76.2) (xy 43.18 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3445fa3-bfe7-4bd1-85c1-fb9c4886f366")
+	)
+	(bus
+		(pts
+			(xy 125.73 127) (xy 125.73 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5675a8b-205c-4b7c-8c12-3a7240b9a0fe")
+	)
+	(wire
+		(pts
+			(xy 105.41 105.41) (xy 105.41 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6cb443e-2153-4db5-aac5-af15880b17a7")
 	)
 	(bus
 		(pts
@@ -1212,7 +1316,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 146.05 39.37 0)
+		(at 140.97 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1220,8 +1324,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04e97808-79fc-4202-9a8f-79dd00efec88")
-		(property "Reference" "#PWR0207"
-			(at 146.05 43.18 0)
+		(property "Reference" "#PWR01011"
+			(at 140.97 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,7 +1334,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 145.669 36.322 90)
+			(at 140.589 37.592 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 39.37 0)
+			(at 140.97 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 39.37 0)
+			(at 140.97 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,8 +1360,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 146.05 39.37 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 140.97 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1375,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0207")
+					(reference "#PWR01011")
 					(unit 1)
 				)
 			)
@@ -1287,7 +1391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0eec5fb5-b56c-4175-bc8e-569c7ae55d6f")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR01008"
 			(at 102.87 109.22 0)
 			(effects
 				(font
@@ -1321,7 +1425,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 102.87 105.41 0)
 			(effects
 				(font
@@ -1336,7 +1440,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0203")
+					(reference "#PWR01008")
 					(unit 1)
 				)
 			)
@@ -1352,7 +1456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18de0110-2e3e-4d33-a111-c6ea818fc24a")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR01020"
 			(at 218.44 39.37 0)
 			(effects
 				(font
@@ -1386,7 +1490,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 218.44 35.56 0)
 			(effects
 				(font
@@ -1401,7 +1505,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0213")
+					(reference "#PWR01020")
 					(unit 1)
 				)
 			)
@@ -1417,7 +1521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dfd1935-6683-4659-943e-21cec3f0f406")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR01017"
 			(at 213.36 39.37 0)
 			(effects
 				(font
@@ -1453,7 +1557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 213.36 35.56 0)
 			(effects
 				(font
@@ -1468,14 +1572,13 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0209")
+					(reference "#PWR01017")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 87.63 133.35 0)
 		(unit 1)
@@ -1485,7 +1588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3400cc01-85e8-4753-a2c7-17f1b249dfa0")
-		(property "Reference" "#PWR0903"
+		(property "Reference" "#PWR01007"
 			(at 87.63 139.7 0)
 			(effects
 				(font
@@ -1535,7 +1638,204 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0903")
+					(reference "#PWR01007")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 105.41 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "467a65c3-24bb-449b-b620-d150a899bec4")
+		(property "Reference" "#PWR01009"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "U+"
+			(at 105.0544 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9c3a4cb-29fd-44ac-a82c-801ca559aeae")
+		)
+		(instances
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR01009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 80.01 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d4277a4-697e-4b80-b798-671afe212994")
+		(property "Reference" "#PWR01024"
+			(at 80.01 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 79.629 43.942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 80.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "216acd74-8d6d-4fe4-a6e3-4f3e3706a2ce")
+		)
+		(instances
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR01024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 43.18 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b3e69b5-767d-4249-9af6-fe2442afda07")
+		(property "Reference" "#PWR01002"
+			(at 43.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 42.8244 73.152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c4d9e0b-23fe-4edb-9706-2173374ce518")
+		)
+		(instances
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR01002")
 					(unit 1)
 				)
 			)
@@ -1550,7 +1850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82138f13-2f35-4a77-90f0-b0464a4c16db")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR01010"
 			(at 133.35 83.82 0)
 			(effects
 				(font
@@ -1585,7 +1885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 133.35 77.47 0)
 			(effects
 				(font
@@ -1600,7 +1900,72 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0204")
+					(reference "#PWR01010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 146.05 40.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fc930d0-505e-457d-bb6b-096b66112ba9")
+		(property "Reference" "#PWR01015"
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 145.6944 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 146.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe5fa383-42a9-438d-a16d-9256dca4431a")
+		)
+		(instances
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR01015")
 					(unit 1)
 				)
 			)
@@ -1651,7 +2016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 215.9 96.52 0)
 			(effects
 				(font
@@ -1672,16 +2037,15 @@
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0211")
+					(reference "#PWR01018")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 90.17 71.12 0)
+		(at 85.09 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1689,8 +2053,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fb297d2-4708-4fe0-9dcd-71b99ced0d4f")
-		(property "Reference" "#PWR0202"
-			(at 90.17 77.47 0)
+		(property "Reference" "#PWR01005"
+			(at 85.09 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +2063,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 76.2 0)
+			(at 85.09 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +2071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 71.12 0)
+			(at 85.09 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +2080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 71.12 0)
+			(at 85.09 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +2089,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 71.12 0)
+			(at 85.09 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +2103,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0202")
+					(reference "#PWR01005")
 					(unit 1)
 				)
 			)
@@ -1789,7 +2153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 218.44 58.42 0)
 			(effects
 				(font
@@ -1810,7 +2174,72 @@
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0210")
+					(reference "#PWR01021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 208.28 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a26aa086-9033-4be0-9929-18d7d417dca3")
+		(property "Reference" "#PWR01016"
+			(at 208.28 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "U+"
+			(at 207.9244 32.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 208.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abc5923f-aded-417b-b388-a03f3b0720f9")
+		)
+		(instances
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR01016")
 					(unit 1)
 				)
 			)
@@ -1826,7 +2255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac82c4ad-def6-4de5-8847-221581d47e94")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR01023"
 			(at 223.52 115.57 0)
 			(effects
 				(font
@@ -1860,7 +2289,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 223.52 111.76 0)
 			(effects
 				(font
@@ -1875,7 +2304,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0215")
+					(reference "#PWR01023")
 					(unit 1)
 				)
 			)
@@ -1891,7 +2320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae3fed7b-5f09-4082-9acd-c830384a568e")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR01014"
 			(at 144.78 139.7 0)
 			(effects
 				(font
@@ -1925,7 +2354,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 144.78 135.89 0)
 			(effects
 				(font
@@ -1940,14 +2369,13 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0206")
+					(reference "#PWR01014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 43.18 151.13 0)
 		(unit 1)
@@ -1957,7 +2385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba9fa583-14c1-4713-ae8a-3ef816b6a46d")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR01003"
 			(at 43.18 157.48 0)
 			(effects
 				(font
@@ -2007,7 +2435,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0201")
+					(reference "#PWR01003")
 					(unit 1)
 				)
 			)
@@ -2023,7 +2451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb7b9c61-485c-43bf-9fa1-a35f9a9042e2")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR01012"
 			(at 140.97 170.18 0)
 			(effects
 				(font
@@ -2058,7 +2486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 140.97 163.83 0)
 			(effects
 				(font
@@ -2073,7 +2501,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0205")
+					(reference "#PWR01012")
 					(unit 1)
 				)
 			)
@@ -2081,16 +2509,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 148.59 39.37 0)
+		(at 62.23 21.59 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d8b9c7e7-59e4-4f05-bffd-77a05e65757e")
-		(property "Reference" "#PWR0208"
-			(at 148.59 43.18 0)
+		(uuid "d6564f9e-fa64-4977-afd4-3464bbf0fd83")
+		(property "Reference" "#PWR01006"
+			(at 62.23 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,8 +2526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 148.2344 36.322 90)
+		(property "Value" "+3V3"
+			(at 61.8744 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 39.37 0)
+			(at 62.23 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,15 +2544,146 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 39.37 0)
+			(at 62.23 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 148.59 39.37 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 62.23 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5ff872-4cac-41ed-add3-c378e24a7611")
+		)
+		(instances
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR01006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6fdc072-de60-4042-bab7-9e81581bcac4")
+		(property "Reference" "#PWR01004"
+			(at 52.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62506c11-e8f2-4e02-9e2f-ffcb566cde93")
+		)
+		(instances
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR01004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 143.51 40.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8b9c7e7-59e4-4f05-bffd-77a05e65757e")
+		(property "Reference" "#PWR01013"
+			(at 143.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 143.1544 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 143.51 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,7 +2697,72 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0208")
+					(reference "#PWR01013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 36.83 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e688297b-8afd-4a62-8969-f9a50af42c7d")
+		(property "Reference" "#PWR01001"
+			(at 36.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "U+"
+			(at 36.4744 73.152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 36.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fee5a0a2-21f1-40bb-b33f-1a979e19c696")
+		)
+		(instances
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR01001")
 					(unit 1)
 				)
 			)
@@ -2154,7 +2778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e882d57f-5019-416f-b526-48f51b6b4055")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR01022"
 			(at 218.44 74.93 0)
 			(effects
 				(font
@@ -2188,7 +2812,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 218.44 71.12 0)
 			(effects
 				(font
@@ -2203,7 +2827,7 @@
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0214")
+					(reference "#PWR01022")
 					(unit 1)
 				)
 			)
@@ -2253,7 +2877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 215.9 138.43 0)
 			(effects
 				(font
@@ -2274,15 +2898,82 @@
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0212")
+					(reference "#PWR01019")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
+		(at 49.53 24.13)
+		(size 15.24 16.51)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0bfd6d18-10ce-426c-863e-9c05fb8adf3f")
+		(property "Sheetname" "Special-I2C-Sensors"
+			(at 49.022 23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i2c-sensors.kicad_sch"
+			(at 41.91 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" input
+			(at 62.23 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "82ba8ea5-bac2-4d92-90f3-7fc6178cbc88")
+		)
+		(pin "GND" input
+			(at 52.07 40.64 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3f11c36a-5ea3-4dce-ae12-920c447acfb3")
+		)
+		(pin "I2C[0..1]" bidirectional
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98d8e64d-e6e0-45db-9ec3-cc6751192b29")
+		)
+		(instances
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 76.2 110.49)
-		(size 34.29 17.78)
+		(size 34.29 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2302,23 +2993,13 @@
 			)
 		)
 		(property "Sheetfile" "motor-n-power-drivers.kicad_sch"
-			(at 76.2 128.8546 0)
+			(at 76.2 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
-		)
-		(pin "+5V" output
-			(at 102.87 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e692f4ab-6879-466f-b44e-fdb89d340f16")
 		)
 		(pin "AUX[1..8]" input
 			(at 110.49 121.92 0)
@@ -2360,28 +3041,8 @@
 			)
 			(uuid "6cf41e82-fa36-4db8-8882-b90cb4155c1e")
 		)
-		(pin "AMP_F0[0..1]" output
-			(at 76.2 114.3 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1549194c-a397-4b34-83eb-d9a685ed888b")
-		)
-		(pin "F0[0..1]" input
-			(at 110.49 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "884114ec-f559-4b9c-b1d6-83a00f72fa76")
-		)
 		(pin "GND" input
-			(at 87.63 128.27 270)
+			(at 87.63 129.54 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,6 +3060,46 @@
 				(justify right)
 			)
 			(uuid "03170828-ebf3-43ef-b843-cf7639ac08a3")
+		)
+		(pin "U+" input
+			(at 105.41 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e016c083-37e2-44ae-8825-e38293b3dd75")
+		)
+		(pin "+5V" input
+			(at 102.87 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f6cb00f9-2318-4180-a45d-9555b4101b32")
+		)
+		(pin "FUNC[0..1]" input
+			(at 110.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1bdbd4b2-84a7-4313-8094-007f918b1abf")
+		)
+		(pin "AMP_FUNC[0..1]" output
+			(at 76.2 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33ebdbf2-12aa-48b6-9157-a4be7df501f2")
 		)
 		(instances
 			(project "xDuinoRailShield"
@@ -2477,6 +3178,16 @@
 			)
 			(uuid "b9365442-812a-4b4c-a207-3cfec9a77b32")
 		)
+		(pin "U+" output
+			(at 208.28 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "71b855ef-6924-4f1e-9600-aedc2ec419bb")
+		)
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2536,7 +3247,7 @@
 			(uuid "fc1ee8e2-3c15-4a67-a338-038df59a4249")
 		)
 		(pin "+5V" output
-			(at 148.59 43.18 90)
+			(at 143.51 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,16 +3296,6 @@
 			)
 			(uuid "d6a06749-3240-4f15-b5a0-cb296c64a58e")
 		)
-		(pin "VCC" input
-			(at 146.05 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4116e1e0-f3ae-4fe7-9e26-69a11f301761")
-		)
 		(pin "MOTOR[0..1]" output
 			(at 129.54 63.5 180)
 			(effects
@@ -2605,17 +3306,7 @@
 			)
 			(uuid "3a79f2b3-2bcc-4024-9938-ba110471af4f")
 		)
-		(pin "F0[0..1]" output
-			(at 129.54 58.42 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9c141133-480c-41f2-b7e0-c35da7449599")
-		)
-		(pin "SPEAKER" output
+		(pin "SPEAKER[0..1]" output
 			(at 129.54 55.88 180)
 			(effects
 				(font
@@ -2645,6 +3336,46 @@
 			)
 			(uuid "406e0640-4740-4d6f-91ad-80f90533bbf3")
 		)
+		(pin "+3V3" output
+			(at 146.05 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "11a1657e-da8c-4f8e-aa31-b672331db873")
+		)
+		(pin "VCC" input
+			(at 140.97 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3aa029ba-fedb-48ea-98da-66413c562282")
+		)
+		(pin "I2C[0..1]" bidirectional
+			(at 129.54 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4fae2703-fa2a-4110-96b8-353fea41e664")
+		)
+		(pin "FUNC[0..1]" output
+			(at 129.54 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0e9b8e35-6452-4554-8536-6198dfbb75a7")
+		)
 		(instances
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2654,8 +3385,8 @@
 		)
 	)
 	(sheet
-		(at 78.74 43.18)
-		(size 19.05 24.13)
+		(at 73.66 49.53)
+		(size 15.24 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2666,7 +3397,7 @@
 		)
 		(uuid "89db4163-62dc-424d-9343-e2bee6963b15")
 		(property "Sheetname" "Audio Interfaces"
-			(at 78.74 42.4684 0)
+			(at 73.66 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +3406,7 @@
 			)
 		)
 		(property "Sheetfile" "audio_interfaces.kicad_sch"
-			(at 78.74 67.8946 0)
+			(at 73.66 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +3415,7 @@
 			)
 		)
 		(pin "GND" bidirectional
-			(at 90.17 67.31 270)
+			(at 85.09 73.66 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +3425,7 @@
 			(uuid "3f0ed3d8-f776-4417-9c09-018eb98f178a")
 		)
 		(pin "DAC_IN" input
-			(at 97.79 49.53 0)
+			(at 88.9 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,6 +3433,16 @@
 				(justify right)
 			)
 			(uuid "b18a4182-3f68-4c4e-beaf-38b1bfd8131a")
+		)
+		(pin "U+" input
+			(at 80.01 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b688f0ce-dea6-4788-a841-8a8c888e3de9")
 		)
 		(instances
 			(project "xDuinoRailShield"
@@ -2820,7 +3561,7 @@
 			)
 		)
 		(pin "+5V" output
-			(at 45.72 80.01 90)
+			(at 43.18 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2880,7 +3621,7 @@
 			(uuid "d6b3282f-d0c3-4406-9889-d058a9eb0541")
 		)
 		(pin "U+" output
-			(at 43.18 80.01 90)
+			(at 36.83 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,16 +3639,6 @@
 				(justify right)
 			)
 			(uuid "e0c8cff0-6aa7-4991-866b-863c7825d746")
-		)
-		(pin "AMP_AUX[1..3]" input
-			(at 63.5 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c1c01142-8043-453a-9009-11640b21ce70")
 		)
 		(pin "DCC[0..1]" output
 			(at 63.5 85.09 0)
@@ -2939,7 +3670,17 @@
 			)
 			(uuid "1d4199de-7503-4266-aa97-dbaf225b08f8")
 		)
-		(pin "AMP_F0[0..1]" input
+		(pin "AMP_AUX[1..7]" input
+			(at 63.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6f6a08b3-9c2f-41ce-ac9b-73214a67cb14")
+		)
+		(pin "AMP_FUNC[0..1]" input
 			(at 63.5 114.3 0)
 			(effects
 				(font
@@ -2947,7 +3688,7 @@
 				)
 				(justify right)
 			)
-			(uuid "803fd5a8-1437-4d76-8808-fcb9abc5e87f")
+			(uuid "6f9c488d-1758-4ef1-8c85-1f1c0e926ca9")
 		)
 		(instances
 			(project "xDuinoRailShield"
