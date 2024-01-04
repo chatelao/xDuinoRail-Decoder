@@ -492,7 +492,7 @@
         "name": "PowerRail",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.2,
+        "track_width": 0.25,
         "via_diameter": 0.6,
         "via_drill": 0.4,
         "wire_width": 6
@@ -516,6 +516,34 @@
       {
         "netclass": "PowerRail",
         "pattern": "DCC_1"
+      },
+      {
+        "netclass": "PowerRail",
+        "pattern": "/DCC0"
+      },
+      {
+        "netclass": "PowerRail",
+        "pattern": "/DCC1"
+      },
+      {
+        "netclass": "PowerRail",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "PowerRail",
+        "pattern": "DCC_VIN"
+      },
+      {
+        "netclass": "PowerRail",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/MCU Carrier Board/I2C0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/MCU Carrier Board/I2C1"
       }
     ]
   },
@@ -524,8 +552,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Gerbers-Loco/",
-      "pos_files": "cam/",
+      "plot": "../Gerber-Loco/",
+      "pos_files": "C:/Users/chatelain/Dropbox/Privat-2023/2023-11-11_DCC-EX-Shield/xDuinoRail-Decoder/kicad/cam",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -537,10 +565,10 @@
     "annotate_start_num": 0,
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ",",
+      "field_delimiter": ";",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "---",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": "\""

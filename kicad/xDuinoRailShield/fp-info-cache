@@ -1,4 +1,4 @@
-22666603071597467
+22664898777087719
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93099,13 +93099,6 @@ MOUDLE14P-SMD-2.54-21X17.8MM
 0
 14
 14
-xDuinoRailShield
-BDR6133
-
-
-0
-0
-0
 xiao ESP32C3_PCB
 MOUDLE14P-SMD-2.54-21X17.8MM
 

@@ -1330,16 +1330,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 48.26) (xy 218.44 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a054d58-6513-423c-a012-99762ef22b3a")
-	)
-	(wire
-		(pts
 			(xy 201.93 87.63) (xy 218.44 87.63)
 		)
 		(stroke
@@ -1380,13 +1370,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 48.26) (xy 181.61 48.26)
+			(xy 166.37 45.72) (xy 181.61 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "35ab2b1c-903d-48d3-aee2-9506a903cd31")
+	)
+	(wire
+		(pts
+			(xy 166.37 48.26) (xy 181.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361b6e8b-f322-4dd5-b3d8-341d540d942f")
 	)
 	(wire
 		(pts
@@ -1540,16 +1540,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 45.72) (xy 181.61 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79a6141e-f62d-4b43-b56a-2a35c92d52a0")
-	)
-	(wire
-		(pts
 			(xy 26.67 105.41) (xy 44.45 105.41)
 		)
 		(stroke
@@ -1597,6 +1587,16 @@
 			(type default)
 		)
 		(uuid "90df2ec7-612c-428f-bb01-23afc255221a")
+	)
+	(wire
+		(pts
+			(xy 201.93 48.26) (xy 218.44 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921cacf6-cb72-40cc-8e80-6d14d5be30f9")
 	)
 	(wire
 		(pts
@@ -1650,6 +1650,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 45.72) (xy 218.44 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9330148-340d-4747-a425-4d2e14e3f99c")
+	)
+	(wire
+		(pts
 			(xy 44.45 87.63) (xy 58.42 87.63)
 		)
 		(stroke
@@ -1687,16 +1697,6 @@
 			(type default)
 		)
 		(uuid "d3893230-fac8-47e1-bbe8-e70a3c1396a1")
-	)
-	(wire
-		(pts
-			(xy 201.93 45.72) (xy 218.44 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da98e2e1-0e4d-410a-8f76-62d630ae0b0c")
 	)
 	(wire
 		(pts
@@ -1739,6 +1739,17 @@
 			(justify left bottom)
 		)
 		(uuid "8e7b0bd8-c661-4330-97fe-306bf27b788e")
+	)
+	(label "AMP_FUNC1"
+		(at 218.44 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "064ce4fa-1217-4a92-b6ea-0eaeb548de88")
 	)
 	(label "AUX5"
 		(at 158.75 58.42 0)
@@ -1872,17 +1883,6 @@
 		)
 		(uuid "5eb8a327-b92b-4e7f-b11a-f0e6ae1a3fe1")
 	)
-	(label "AMP_FUNC1"
-		(at 218.44 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5fed4a79-ebfc-4016-8caa-49247118c994")
-	)
 	(label "FUNC0"
 		(at 166.37 43.18 0)
 		(fields_autoplaced yes)
@@ -1939,7 +1939,7 @@
 		(uuid "97cad048-cc85-40c9-975e-bff510aa1c7a")
 	)
 	(label "AUX1"
-		(at 166.37 48.26 0)
+		(at 166.37 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1961,7 +1961,7 @@
 		(uuid "996ab178-c2c5-48be-b896-612c0bae7106")
 	)
 	(label "AMP_AUX1"
-		(at 218.44 48.26 180)
+		(at 218.44 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2082,7 +2082,7 @@
 		(uuid "e348be2e-cb23-4911-a30f-3e6eba14dfbe")
 	)
 	(label "FUNC1"
-		(at 166.37 45.72 0)
+		(at 166.37 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2241,10 +2241,10 @@
 		(at 44.45 91.44 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16992495-bbeb-4988-91f6-d7f082e72fcf")
 		(property "Reference" "R804"
@@ -2321,10 +2321,10 @@
 		(at 44.45 116.84 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20282f4d-280e-4d53-8e85-b4f4dc5bb4cc")
 		(property "Reference" "R802"
@@ -2645,10 +2645,10 @@
 		(at 44.45 109.22 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "4f8653a7-77c3-4d82-86fc-ac1d81619dd2")
 		(property "Reference" "R801"
 			(at 41.91 107.9499 0)
@@ -2984,10 +2984,10 @@
 		(at 44.45 83.82 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "8a80b4eb-0ea6-425e-833a-8a8cb9a89eb2")
 		(property "Reference" "R803"
 			(at 41.91 82.5499 0)

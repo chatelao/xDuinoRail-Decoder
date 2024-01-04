@@ -2534,7 +2534,7 @@
 		)
 		(uuid "afd3b07e-3e17-4812-b382-6745c4245b66")
 	)
-	(label "DCC0"
+	(label "DCC1"
 		(at 154.94 110.49 0)
 		(fields_autoplaced yes)
 		(effects
