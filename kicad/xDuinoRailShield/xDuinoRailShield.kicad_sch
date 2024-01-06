@@ -370,6 +370,12 @@
 		(uuid "6e3c8000-d170-4125-a0cf-1f4ef01bdbfc")
 	)
 	(junction
+		(at 97.79 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3a2f690-2cfa-4b99-be26-e14173e8e4bc")
+	)
+	(junction
 		(at 175.26 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -428,6 +434,16 @@
 			(type default)
 		)
 		(uuid "082c29f2-70e1-4037-8889-a14a03b9104c")
+	)
+	(bus
+		(pts
+			(xy 71.12 88.9) (xy 63.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090c0f06-e5ac-4d82-8379-45f9e520ea2c")
 	)
 	(bus
 		(pts
@@ -559,16 +575,6 @@
 		)
 		(uuid "2e7f350e-3a4c-4e11-abd5-947162396ab2")
 	)
-	(bus
-		(pts
-			(xy 115.57 88.9) (xy 115.57 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33f6a3a6-dfdd-4aed-8436-49b26be43f2c")
-	)
 	(wire
 		(pts
 			(xy 88.9 55.88) (xy 95.25 55.88)
@@ -641,7 +647,7 @@
 	)
 	(bus
 		(pts
-			(xy 64.77 33.02) (xy 114.3 33.02)
+			(xy 64.77 33.02) (xy 97.79 33.02)
 		)
 		(stroke
 			(width 0)
@@ -778,6 +784,16 @@
 			(type default)
 		)
 		(uuid "870e5b84-dbc6-424e-ad63-f3ff6d42ef7a")
+	)
+	(bus
+		(pts
+			(xy 71.12 88.9) (xy 71.12 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a11196d-b094-4ffc-989b-ae80bffef131")
 	)
 	(bus
 		(pts
@@ -921,16 +937,6 @@
 	)
 	(bus
 		(pts
-			(xy 115.57 55.88) (xy 129.54 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2c2c482-2e9e-4f1a-ae13-c3e7e758a8d0")
-	)
-	(bus
-		(pts
 			(xy 175.26 54.61) (xy 171.45 50.8)
 		)
 		(stroke
@@ -938,16 +944,6 @@
 			(type default)
 		)
 		(uuid "b4a6c10e-6826-4bf1-8254-fd91af6b5140")
-	)
-	(bus
-		(pts
-			(xy 63.5 88.9) (xy 115.57 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b57e4039-0718-41c7-93ce-2f2fb8b95a13")
 	)
 	(wire
 		(pts
@@ -978,6 +974,26 @@
 			(type default)
 		)
 		(uuid "bc2524cd-de40-449d-ba1b-b2c42987b663")
+	)
+	(bus
+		(pts
+			(xy 97.79 33.02) (xy 114.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc8557d-eb99-4942-b0c4-b7cb5362c249")
+	)
+	(bus
+		(pts
+			(xy 71.12 69.85) (xy 73.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bccaf989-82e5-427d-a1fe-88b864043b8e")
 	)
 	(bus
 		(pts
@@ -1049,6 +1065,16 @@
 		)
 		(uuid "d88551f0-a5ba-4cbf-8188-348fefb62254")
 	)
+	(bus
+		(pts
+			(xy 97.79 33.02) (xy 97.79 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f151bd-2c46-4c43-ae55-ef0a898e9ee8")
+	)
 	(wire
 		(pts
 			(xy 80.01 49.53) (xy 80.01 46.99)
@@ -1088,6 +1114,16 @@
 			(type default)
 		)
 		(uuid "e373e8c0-30fe-40a9-854f-6e41ae3d870a")
+	)
+	(bus
+		(pts
+			(xy 97.79 58.42) (xy 88.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f6f34e-dddd-43c6-85af-374edd8866d9")
 	)
 	(bus
 		(pts
@@ -3412,6 +3448,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "GND" bidirectional
@@ -3443,6 +3480,56 @@
 				(justify right)
 			)
 			(uuid "b688f0ce-dea6-4788-a841-8a8c888e3de9")
+		)
+		(pin "SUSI_CLOCK" input
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f073f12c-c576-4b26-8998-909aa10fe2f3")
+		)
+		(pin "SUSI_DATA" input
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b30eb431-588c-4df3-a128-51ffc3415a05")
+		)
+		(pin "SUSI_TRIGGER" input
+			(at 88.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0edd4e80-f8cc-470a-be3c-b7e2b99b8b14")
+		)
+		(pin "I2C[0..1]" bidirectional
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a251eee-bd9c-4ed9-b830-71d4d309be40")
+		)
+		(pin "SPEAKER[0..1]" output
+			(at 73.66 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e362142c-8cc2-4817-9cf6-59330d1771c5")
 		)
 		(instances
 			(project "xDuinoRailShield"

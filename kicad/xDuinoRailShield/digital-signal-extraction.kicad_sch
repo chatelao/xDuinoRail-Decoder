@@ -2534,7 +2534,7 @@
 		)
 		(uuid "afd3b07e-3e17-4812-b382-6745c4245b66")
 	)
-	(label "DCC1"
+	(label "DCC0"
 		(at 154.94 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3809,7 +3809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 171.45 112.268 90)
 			(effects
 				(font
