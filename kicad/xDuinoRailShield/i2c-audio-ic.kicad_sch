@@ -1330,13 +1330,13 @@
 		)
 	)
 	(junction
-		(at 71.12 113.03)
+		(at 62.23 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10f67ac9-1919-43c7-92c8-318822ad1e67")
 	)
 	(junction
-		(at 157.48 114.3)
+		(at 148.59 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1220343-9c45-4250-85d1-6dcf500bf836")
@@ -1355,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 111.76) (xy 152.4 111.76)
+			(xy 152.4 147.32) (xy 143.51 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1365,7 +1365,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 100.33) (xy 157.48 106.68)
+			(xy 148.59 135.89) (xy 148.59 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1385,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 101.6) (xy 71.12 105.41)
+			(xy 62.23 137.16) (xy 62.23 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1415,7 +1415,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 113.03) (xy 71.12 118.11)
+			(xy 62.23 148.59) (xy 62.23 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1475,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 114.3) (xy 157.48 114.3)
+			(xy 143.51 149.86) (xy 148.59 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1505,7 +1505,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 109.22) (xy 152.4 109.22)
+			(xy 152.4 144.78) (xy 143.51 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1515,7 +1515,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 113.03) (xy 74.93 113.03)
+			(xy 62.23 148.59) (xy 66.04 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1525,7 +1525,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 107.95) (xy 66.04 107.95)
+			(xy 66.04 143.51) (xy 57.15 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1535,7 +1535,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 105.41) (xy 71.12 105.41)
+			(xy 57.15 140.97) (xy 62.23 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1565,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 104.14) (xy 152.4 104.14)
+			(xy 152.4 139.7) (xy 143.51 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1585,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 106.68) (xy 157.48 106.68)
+			(xy 143.51 142.24) (xy 148.59 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1615,7 +1615,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 114.3) (xy 161.29 114.3)
+			(xy 148.59 149.86) (xy 152.4 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1635,7 +1635,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 110.49) (xy 66.04 110.49)
+			(xy 66.04 146.05) (xy 57.15 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1685,7 +1685,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 114.3) (xy 157.48 119.38)
+			(xy 148.59 149.86) (xy 148.59 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1695,7 +1695,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 66.04) (xy 166.37 66.04)
+			(xy 147.32 66.04) (xy 167.64 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1705,7 +1705,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 113.03) (xy 71.12 113.03)
+			(xy 57.15 148.59) (xy 62.23 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1715,7 +1715,7 @@
 	)
 	(text "SUSI 5-pin"
 		(exclude_from_sim no)
-		(at 157.48 93.472 0)
+		(at 148.59 129.032 0)
 		(effects
 			(font
 				(size 3.048 3.048)
@@ -1725,7 +1725,7 @@
 	)
 	(text "SUSI 4-pin"
 		(exclude_from_sim no)
-		(at 73.66 93.726 0)
+		(at 64.77 129.286 0)
 		(effects
 			(font
 				(size 3.048 3.048)
@@ -1735,7 +1735,7 @@
 	)
 	(text "https://normen.railcommunity.de/RCN-600.pdf\nhttps://normen.railcommunity.de/RCN-601.pdf"
 		(exclude_from_sim no)
-		(at 70.612 130.302 0)
+		(at 61.722 165.862 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1764,8 +1764,8 @@
 		)
 		(uuid "3f8d9960-9221-4486-8eca-4aac7ef02b5e")
 	)
-	(label "SPEAKER1"
-		(at 166.37 66.04 180)
+	(label "SPEAKER0"
+		(at 167.64 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1786,7 +1786,7 @@
 		)
 		(uuid "a057d4d9-e3ef-479b-8942-3231379e8559")
 	)
-	(label "SPEAKER0"
+	(label "SPEAKER1"
 		(at 167.64 54.61 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1799,7 +1799,7 @@
 	)
 	(hierarchical_label "SUSI_CLOCK"
 		(shape input)
-		(at 74.93 110.49 0)
+		(at 66.04 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1835,7 +1835,7 @@
 	)
 	(hierarchical_label "SUSI_TRIGGER"
 		(shape input)
-		(at 161.29 104.14 0)
+		(at 152.4 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1847,7 +1847,7 @@
 	)
 	(hierarchical_label "U+"
 		(shape input)
-		(at 157.48 100.33 90)
+		(at 148.59 135.89 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1871,7 +1871,7 @@
 	)
 	(hierarchical_label "SUSI_CLOCK"
 		(shape input)
-		(at 161.29 111.76 0)
+		(at 152.4 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1895,7 +1895,7 @@
 	)
 	(hierarchical_label "U+"
 		(shape input)
-		(at 71.12 101.6 90)
+		(at 62.23 137.16 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1907,7 +1907,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 161.29 114.3 0)
+		(at 152.4 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1919,7 +1919,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 74.93 113.03 0)
+		(at 66.04 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1931,7 +1931,7 @@
 	)
 	(hierarchical_label "SUSI_DATA"
 		(shape input)
-		(at 161.29 109.22 0)
+		(at 152.4 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1943,7 +1943,7 @@
 	)
 	(hierarchical_label "SUSI_DATA"
 		(shape input)
-		(at 74.93 107.95 0)
+		(at 66.04 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2024,6 +2024,12 @@
 			(uuid "914b4e90-c110-48b5-9292-b1295be59ca3")
 		)
 		(instances
+			(project "audio_interfaces"
+				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
+					(reference "U201")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
 					(reference "U201")
@@ -2090,6 +2096,12 @@
 			(uuid "b79ec07c-f121-4c7c-bb26-8982054446bc")
 		)
 		(instances
+			(project "audio_interfaces"
+				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
 					(reference "#PWR0204")
@@ -2156,6 +2168,12 @@
 			(uuid "d07b17a4-4c7f-4c0b-9ac2-7f34da3db767")
 		)
 		(instances
+			(project "audio_interfaces"
+				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
 					(reference "#PWR0208")
@@ -2238,6 +2256,12 @@
 			(uuid "48e9756b-9412-4c89-8ed2-6ac771f0bbc7")
 		)
 		(instances
+			(project "audio_interfaces"
+				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
+					(reference "RV201")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
 					(reference "RV201")
@@ -2317,6 +2341,12 @@
 			(uuid "ef057d43-75f9-4b41-8992-3dc8768228ff")
 		)
 		(instances
+			(project "audio_interfaces"
+				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
+					(reference "J201")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
 					(reference "J201")
@@ -2383,6 +2413,12 @@
 			(uuid "93b9ffd7-dd1a-472e-9d98-3912c1cd43b4")
 		)
 		(instances
+			(project "audio_interfaces"
+				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
 					(reference "#PWR0201")
@@ -2449,6 +2485,12 @@
 			(uuid "e07dd9b8-d0db-46ca-90bc-7539ab667357")
 		)
 		(instances
+			(project "audio_interfaces"
+				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
 					(reference "#PWR0202")
@@ -2515,6 +2557,12 @@
 			(uuid "a776aa42-2d7c-4707-8222-d3c2e680914d")
 		)
 		(instances
+			(project "audio_interfaces"
+				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
 					(reference "#PWR0207")
@@ -2525,7 +2573,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 118.11 0)
+		(at 62.23 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2534,7 +2582,7 @@
 		(fields_autoplaced yes)
 		(uuid "85b683e6-2f28-4648-b28d-f3e8e223b31b")
 		(property "Reference" "#PWR0203"
-			(at 71.12 124.46 0)
+			(at 62.23 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2591,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 123.19 0)
+			(at 62.23 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,7 +2599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 118.11 0)
+			(at 62.23 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 118.11 0)
+			(at 62.23 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2569,7 +2617,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 118.11 0)
+			(at 62.23 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,6 +2629,12 @@
 			(uuid "346f6d24-d112-469e-a5b1-a6d5d0b73037")
 		)
 		(instances
+			(project "audio_interfaces"
+				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
 					(reference "#PWR0203")
@@ -2591,7 +2645,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 119.38 0)
+		(at 148.59 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2600,7 +2654,7 @@
 		(fields_autoplaced yes)
 		(uuid "9aae0885-6507-4dd4-9c38-1e3362a89278")
 		(property "Reference" "#PWR0205"
-			(at 157.48 125.73 0)
+			(at 148.59 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +2663,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 124.46 0)
+			(at 148.59 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,7 +2671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 119.38 0)
+			(at 148.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +2680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 119.38 0)
+			(at 148.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 119.38 0)
+			(at 148.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,6 +2701,12 @@
 			(uuid "607fda7b-3da2-475e-a98f-86b73eda7cf3")
 		)
 		(instances
+			(project "audio_interfaces"
+				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
 					(reference "#PWR0205")
@@ -2724,6 +2784,12 @@
 			(uuid "97d91cc6-f383-4b7e-aa37-423940fc39c4")
 		)
 		(instances
+			(project "audio_interfaces"
+				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
+					(reference "C201")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
 					(reference "C201")
@@ -2790,6 +2856,12 @@
 			(uuid "19f3cf64-28a5-4811-9d31-c6f31873b105")
 		)
 		(instances
+			(project "audio_interfaces"
+				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
 					(reference "#PWR0206")
@@ -2800,7 +2872,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 147.32 109.22 0)
+		(at 138.43 144.78 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2809,7 +2881,7 @@
 		(dnp yes)
 		(uuid "fbfd4729-3751-440e-9953-565e447fdace")
 		(property "Reference" "J203"
-			(at 144.78 107.9499 0)
+			(at 135.89 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +2890,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 144.78 110.4899 0)
+			(at 135.89 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 109.22 0)
+			(at 138.43 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +2908,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 109.22 0)
+			(at 138.43 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +2917,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 147.32 109.22 0)
+			(at 138.43 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +2926,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 147.32 109.22 0)
+			(at 138.43 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2878,6 +2950,12 @@
 			(uuid "ba822f52-db8b-48bb-8a55-1385fba57bd3")
 		)
 		(instances
+			(project "audio_interfaces"
+				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
+					(reference "J203")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
 					(reference "J203")
@@ -2888,7 +2966,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 60.96 110.49 180)
+		(at 52.07 146.05 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2896,7 +2974,7 @@
 		(dnp yes)
 		(uuid "fe74e3f2-27cf-40e1-b0de-1edccdf1793d")
 		(property "Reference" "J202"
-			(at 58.42 110.4901 0)
+			(at 49.53 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +2983,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 58.42 107.9501 0)
+			(at 49.53 143.5101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2914,7 +2992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 110.49 0)
+			(at 52.07 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +3001,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 110.49 0)
+			(at 52.07 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +3010,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 60.96 110.49 0)
+			(at 52.07 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +3019,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 60.96 110.49 0)
+			(at 52.07 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,12 +3040,23 @@
 			(uuid "dfdbb208-d30e-4ef3-af06-95cf666bc026")
 		)
 		(instances
+			(project "audio_interfaces"
+				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
+					(reference "J202")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
 					(reference "J202")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )

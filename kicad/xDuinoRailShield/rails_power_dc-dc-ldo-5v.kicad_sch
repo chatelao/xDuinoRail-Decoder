@@ -1025,6 +1025,146 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:L78L33_SOT89"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L78L33_SOT89"
+				(at -0.635 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 3.3V, SOT-89"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 100mA Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?89*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L78L33_SOT89_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "L78L33_SOT89_1_1"
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Switching:TPS5430DDA"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1388,6 +1528,12 @@
 		(uuid "0efcc5db-b77a-48e7-b448-114b0b661b36")
 	)
 	(junction
+		(at 154.94 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "179a0fdd-9ccb-42f9-b201-4847cdc53400")
+	)
+	(junction
 		(at 151.13 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1430,6 +1576,12 @@
 		(uuid "7b3e0ad1-1639-4507-b6f1-2927a8d08033")
 	)
 	(junction
+		(at 54.61 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7da54700-0c2c-4023-a646-a40d796a001e")
+	)
+	(junction
 		(at 180.34 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1440,6 +1592,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8550d929-69e4-46d8-a8e2-ab7bdd9af03c")
+	)
+	(junction
+		(at 45.72 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ff7168a-de1a-44c8-8031-57389edda6d8")
+	)
+	(junction
+		(at 58.42 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93271b5a-745e-4e2e-852a-7dc66e788199")
 	)
 	(junction
 		(at 158.75 43.18)
@@ -1454,6 +1618,12 @@
 		(uuid "9bcd2802-0806-4349-a9d5-79c1d0c7fead")
 	)
 	(junction
+		(at 180.34 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fcd5dff-623a-4da9-afe7-c89c88981ddc")
+	)
+	(junction
 		(at 226.06 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1464,6 +1634,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2301541-ac39-4f5e-b5b1-b6e33ebf5b21")
+	)
+	(junction
+		(at 154.94 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b097b495-1e42-4e7a-9f4c-b18576bd99fa")
 	)
 	(junction
 		(at 212.09 48.26)
@@ -1508,10 +1684,22 @@
 		(uuid "dffcf0ba-770f-4887-ae9b-53cff372eedb")
 	)
 	(junction
+		(at 54.61 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e352ae0d-8502-47a1-9faa-015782574f7d")
+	)
+	(junction
 		(at 226.06 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5d00908-168f-4957-92fe-15d18062d2a3")
+	)
+	(junction
+		(at 45.72 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f11b1e34-9046-4b26-806a-58b775b6a0d0")
 	)
 	(junction
 		(at 212.09 63.5)
@@ -1572,6 +1760,16 @@
 			(type default)
 		)
 		(uuid "0817343b-ef44-47a1-9c61-dda6f13f3bda")
+	)
+	(wire
+		(pts
+			(xy 180.34 132.08) (xy 180.34 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d2012c-6aeb-4c06-866a-1f7d563fe354")
 	)
 	(wire
 		(pts
@@ -1715,6 +1913,26 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 142.24) (xy 154.94 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a02963-473e-4097-84fb-2b2ec64112b3")
+	)
+	(wire
+		(pts
+			(xy 154.94 143.51) (xy 154.94 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433a8b4a-6f42-4304-beb0-4fe0d0220872")
+	)
+	(wire
+		(pts
 			(xy 180.34 93.98) (xy 195.58 93.98)
 		)
 		(stroke
@@ -1722,6 +1940,16 @@
 			(type default)
 		)
 		(uuid "437bb5bb-f630-44a0-97ea-25dc9e8c8c54")
+	)
+	(wire
+		(pts
+			(xy 58.42 85.09) (xy 58.42 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4433641e-d8de-4cd9-b641-db3dd50a979a")
 	)
 	(wire
 		(pts
@@ -1745,6 +1973,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 132.08) (xy 195.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b84dac7-c64c-4bdc-9ed2-d43ff8ea60fa")
+	)
+	(wire
+		(pts
 			(xy 182.88 58.42) (xy 182.88 63.5)
 		)
 		(stroke
@@ -1762,6 +2000,16 @@
 			(type default)
 		)
 		(uuid "4e210727-8d39-4403-9dac-d1fcdbdc52d1")
+	)
+	(wire
+		(pts
+			(xy 175.26 132.08) (xy 180.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff68493-9283-4e4a-8739-11a3c520546f")
 	)
 	(wire
 		(pts
@@ -1785,6 +2033,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 132.08) (xy 160.02 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cdc2ba7-f08d-4142-9680-c89a1675bd30")
+	)
+	(wire
+		(pts
 			(xy 154.94 105.41) (xy 154.94 104.14)
 		)
 		(stroke
@@ -1802,6 +2060,26 @@
 			(type default)
 		)
 		(uuid "719896eb-80ac-4ab8-a939-63f06d4c71ff")
+	)
+	(wire
+		(pts
+			(xy 167.64 139.7) (xy 167.64 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7458c740-31c7-4a0a-8f64-27659a40ad2e")
+	)
+	(wire
+		(pts
+			(xy 148.59 142.24) (xy 154.94 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a60a7bf-6660-4d97-b8a1-da2d2715df22")
 	)
 	(wire
 		(pts
@@ -1855,6 +2133,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 109.22) (xy 45.72 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3f27ad-44bc-4128-90f9-3a8b3d3fb5fe")
+	)
+	(wire
+		(pts
 			(xy 54.61 57.15) (xy 54.61 64.77)
 		)
 		(stroke
@@ -1872,6 +2160,36 @@
 			(type default)
 		)
 		(uuid "a0e570f4-a27d-408c-969c-849a7d92108c")
+	)
+	(wire
+		(pts
+			(xy 180.34 140.97) (xy 180.34 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d1ccff-eb19-444d-a5b2-f5e29e887691")
+	)
+	(wire
+		(pts
+			(xy 29.21 90.17) (xy 45.72 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9dfabb4-76a5-4dc6-9ce5-b94ca29b7808")
+	)
+	(wire
+		(pts
+			(xy 58.42 90.17) (xy 62.23 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaef942e-dfa8-4bfe-af2d-42694be2425f")
 	)
 	(wire
 		(pts
@@ -1915,6 +2233,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 90.17) (xy 58.42 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85d07e0-f033-4e41-b17f-73252b71449a")
+	)
+	(wire
+		(pts
 			(xy 212.09 63.5) (xy 226.06 63.5)
 		)
 		(stroke
@@ -1942,6 +2270,16 @@
 			(type default)
 		)
 		(uuid "c2190f42-911c-480e-bbbb-4507f1eed1b0")
+	)
+	(wire
+		(pts
+			(xy 45.72 90.17) (xy 46.99 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51d03ee-67b6-4c5d-b7f1-bac1edd1b3d4")
 	)
 	(wire
 		(pts
@@ -1985,6 +2323,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 97.79) (xy 54.61 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27d6aee-9275-4b7d-b77f-314e2c9f6389")
+	)
+	(wire
+		(pts
 			(xy 180.34 93.98) (xy 180.34 95.25)
 		)
 		(stroke
@@ -2015,6 +2363,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 97.79) (xy 45.72 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15858e2-80df-4bfb-b39e-3a545e1a065a")
+	)
+	(wire
+		(pts
 			(xy 180.34 63.5) (xy 182.88 63.5)
 		)
 		(stroke
@@ -2042,6 +2400,16 @@
 			(type default)
 		)
 		(uuid "e9b401c8-6082-42f1-a4bb-dc7887abdebb")
+	)
+	(wire
+		(pts
+			(xy 29.21 105.41) (xy 54.61 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6b6205-77e6-41b5-8809-a14cd7ca4480")
 	)
 	(wire
 		(pts
@@ -2123,6 +2491,36 @@
 		)
 		(uuid "fb0efbd3-40e3-42d9-bd27-c46bc5a6e990")
 	)
+	(wire
+		(pts
+			(xy 147.32 132.08) (xy 154.94 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3d1e9c-c8da-4dc8-8250-30ba457ab661")
+	)
+	(wire
+		(pts
+			(xy 154.94 133.35) (xy 154.94 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd46c87d-11ed-43ef-9d56-a57fd6ddd27c")
+	)
+	(wire
+		(pts
+			(xy 45.72 97.79) (xy 45.72 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff67c509-26f4-465c-a5fb-2451ca9ca6f2")
+	)
 	(text "DC-DC buck convertor"
 		(exclude_from_sim no)
 		(at 160.528 28.448 0)
@@ -2133,7 +2531,17 @@
 		)
 		(uuid "651519e7-f194-466b-bbb8-094e9da1ee0a")
 	)
-	(text "Bridge Rectifier"
+	(text "Bridge Rectifier heavy\n"
+		(exclude_from_sim no)
+		(at 45.974 77.216 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "6d1ebaf5-01c3-43ec-9c17-527d93ec89f1")
+	)
+	(text "Bridge Rectifier light"
 		(exclude_from_sim no)
 		(at 45.974 36.576 0)
 		(effects
@@ -2143,7 +2551,7 @@
 		)
 		(uuid "7954060c-3514-4827-9514-f41800143811")
 	)
-	(text "DC-DC voltage regulator"
+	(text "DC-DC voltage regulator 3.3V\n"
 		(exclude_from_sim no)
 		(at 164.846 82.296 0)
 		(effects
@@ -2152,6 +2560,27 @@
 			)
 		)
 		(uuid "a76d4c3f-1db9-44fb-b638-4d14cd1e3899")
+	)
+	(text "DC-DC voltage regulator 5V\n"
+		(exclude_from_sim no)
+		(at 164.846 120.396 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "ae05e2b8-585e-4e90-8d79-772dba747719")
+	)
+	(label "DCC1"
+		(at 29.21 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f9a69e0-1bcf-4f28-a9bf-6ee5ac1bd5c6")
 	)
 	(label "DCC1"
 		(at 29.21 64.77 0)
@@ -2165,6 +2594,17 @@
 		(uuid "5a83d7e9-45f2-4ab0-9068-7c54543eb241")
 	)
 	(label "DCC0"
+		(at 29.21 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "743daf74-c372-493d-a0a4-38b71d461a0d")
+	)
+	(label "DCC0"
 		(at 29.21 49.53 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2174,6 +2614,28 @@
 			(justify left bottom)
 		)
 		(uuid "dfca748b-a28b-4165-9ac0-f9d89e6e2108")
+	)
+	(global_label "DCC_VIN"
+		(shape input)
+		(at 147.32 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0aef58c0-b114-44ed-ac80-c89cd7b4b654")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.4382 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DCC_GND"
 		(shape input)
@@ -2215,6 +2677,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DCC_VIN"
+		(shape output)
+		(at 62.23 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a7b6ef4-46bc-46b6-a49b-9327b60691de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.1118 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2287,6 +2771,28 @@
 	)
 	(global_label "DCC_GND"
 		(shape output)
+		(at 62.23 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aac0f852-695f-44fd-a33b-a8de6af4b55b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.9584 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DCC_GND"
+		(shape output)
 		(at 62.23 68.58 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2306,6 +2812,52 @@
 				(hide yes)
 			)
 		)
+	)
+	(global_label "DCC_GND"
+		(shape input)
+		(at 148.59 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe8cf650-c628-49d8-a668-44e5209101cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.8616 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "U+"
+		(shape output)
+		(at 58.42 85.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d7620c8-be2c-4dc7-b7fe-e7c21d34a2a6")
+	)
+	(hierarchical_label "DCC[0..1]"
+		(shape input)
+		(at 30.48 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e0721d2-5a9f-4845-987c-6e41df7a3410")
 	)
 	(hierarchical_label "U+"
 		(shape output)
@@ -2355,7 +2907,7 @@
 		)
 		(uuid "cb2f7984-f0a4-4494-b653-b73a15cb2ffc")
 	)
-	(hierarchical_label "+5V"
+	(hierarchical_label "+3V3"
 		(shape output)
 		(at 195.58 93.98 0)
 		(fields_autoplaced yes)
@@ -2366,6 +2918,18 @@
 			(justify left)
 		)
 		(uuid "d329ecb5-2114-4223-9f4c-edf158a8d97e")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 195.58 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe07335a-9136-4f4e-bcd4-c0af39b739a9")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -2419,7 +2983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 181.3052 102.87 0)
 			(effects
 				(font
@@ -2471,7 +3035,7 @@
 			(uuid "da457f96-5c4a-41c6-b07c-e015a4ec3142")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "C705")
 					(unit 1)
@@ -2558,7 +3122,7 @@
 			(uuid "6666ec9e-c0b2-4814-9211-cc4700f4e156")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "D705")
 					(unit 1)
@@ -2646,7 +3210,7 @@
 			(uuid "b7673326-d903-48e8-ade4-89c53a7181f8")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "R701")
 					(unit 1)
@@ -2712,9 +3276,213 @@
 			(uuid "56cfae10-0d34-43ed-a2f2-363cbf2edaf5")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "#PWR0704")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b284cb2-8a26-489b-80fe-e24aaca63db5")
+		(property "Reference" "#PWR0707"
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "067af972-4dfc-4af0-b28b-73a58b2d36c3")
+		)
+		(instances
+			(project "xDuinoRailSwitch"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
+					(reference "#PWR0707")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:L78L33_SOT89")
+		(at 167.64 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c438f17-1b41-46db-88f8-822dda6c243f")
+		(property "Reference" "U701"
+			(at 167.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HT7533-1"
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 3.3V, SOT-89"
+			(at 167.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6abfbeee-084b-4dc5-af05-8f574a68a9ab")
+		)
+		(pin "3"
+			(uuid "3b58c070-a718-42e8-9f20-31664f6a8456")
+		)
+		(pin "1"
+			(uuid "80b7fec4-06a9-4c2d-ada6-ccc644c6c153")
+		)
+		(instances
+			(project "xDuinoRailSwitch"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
+					(reference "U701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47feb1c9-0f17-45ad-ad87-69e223439abb")
+		(property "Reference" "#PWR0705"
+			(at 154.94 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c146c997-67bf-46f0-a003-e8d14d075509")
+		)
+		(instances
+			(project "xDuinoRailSwitch"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
+					(reference "#PWR0705")
 					(unit 1)
 				)
 			)
@@ -2799,7 +3567,7 @@
 			(uuid "32066f28-0801-45b5-a708-642cf266bc62")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "C703")
 					(unit 1)
@@ -2885,7 +3653,7 @@
 			(uuid "263ded30-a4cc-4aca-b14d-fba4d7e6d5ce")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "C706")
 					(unit 1)
@@ -2897,10 +3665,10 @@
 		(lib_id "Device:D")
 		(at 45.72 53.34 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "518a93f3-1d42-41dc-8092-13e0696edd79")
 		(property "Reference" "D701"
 			(at 43.18 54.61 90)
@@ -2965,7 +3733,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C8678"
+		(property "LCSC" "C191023"
 			(at 45.72 53.34 0)
 			(effects
 				(font
@@ -2990,9 +3758,202 @@
 			(uuid "a793b15c-18e8-4056-996d-4bb926c0cabc")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "D701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:L78L05_SOT89")
+		(at 167.64 132.08 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "6152b974-051b-4a6c-ab23-f5938443d6ca")
+		(property "Reference" "U703"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L78L05_SOT89"
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 167.64 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"
+			(at 167.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C71136"
+			(at 167.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 167.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67263a7b-0638-4098-93d9-79951b9c4be4")
+		)
+		(pin "2"
+			(uuid "98fb7ca8-1409-4d48-ab56-a2f8aaa3f53c")
+		)
+		(pin "3"
+			(uuid "67a27613-e141-482c-952f-e07907d12f60")
+		)
+		(instances
+			(project "xDuinoRailSwitch"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
+					(reference "U703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 50.8 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6889fa5e-e476-452f-aea5-9f82b4a72306")
+		(property "Reference" "D502"
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS54"
+			(at 50.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C191023"
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58a0e0cc-30a7-4007-8b88-df819f16243d")
+		)
+		(pin "2"
+			(uuid "348eeda4-2fb0-4fc3-9ff1-18ca26e4d211")
+		)
+		(instances
+			(project "xDuinoRailSwitch"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
+					(reference "D502")
 					(unit 1)
 				)
 			)
@@ -3062,7 +4023,7 @@
 					(unit 1)
 				)
 			)
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "#PWR0703")
 					(unit 1)
@@ -3128,7 +4089,7 @@
 			(uuid "d4990f97-fdbc-4c2e-9374-1b6210503bfb")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "#PWR0702")
 					(unit 1)
@@ -3138,12 +4099,116 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 50.8 49.53 180)
+		(at 50.8 97.79 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(uuid "710e1f38-eb9e-41e7-9e47-5f8cf6c9591b")
+		(property "Reference" "D503"
+			(at 50.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS54"
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 50.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 50.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C191023"
+			(at 50.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 50.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3736d943-d901-4316-ac16-41c17b4991fc")
+		)
+		(pin "2"
+			(uuid "da44e736-7b55-44fa-9af4-77329a88a83a")
+		)
+		(instances
+			(project "xDuinoRailSwitch"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
+					(reference "D503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 50.8 49.53 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "74843875-5f68-4b9c-8fc1-aa316926ad5d")
 		(property "Reference" "D702"
 			(at 50.8 43.18 0)
@@ -3206,7 +4271,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C8678"
+		(property "LCSC" "C191023"
 			(at 50.8 49.53 0)
 			(effects
 				(font
@@ -3231,9 +4296,115 @@
 			(uuid "ee031e71-0783-4396-9483-3d51423555b9")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "D702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 54.61 93.98 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a548430-9791-4981-81b0-32f552fe4086")
+		(property "Reference" "D504"
+			(at 57.15 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS54"
+			(at 57.15 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C191023"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d051536-a22e-4f7d-a33b-8f7f12afe0fc")
+		)
+		(pin "2"
+			(uuid "723dcf3c-3a3e-433d-b9c3-451df6907a7c")
+		)
+		(instances
+			(project "xDuinoRailSwitch"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
+					(reference "D504")
 					(unit 1)
 				)
 			)
@@ -3340,7 +4511,7 @@
 			(uuid "bd4d36bf-caaa-4a19-9c4f-1aef9cdca56d")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "U702")
 					(unit 1)
@@ -3426,7 +4597,7 @@
 			(uuid "d088ea60-c34c-442d-9dfb-fb05fc1db982")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "L701")
 					(unit 1)
@@ -3435,43 +4606,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:L78L05_SOT89")
-		(at 167.64 93.98 0)
+		(lib_id "Device:D")
+		(at 45.72 93.98 270)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "899492e8-de8c-41c9-9ad4-bf7b3950a03f")
-		(property "Reference" "U701"
-			(at 167.64 87.63 0)
+		(uuid "9ac87f55-b9a1-4bbd-ba86-1e7df2906d80")
+		(property "Reference" "D501"
+			(at 43.18 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "L78L05_SOT89"
-			(at 167.64 90.17 0)
+		(property "Value" "SS54"
+			(at 43.18 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 167.64 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
-			(at 167.64 95.25 0)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 45.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,8 +4641,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"
-			(at 167.64 93.98 0)
+		(property "Datasheet" "~"
+			(at 45.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,8 +4650,35 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C71136"
-			(at 167.64 93.98 0)
+		(property "Description" "Diode"
+			(at 45.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 45.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 45.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C191023"
+			(at 45.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +4687,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 167.64 93.98 0)
+			(at 45.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,18 +4696,169 @@
 			)
 		)
 		(pin "1"
-			(uuid "12bacdbd-58ca-4e06-9a61-e12718295405")
+			(uuid "0f6431c1-92fe-4aaf-ae48-851d4fc34d13")
 		)
 		(pin "2"
-			(uuid "ba8d870e-60a7-4f1d-89cd-f12585573321")
-		)
-		(pin "3"
-			(uuid "0a0b673a-f26d-49ae-9e9e-f237e5efcff5")
+			(uuid "617917e1-14e7-4411-b25a-e353e77e6f29")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
-					(reference "U701")
+					(reference "D501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "9ff9c7d1-ab14-4907-9098-6c25fdd16fd7")
+		(property "Reference" "C708"
+			(at 151.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 151.13 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 153.9748 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 154.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 154.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ba7f058-dbf1-4b46-946b-ef67dfd5b1ba")
+		)
+		(pin "2"
+			(uuid "056cf9c9-6d65-4c16-87f9-769e2c6a9e47")
+		)
+		(instances
+			(project "xDuinoRailSwitch"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
+					(reference "C708")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9ff0b9f-7e5b-44f7-bf4a-9138fa15600e")
+		(property "Reference" "#PWR0706"
+			(at 167.64 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c6bfdf5-8e83-4ef1-aa3f-ec5dcfa44b98")
+		)
+		(instances
+			(project "xDuinoRailSwitch"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
+					(reference "#PWR0706")
 					(unit 1)
 				)
 			)
@@ -3529,10 +4869,10 @@
 		(at 50.8 57.15 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "ab26fca9-2585-48bf-bed9-dd07b797cfb3")
 		(property "Reference" "D703"
 			(at 50.8 63.5 0)
@@ -3595,7 +4935,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C8678"
+		(property "LCSC" "C191023"
 			(at 50.8 57.15 0)
 			(effects
 				(font
@@ -3620,7 +4960,7 @@
 			(uuid "c1bf0fca-b8a8-44cd-b9bf-e8715ab77172")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "D703")
 					(unit 1)
@@ -3692,7 +5032,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C52923"
 			(at 154.94 99.06 0)
 			(effects
 				(font
@@ -3708,7 +5048,7 @@
 			(uuid "708b8aee-8304-4201-a806-9b1f142cc984")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "C702")
 					(unit 1)
@@ -3796,7 +5136,7 @@
 			(uuid "6d436a4f-daa2-485d-82d6-28487d821a8d")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "R702")
 					(unit 1)
@@ -3883,7 +5223,7 @@
 			(uuid "a7003323-cb8a-4a28-b465-d6ffb88b06ae")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "C704")
 					(unit 1)
@@ -3971,7 +5311,7 @@
 			(uuid "94e67782-338b-4e6b-a985-ae7138d8f2e9")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "C707")
 					(unit 1)
@@ -3984,10 +5324,10 @@
 		(at 54.61 53.34 90)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "dd750bbf-19fe-4dae-ab51-afd0413f32fa")
 		(property "Reference" "D704"
 			(at 57.15 54.61 90)
@@ -4054,7 +5394,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C8678"
+		(property "LCSC" "C191023"
 			(at 54.61 53.34 0)
 			(effects
 				(font
@@ -4079,7 +5419,7 @@
 			(uuid "bdbb6bca-5ce8-4d27-97a7-0114010f8593")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "D704")
 					(unit 1)
@@ -4166,9 +5506,97 @@
 			(uuid "4dfb3777-d6de-4be2-8ce7-15e33b638465")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "C701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 180.34 137.16 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f0401db4-0d79-4bf2-9b5a-48157874b918")
+		(property "Reference" "C709"
+			(at 184.15 135.001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 184.15 137.541 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 181.3052 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16780"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c4caaa0-15c4-4726-90ba-e4b57e0d14ac")
+		)
+		(pin "2"
+			(uuid "e452559c-18d7-43ec-9cb1-46bb9059caad")
+		)
+		(instances
+			(project "xDuinoRailSwitch"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
+					(reference "C709")
 					(unit 1)
 				)
 			)
@@ -4232,7 +5660,7 @@
 			(uuid "453ad373-80e4-4ab0-bfc0-e0ceca5baa2b")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "#PWR0701")
 					(unit 1)

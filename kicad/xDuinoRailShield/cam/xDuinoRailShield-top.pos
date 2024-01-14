@@ -1,0 +1,29 @@
+### Footprint positions - created on 2024-01-04T14:09:30+0100 ###
+### Printed by KiCad version 7.99.0-4131-g55429aea6b
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val           Package                                           PosX       PosY       Rot  Side
+C702      1uF           C_0805_2012Metric_Pad1.18x1.45mm_HandSolder    39.8930    31.7500    0.0000  top
+C705      47uF          C_0805_2012Metric_Pad1.18x1.45mm_HandSolder    43.8614    31.7500  180.0000  top
+D701      SS34          D_SMA                                          32.6768    29.2930   90.0000  top
+D702      SS34          D_SMA                                          36.2369    29.1220  -90.0000  top
+D703      SS34          D_SMA                                          32.6212    21.7966   90.0000  top
+D704      SS34          D_SMA                                          36.3203    21.7966  -90.0000  top
+J106      21mtc_mrkl    PinSocket_2x11_P1.27mm_Vertical_SMD            27.4100    25.4000  180.0000  top
+Q401      S8050         SOT-23                                         39.7859    23.1925  -90.0000  top
+Q402      S8550         SOT-23                                         43.6691    22.4028   90.0000  top
+Q403      S8550         SOT-23                                         49.0757    27.3968  -90.0000  top
+Q404      S8050         SOT-23                                         45.3672    28.5476   90.0000  top
+R306      22k           R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    40.0619    20.2864    0.0000  top
+R401      20            R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    47.5368    22.8618    0.0000  top
+R402      6k8           R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    45.3672    25.3805    0.0000  top
+R403      10k           R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    49.1827    19.2708  -90.0000  top
+R801      6K8           R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    59.6900    17.7800    0.0000  top
+R802      1K            R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    64.7700    17.7800    0.0000  top
+R803      6K8           R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    59.4200    19.8706    0.0000  top
+R804      1K            R_0805_2012Metric_Pad1.20x1.40mm_HandSolder    64.7996    19.8311    0.0000  top
+U701      L78L05_SOT89  SOT-89-3                                       40.7456    27.7561  -90.0000  top
+U801      BDR6133       BDR6133                                        53.5621    23.5636    0.0000  top
+U803      ULN2003A      SOIC-16_4.55x10.3mm_P1.27mm                    61.7147    25.1864   90.0000  top
+U902      LIS3DH        LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y           45.7200    17.7800   90.0000  top
+## End

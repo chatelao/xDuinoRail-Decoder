@@ -1,0 +1,6 @@
+Hinweis: Platzierungsdatei der Vorderseite (Oberseite): "C:\Users\chatelain\Dropbox\Privat-2023\2023-11-11_DCC-EX-Shield\xDuinoRail-Decoder\kicad\xDuinoRailShield\cam\xDuinoRailShield-top.pos".
+Hinweis: Bauteilmenge: 23.
+Hinweis: Platzierungsdatei der Rückseite (Unterseite): "C:\Users\chatelain\Dropbox\Privat-2023\2023-11-11_DCC-EX-Shield\xDuinoRail-Decoder\kicad\xDuinoRailShield\cam\xDuinoRailShield-bottom.pos".
+Hinweis: Bauteilmenge: 1.
+Hinweis: Gesamtmenge der Bauteile: 24.
+Hinweis: Datei erfolgreich erstellt.

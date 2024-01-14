@@ -2071,7 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 110.49) (xy 189.23 110.49)
+			(xy 175.26 110.49) (xy 176.53 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2088,6 +2088,16 @@
 			(type default)
 		)
 		(uuid "6a04490e-b964-490c-9bb3-667701984cab")
+	)
+	(wire
+		(pts
+			(xy 184.15 110.49) (xy 189.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6abc8464-b4f5-48b1-aa87-293385882c42")
 	)
 	(wire
 		(pts
@@ -2534,7 +2544,7 @@
 		)
 		(uuid "afd3b07e-3e17-4812-b382-6745c4245b66")
 	)
-	(label "DCC0"
+	(label "DCC1"
 		(at 154.94 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2790,7 +2800,7 @@
 					(unit 1)
 				)
 			)
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "R304")
 					(unit 1)
@@ -2856,7 +2866,7 @@
 			(uuid "724a9656-da7f-4419-bcb1-264234a1fa43")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "#PWR0302")
 					(unit 1)
@@ -2953,7 +2963,7 @@
 					(unit 1)
 				)
 			)
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "Q301")
 					(unit 1)
@@ -3059,7 +3069,7 @@
 			(uuid "09146644-8276-4146-9f28-17f475887d60")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "D301")
 					(unit 1)
@@ -3125,7 +3135,7 @@
 			(uuid "75e7478e-f2b0-4bde-a0d8-38cd61c14f5c")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "#PWR0301")
 					(unit 1)
@@ -3211,7 +3221,7 @@
 			(uuid "55e9dfee-8e9d-4817-aa69-896a641ea465")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "R303")
 					(unit 1)
@@ -3277,9 +3287,95 @@
 			(uuid "0bf00965-888a-43a3-ae28-373e9ea0a6f7")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "#PWR0303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c942b88-750f-4fdc-bc2c-361fb020d18b")
+		(property "Reference" "R307"
+			(at 180.34 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 180.34 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 180.34 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 180.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 180.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4daa89e4-f8fd-4cbf-89b9-6f581c42ed6b")
+		)
+		(pin "2"
+			(uuid "55897760-4c60-41c0-b45c-de82a2610561")
+		)
+		(instances
+			(project "xDuinoRailSwitch"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
+					(reference "R307")
 					(unit 1)
 				)
 			)
@@ -3349,7 +3445,7 @@
 					(unit 1)
 				)
 			)
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "#PWR0305")
 					(unit 1)
@@ -3415,7 +3511,7 @@
 			(uuid "0e5dc68e-d463-499b-a53f-b6a7faeccb0e")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "#PWR0304")
 					(unit 1)
@@ -3510,7 +3606,7 @@
 			(uuid "2f3a24a2-59bb-40d2-b982-f4ddba56c2b8")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "U302")
 					(unit 1)
@@ -3598,7 +3694,7 @@
 			(uuid "ead6e3b3-55c0-4bab-9a61-c51ef54c0c6b")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "C301")
 					(unit 1)
@@ -3689,7 +3785,7 @@
 					(unit 1)
 				)
 			)
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "R305")
 					(unit 1)
@@ -3775,7 +3871,7 @@
 			(uuid "b4e0f137-fe61-4837-8d11-7ead80e35fde")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "R302")
 					(unit 1)
@@ -3801,7 +3897,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "10k"
 			(at 171.45 106.68 90)
 			(effects
 				(font
@@ -3809,7 +3905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 171.45 112.268 90)
 			(effects
 				(font
@@ -3836,7 +3932,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17560"
+		(property "LCSC" "C25744"
 			(at 171.45 110.49 0)
 			(effects
 				(font
@@ -3867,7 +3963,7 @@
 					(unit 1)
 				)
 			)
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "R306")
 					(unit 1)
@@ -3953,7 +4049,7 @@
 			(uuid "7797123a-99a2-480b-84e3-c8781b40eb33")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "R301")
 					(unit 1)
@@ -4057,7 +4153,7 @@
 			(uuid "efd3f613-32d0-4d76-abc0-7a63107566ab")
 		)
 		(instances
-			(project "xDuinoRailShield"
+			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "U301")
 					(unit 1)
