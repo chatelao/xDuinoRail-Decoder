@@ -4268,7 +4268,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "C1005")
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -4345,7 +4345,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "#PWR01033")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -4422,7 +4422,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "#PWR01029")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -4504,7 +4504,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "C1001")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -4585,7 +4585,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "C1006")
+					(reference "C205")
 					(unit 1)
 				)
 			)
@@ -4665,7 +4665,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "R1003")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -4741,7 +4741,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "J1002")
+					(reference "J203")
 					(unit 1)
 				)
 			)
@@ -4823,7 +4823,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "C1003")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -4900,7 +4900,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "#PWR01027")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -4983,7 +4983,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "C1004")
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -5061,7 +5061,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "#PWR01035")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -5138,7 +5138,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "#PWR01028")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -5294,7 +5294,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "R1002")
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -5371,7 +5371,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "#PWR01030")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -5627,7 +5627,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "U1003")
+					(reference "U201")
 					(unit 1)
 				)
 			)
@@ -5705,7 +5705,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "#PWR01032")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -5783,7 +5783,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "#PWR01036")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -5876,7 +5876,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "Y1001")
+					(reference "Y201")
 					(unit 1)
 				)
 			)
@@ -5952,7 +5952,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "J1003")
+					(reference "J204")
 					(unit 1)
 				)
 			)
@@ -6028,7 +6028,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "J1001")
+					(reference "J202")
 					(unit 1)
 				)
 			)
@@ -6050,7 +6050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb553d5e-dcc2-4bcc-b81b-7f502a5042f6")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0203"
 			(at 67.31 73.66 0)
 			(effects
 				(font
@@ -6100,7 +6100,7 @@
 		(instances
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "#PWR0201")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -6171,7 +6171,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "#PWR01034")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -6252,7 +6252,7 @@
 			)
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/7c0b979b-2a85-4465-a6fd-5d3c922fae7f"
-					(reference "C1012")
+					(reference "C206")
 					(unit 1)
 				)
 			)

@@ -522,14 +522,14 @@
         },
         {
           "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
@@ -570,14 +570,20 @@
         },
         {
           "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
+          "label": "Field-1",
+          "name": "Field-1",
           "show": false
         }
       ],
@@ -585,7 +591,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -646,6 +652,22 @@
     [
       "9c61104c-2ec1-445b-adeb-4b37bd3fed02",
       "central_railcom-detector"
+    ],
+    [
+      "e428b020-e8a0-4fd3-b33d-3831684b9770",
+      "loco-track-terminal_central"
+    ],
+    [
+      "869ab187-d4c3-4427-843d-f3d1f0f0aa48",
+      "loco-track-terminal_track_a"
+    ],
+    [
+      "379ceeb1-29cb-43d0-b953-00e5101be218",
+      "loco-track-terminal_track_b"
+    ],
+    [
+      "18c41d66-a08e-42bb-9b61-924b7bc9b24e",
+      "rails_signal_feedback_dcc-railcom_BC8x7"
     ]
   ],
   "text_variables": {}

@@ -485,12 +485,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "Net-(D205-K)": "PowerRail",
-      "Net-(D5-K)": "PowerRail",
-      "Net-(D705-K)": "PowerRail",
-      "Net-(D805-K)": "PowerRail"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Default",

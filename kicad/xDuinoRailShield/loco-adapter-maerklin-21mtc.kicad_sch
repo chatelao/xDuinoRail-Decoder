@@ -1349,7 +1349,19 @@
 			)
 			(justify right)
 		)
-		(uuid "2977ba99-4176-4e58-8dd5-5ca40e9fbef9")
+		(uuid "0b368a6d-1121-481d-91b5-c84a42087859")
+	)
+	(hierarchical_label "AMP_MOTOR[0..1]"
+		(shape input)
+		(at 54.61 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30d54996-f32a-419d-b08a-e834b24062ff")
 	)
 	(hierarchical_label "AMP_FUNC[0..1]"
 		(shape input)
@@ -1361,7 +1373,7 @@
 			)
 			(justify right)
 		)
-		(uuid "46441861-60e4-47fa-9966-bd0df804d3f9")
+		(uuid "5c1b81e7-470e-43a2-9e2c-b8106fb0ae89")
 	)
 	(hierarchical_label "AUX910_ZBDATA"
 		(shape input)
@@ -1387,9 +1399,9 @@
 		)
 		(uuid "7bbe2816-166a-4fb1-9309-00bb246a8627")
 	)
-	(hierarchical_label "AMP_AUX[1..7]"
+	(hierarchical_label "AUX[1..8]"
 		(shape input)
-		(at 54.61 53.34 180)
+		(at 54.61 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1397,7 +1409,7 @@
 			)
 			(justify right)
 		)
-		(uuid "82ae505a-840f-4dc6-a292-18423816c1d1")
+		(uuid "8baaa164-325f-4463-b660-4c330960b0f2")
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
@@ -1423,9 +1435,9 @@
 		)
 		(uuid "af445853-95e2-46ad-85d5-4c8323d2e229")
 	)
-	(hierarchical_label "AMP_MOTOR[0..1]"
+	(hierarchical_label "AMP_AUX[1..7]"
 		(shape input)
-		(at 54.61 38.1 180)
+		(at 54.61 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1433,7 +1445,7 @@
 			)
 			(justify right)
 		)
-		(uuid "d8d9c33c-1bb7-47b4-b1f5-f9e77b84b75c")
+		(uuid "e2712654-648c-4108-83aa-4e61a286751b")
 	)
 	(hierarchical_label "DCC[0..1]"
 		(shape bidirectional)
@@ -1445,19 +1457,7 @@
 			)
 			(justify right)
 		)
-		(uuid "eecffd76-eeb1-4c18-baea-4b1388233b67")
-	)
-	(hierarchical_label "AUX[1..8]"
-		(shape input)
-		(at 54.61 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f2fc40fa-1038-4ee8-a519-897c230ff88d")
+		(uuid "fc18fd5b-af8f-4cd0-8df4-fe89fb0064d5")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x11_Odd_Even")
@@ -1469,7 +1469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79013c8c-445d-442e-a9a9-35bc97423947")
-		(property "Reference" "J106"
+		(property "Reference" "J301"
 			(at 55.88 71.12 0)
 			(effects
 				(font
@@ -1581,7 +1581,7 @@
 		(instances
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/ec041cac-ba8a-4e39-a1e2-0637cb1a7f49"
-					(reference "J106")
+					(reference "J301")
 					(unit 1)
 				)
 			)
@@ -1609,7 +1609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c93b903e-d280-47a3-820f-4b8eb7960a63")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0301"
 			(at 92.71 93.98 0)
 			(effects
 				(font
@@ -1659,7 +1659,7 @@
 		(instances
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/ec041cac-ba8a-4e39-a1e2-0637cb1a7f49"
-					(reference "#PWR0103")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)

@@ -222,9 +222,31 @@
 			)
 		)
 	)
+	(junction
+		(at 245.11 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "597a974f-3dee-4544-9e3b-ff53de4078ac")
+	)
+	(junction
+		(at 245.11 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e384f43-b570-4c8a-9876-c51958b9b2b1")
+	)
+	(bus
+		(pts
+			(xy 231.14 58.42) (xy 245.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d61479-4d32-4c72-be07-f26aab55cfbc")
+	)
 	(wire
 		(pts
-			(xy 72.39 59.69) (xy 72.39 64.77)
+			(xy 43.18 58.42) (xy 43.18 63.5)
 		)
 		(stroke
 			(width 0)
@@ -232,9 +254,69 @@
 		)
 		(uuid "0b828c98-9469-4bb3-809c-32b558445189")
 	)
+	(bus
+		(pts
+			(xy 245.11 58.42) (xy 245.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf58ad0-9a41-4092-9ee9-8306b5f15c15")
+	)
+	(bus
+		(pts
+			(xy 245.11 87.63) (xy 245.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f629f0-837a-48b4-9df2-e306af44da96")
+	)
+	(bus
+		(pts
+			(xy 245.11 58.42) (xy 251.46 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d654df7-e54f-48c2-bf4c-3622ab45f968")
+	)
+	(bus
+		(pts
+			(xy 182.88 45.72) (xy 201.93 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82988464-88c7-441c-b3d1-c290d9990c0b")
+	)
+	(bus
+		(pts
+			(xy 245.11 86.36) (xy 227.33 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73601cb-0cfd-47a9-8a79-96fbd73dab06")
+	)
+	(bus
+		(pts
+			(xy 231.14 31.75) (xy 251.46 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c3325a-88f7-49ea-b09c-8d5626e9e044")
+	)
 	(wire
 		(pts
-			(xy 76.2 33.02) (xy 76.2 35.56)
+			(xy 46.99 31.75) (xy 46.99 34.29)
 		)
 		(stroke
 			(width 0)
@@ -242,9 +324,42 @@
 		)
 		(uuid "fbbbfd62-0ed8-47ca-a691-c9e29ca7e39d")
 	)
+	(label "TRACK_A[0..1]"
+		(at 232.41 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37403eab-b9f2-4e7b-9902-9d253625f108")
+	)
+	(label "CENTRAL[0..1]"
+		(at 185.42 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4732f038-c13b-4259-9d9f-3f00b92068c7")
+	)
+	(label "TRACK_B[0..1]"
+		(at 232.41 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "634299d8-d3b5-4109-948b-bdec76f8ba1d")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 64.77 0)
+		(at 43.18 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -253,7 +368,7 @@
 		(fields_autoplaced yes)
 		(uuid "059588e4-bd49-4922-b99c-3d2a3da0b493")
 		(property "Reference" "#PWR0101"
-			(at 72.39 71.12 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -262,7 +377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 69.85 0)
+			(at 43.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -270,7 +385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 64.77 0)
+			(at 43.18 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -279,7 +394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 64.77 0)
+			(at 43.18 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -288,7 +403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 64.77 0)
+			(at 43.18 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,7 +425,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 76.2 33.02 0)
+		(at 46.99 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -319,7 +434,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa22dba3-a783-4a43-a3dd-1c3233f4d90b")
 		(property "Reference" "#PWR0102"
-			(at 76.2 36.83 0)
+			(at 46.99 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,7 +443,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 76.2 27.94 0)
+			(at 46.99 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,7 +451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 33.02 0)
+			(at 46.99 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -345,7 +460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 33.02 0)
+			(at 46.99 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -354,7 +469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 76.2 33.02 0)
+			(at 46.99 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -375,7 +490,133 @@
 		)
 	)
 	(sheet
-		(at 53.34 35.56)
+		(at 203.2 76.2)
+		(size 24.13 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18c41d66-a08e-42bb-9b61-924b7bc9b24e")
+		(property "Sheetname" "rails_signal_feedback_dcc-railcom_BC8x7"
+			(at 203.2 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rails_signal_feedback_dcc-railcom_BC8x7.kicad_sch"
+			(at 203.2 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DCC[0..1]" output
+			(at 227.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a9c9c12e-49fc-4d1e-8873-ac0f5a3ed6da")
+		)
+		(pin "GND" input
+			(at 218.44 97.79 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "30d36487-238c-4321-bff2-cea88eb52a5c")
+		)
+		(pin "+3V3" input
+			(at 218.44 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "382e7960-1e8b-4818-835f-b880e01f21cf")
+		)
+		(pin "RAILCOM_DATA" input
+			(at 203.2 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc4568b4-6d3b-4475-adbf-9e60c1318844")
+		)
+		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 251.46 50.8)
+		(size 21.59 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "379ceeb1-29cb-43d0-b953-00e5101be218")
+		(property "Sheetname" "loco-track-terminal_track_b"
+			(at 251.46 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loco-track-terminal.kicad_sch"
+			(at 251.46 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DCC[0..1]" bidirectional
+			(at 251.46 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bda47778-c79f-496e-8987-5c01d6b37900")
+		)
+		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 34.29)
 		(size 31.75 24.13)
 		(fields_autoplaced yes)
 		(stroke
@@ -387,7 +628,7 @@
 		)
 		(uuid "7c0b979b-2a85-4465-a6fd-5d3c922fae7f")
 		(property "Sheetname" "mcu_rp2040-onboard"
-			(at 53.34 34.8484 0)
+			(at 24.13 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -396,7 +637,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_rp2040-onboard.kicad_sch"
-			(at 53.34 60.2746 0)
+			(at 24.13 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -405,7 +646,7 @@
 			)
 		)
 		(pin "FLASH_SS" output
-			(at 53.34 49.53 180)
+			(at 24.13 48.26 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -415,7 +656,7 @@
 			(uuid "40d64b53-70ca-43cf-8eeb-17b5e9644dfa")
 		)
 		(pin "FLASH_SD[0..3]" output
-			(at 53.34 52.07 180)
+			(at 24.13 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -425,7 +666,7 @@
 			(uuid "12660787-de70-4add-b30c-4a45391432cb")
 		)
 		(pin "FLASH_SCLK" output
-			(at 53.34 54.61 180)
+			(at 24.13 53.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -435,7 +676,7 @@
 			(uuid "ddf39746-2cfc-401a-a09a-50a9a1c0a31a")
 		)
 		(pin "GPIO[0..29]" output
-			(at 85.09 46.99 0)
+			(at 55.88 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -445,7 +686,7 @@
 			(uuid "107ef16e-0b03-468d-901d-9ea922fc59e4")
 		)
 		(pin "ADC[0..3]" output
-			(at 85.09 49.53 0)
+			(at 55.88 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -455,7 +696,7 @@
 			(uuid "718c9a9d-e6d5-4cf0-a21f-6240f584311f")
 		)
 		(pin "+3V3" bidirectional
-			(at 76.2 35.56 90)
+			(at 46.99 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -465,7 +706,7 @@
 			(uuid "30aba0ce-e459-4313-a406-92667c9020f4")
 		)
 		(pin "GND" bidirectional
-			(at 72.39 59.69 270)
+			(at 43.18 58.42 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -483,7 +724,55 @@
 		)
 	)
 	(sheet
-		(at 62.23 153.67)
+		(at 251.46 16.51)
+		(size 21.59 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "869ab187-d4c3-4427-843d-f3d1f0f0aa48")
+		(property "Sheetname" "loco-track-terminal_track_a"
+			(at 251.46 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loco-track-terminal.kicad_sch"
+			(at 251.46 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DCC[0..1]" bidirectional
+			(at 251.46 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d5e79a0-bc9f-4e04-b946-ac09f4d56799")
+		)
+		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 27.94)
 		(size 29.21 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -495,7 +784,7 @@
 		)
 		(uuid "9c61104c-2ec1-445b-adeb-4b37bd3fed02")
 		(property "Sheetname" "central_railcom-detector"
-			(at 62.23 152.9584 0)
+			(at 201.93 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -504,13 +793,63 @@
 			)
 		)
 		(property "Sheetfile" "central_railcom-detector.kicad_sch"
-			(at 62.23 192.3546 0)
+			(at 201.93 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "DCC_CTRL[0..1]" bidirectional
+			(at 201.93 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a93558e-b8ce-4161-b7ac-322734c1fad8")
+		)
+		(pin "DCC_TRACK_A[0..1]" bidirectional
+			(at 231.14 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ce449bfb-0708-4fab-8d42-dc50dccab957")
+		)
+		(pin "RC_TRACK_A[0..1]" bidirectional
+			(at 201.93 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "984eb99f-45aa-4d6b-8ecf-5b167f45b377")
+		)
+		(pin "DCC_TRACK_B[0..1]" bidirectional
+			(at 231.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5d4b303f-e01a-4bc8-846c-4a4fe5b38246")
+		)
+		(pin "RC_TRACK_B[0..1]" bidirectional
+			(at 201.93 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2292fe34-92dc-4fbf-ac4a-1561a12c06ee")
 		)
 		(instances
 			(project "xDuinoRail-Debug"
@@ -521,7 +860,7 @@
 		)
 	)
 	(sheet
-		(at 237.49 77.47)
+		(at 76.2 69.85)
 		(size 29.21 35.56)
 		(fields_autoplaced yes)
 		(stroke
@@ -533,7 +872,7 @@
 		)
 		(uuid "a25ef325-35c0-450e-895f-b05e76b53aca")
 		(property "Sheetname" "loco-adapter-nem651-6-pin"
-			(at 237.49 76.7584 0)
+			(at 76.2 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -542,7 +881,7 @@
 			)
 		)
 		(property "Sheetfile" "loco-adapter-nem651-6-pin.kicad_sch"
-			(at 237.49 113.6146 0)
+			(at 76.2 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -559,7 +898,55 @@
 		)
 	)
 	(sheet
-		(at 237.49 29.21)
+		(at 161.29 39.37)
+		(size 21.59 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e428b020-e8a0-4fd3-b33d-3831684b9770")
+		(property "Sheetname" "loco-track-terminal_central"
+			(at 161.29 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loco-track-terminal.kicad_sch"
+			(at 161.29 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DCC[0..1]" bidirectional
+			(at 182.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c227094d-73be-49a2-a0b0-51444a53ed40")
+		)
+		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 21.59)
 		(size 29.21 36.83)
 		(fields_autoplaced yes)
 		(stroke
@@ -571,7 +958,7 @@
 		)
 		(uuid "ec041cac-ba8a-4e39-a1e2-0637cb1a7f49")
 		(property "Sheetname" "loco-adapter-maerklin-21mtc"
-			(at 237.49 28.4984 0)
+			(at 76.2 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -580,7 +967,7 @@
 			)
 		)
 		(property "Sheetfile" "loco-adapter-maerklin-21mtc.kicad_sch"
-			(at 237.49 66.6246 0)
+			(at 76.2 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
