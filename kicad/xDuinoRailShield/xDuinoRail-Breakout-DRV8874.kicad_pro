@@ -462,7 +462,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.381,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -479,7 +479,7 @@
         "name": "DCC_Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.381,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -493,8 +493,13 @@
       "+3V3": "rgb(255, 55, 210)",
       "+U": "rgb(145, 46, 255)",
       "+VBUS_H": "rgb(40, 244, 255)",
+      "+VIN": "rgb(255, 54, 37)",
+      "/BRAKE": "rgb(120, 41, 46)",
       "/CENTRAL0": "rgb(255, 251, 158)",
       "/CENTRAL1": "rgb(255, 206, 46)",
+      "/DCC0": "rgb(249, 255, 8)",
+      "/DCC1": "rgb(236, 209, 32)",
+      "/PWM": "rgb(91, 169, 255)",
       "/TRACK_A0": "rgb(255, 228, 59)",
       "/TRACK_B0": "rgb(255, 194, 55)",
       "/USB_DM": "rgb(252, 253, 255)",
@@ -502,6 +507,7 @@
       "/centrale-driver-8874/PWM": "rgb(145, 46, 255)",
       "GND": "rgb(123, 123, 123)",
       "Net-(C1702-Pad1)": "rgb(255, 228, 59)",
+      "Net-(D103-A)": "rgb(145, 46, 255)",
       "unconnected-(A501-A3-Pad22)": "rgb(255, 228, 59)",
       "unconnected-(A501-~{RESET}-Pad28)": "rgb(255, 251, 158)",
       "unconnected-(A901-A3-Pad22)": "rgb(255, 228, 59)",
@@ -509,7 +515,9 @@
     },
     "netclass_assignments": {
       "/DCC0": "PWR",
-      "/DCC1": "PWR"
+      "/DCC1": "PWR",
+      "/centrale-driver-8874/DCC0": "PWR",
+      "/centrale-driver-8874/DCC1": "PWR"
     },
     "netclass_patterns": [
       {
@@ -610,7 +618,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

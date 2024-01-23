@@ -231,175 +231,6 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -667,197 +498,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Jumper:SolderJumper_2_Bridged"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_0_1"
-				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1691,16 +1331,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 83.82) (xy 158.75 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25ac0ffc-bfa7-4cc4-88a9-fb1c9a002acd")
-	)
-	(wire
-		(pts
 			(xy 59.69 55.88) (xy 71.12 55.88)
 		)
 		(stroke
@@ -1971,16 +1601,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 83.82) (xy 175.26 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e83134e-71af-4e19-94c4-611614892546")
-	)
-	(wire
-		(pts
 			(xy 158.75 59.69) (xy 177.8 59.69)
 		)
 		(stroke
@@ -2058,16 +1678,6 @@
 			(type default)
 		)
 		(uuid "ce1eb017-665e-43e7-96fc-aafe784e776d")
-	)
-	(wire
-		(pts
-			(xy 152.4 83.82) (xy 152.4 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d242a421-7d21-4cd3-96c5-12c89275fe4b")
 	)
 	(wire
 		(pts
@@ -2260,18 +1870,6 @@
 		)
 		(uuid "132b29dd-180a-4f14-a732-72c9b9831161")
 	)
-	(hierarchical_label "RAILCOM_DATA"
-		(shape input)
-		(at 175.26 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a6dd3fba-a517-43da-8e46-1edbf0295d4f")
-	)
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 111.76 48.26 0)
@@ -2417,31 +2015,46 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 86.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 86.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 86.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "ac1d5d81-bfa7-4934-911b-1183d8695bca")
+			(uuid "8b77adc9-46c3-4fb9-93c4-e0cd852a82cc")
 		)
 		(pin "2"
-			(uuid "2200d57d-3b2c-4b2f-867f-5afd3bd05d02")
+			(uuid "7a959e3c-cad3-4db2-ad6e-4fc5873d8cf6")
 		)
 		(pin "3"
-			(uuid "bd5b1799-54a4-4ae2-9dd4-34b7e42df918")
+			(uuid "c00c9570-04d4-4a0b-b2a6-240ba9c23bd6")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/2953c156-b0e9-4c50-bb04-afd737c2b019"
 					(reference "Q403")
-					(unit 1)
-				)
-			)
-			(project "rails_signal_feedback_dcc-railcom-8x50_3v3"
-				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailSwitch"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8dbd326e-72bb-40d4-858a-dc9fedaab895"
-					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -2520,94 +2133,52 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "10R_0805"
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "d041c51b-5603-4def-bd33-041661714cd1")
+			(uuid "262b8bc1-991e-4a34-b6a5-a6bc5f466fe7")
 		)
 		(pin "2"
-			(uuid "43b19c2f-12dd-430c-b7e6-b84f9db3eef3")
+			(uuid "8eb9344f-fbf1-4175-91a0-45f792b0787e")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/2953c156-b0e9-4c50-bb04-afd737c2b019"
 					(reference "R401")
-					(unit 1)
-				)
-			)
-			(project "rails_signal_feedback_dcc-railcom-8x50_3v3"
-				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailSwitch"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8dbd326e-72bb-40d4-858a-dc9fedaab895"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 152.4 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06daaaf7-6603-4df4-8376-0b649a23055f")
-		(property "Reference" "#PWR0403"
-			(at 152.4 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.4 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0d13db7-3d83-40b7-8f43-822dfaa60de8")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
-					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -2697,169 +2268,46 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "255afb16-ebf4-45d0-a72b-426c0649c19f")
+			(uuid "1916d155-92ae-4a37-b8e0-9e157707ba67")
 		)
 		(pin "2"
-			(uuid "18573deb-e716-4bb9-9952-ad7b67d538ec")
+			(uuid "508b8a5e-a41f-4951-85fb-0bfce1fdde5b")
 		)
 		(pin "3"
-			(uuid "ad23d5d5-9035-4074-8e7a-91a7386f1b08")
+			(uuid "849fa5bd-c8bc-430d-9377-ab2fe2216a1a")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/2953c156-b0e9-4c50-bb04-afd737c2b019"
 					(reference "Q402")
-					(unit 1)
-				)
-			)
-			(project "rails_signal_feedback_dcc-railcom-8x50_3v3"
-				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailSwitch"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8dbd326e-72bb-40d4-858a-dc9fedaab895"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 162.56 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15ac0b78-8a87-4eab-9225-a6a66790bfb1")
-		(property "Reference" "JP401"
-			(at 162.56 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 162.56 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
-			(at 162.56 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 162.56 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8194376-0859-4790-90e8-ebed59448feb")
-		)
-		(pin "2"
-			(uuid "3a97694d-4cc9-4743-ab0d-2376b3f752fc")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
-					(reference "JP401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 152.4 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21004745-3627-4661-b6b2-ee5268c5e5c5")
-		(property "Reference" "R406"
-			(at 154.94 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 154.94 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 150.622 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 152.4 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "30d762ac-ad33-47b6-afa8-f1c19783cce8")
-		)
-		(pin "1"
-			(uuid "8a11513c-f387-4505-9bc8-37562180d931")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
-					(reference "R406")
 					(unit 1)
 				)
 			)
@@ -2938,28 +2386,52 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 71.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 71.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 71.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "10R_0805"
+			(at 71.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "764775e6-292e-4137-8b57-006a1f44a5c4")
+			(uuid "10fb229e-5613-46a4-9e91-9d2e36660330")
 		)
 		(pin "2"
-			(uuid "126d5a92-ac3f-4bfc-908f-7075a109ac42")
+			(uuid "e635c7f6-acad-4b1c-aee8-b2142d264a72")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/2953c156-b0e9-4c50-bb04-afd737c2b019"
 					(reference "R402")
-					(unit 1)
-				)
-			)
-			(project "rails_signal_feedback_dcc-railcom-8x50_3v3"
-				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailSwitch"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8dbd326e-72bb-40d4-858a-dc9fedaab895"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -3020,18 +2492,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "71958bf7-1dc2-4f03-b269-012f6d0e10cd")
+			(uuid "02f1e299-1907-4f21-a4e2-0914d16f8f15")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/2953c156-b0e9-4c50-bb04-afd737c2b019"
 					(reference "#PWR0402")
-					(unit 1)
-				)
-			)
-			(project "rails_signal_feedback_dcc-railcom-8x50_3v3"
-				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3110,28 +2576,52 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "10R_0805"
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "30eaadac-1f0c-4887-8f4d-19e9fdd29e50")
+			(uuid "29e3256d-2a41-43d9-97b1-d96d486bc369")
 		)
 		(pin "2"
-			(uuid "a02d8737-ad85-4edb-b12d-b932c34ad4fb")
+			(uuid "11eb4b6a-563b-4f99-a2b0-e8d7616af992")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/2953c156-b0e9-4c50-bb04-afd737c2b019"
 					(reference "R403")
-					(unit 1)
-				)
-			)
-			(project "rails_signal_feedback_dcc-railcom-8x50_3v3"
-				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailSwitch"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8dbd326e-72bb-40d4-858a-dc9fedaab895"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -3222,31 +2712,46 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 63.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 63.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 63.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "e1c08757-3739-4a33-88c8-2beb212b78ca")
+			(uuid "2c2f011d-c3d0-4725-8883-ec208dd52c14")
 		)
 		(pin "2"
-			(uuid "0160ccb4-995b-4255-a839-d5cd2f45dd4e")
+			(uuid "281abe1c-f197-46d6-ba27-a0d8e0124ad7")
 		)
 		(pin "3"
-			(uuid "f7952407-e06c-47b0-a111-4ff22044df19")
+			(uuid "bd385af6-07fb-4fc1-8fce-427d4e30154a")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/2953c156-b0e9-4c50-bb04-afd737c2b019"
 					(reference "Q401")
-					(unit 1)
-				)
-			)
-			(project "rails_signal_feedback_dcc-railcom-8x50_3v3"
-				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailSwitch"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8dbd326e-72bb-40d4-858a-dc9fedaab895"
-					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -3332,34 +2837,43 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "e9657747-da3e-4f59-9bed-0b7a92594cb3")
+			(uuid "356a71fd-00ab-4de5-9aa2-0f81d3aee751")
 		)
 		(pin "2"
-			(uuid "ef13a790-2de3-4bb4-a869-a0200d0160a3")
+			(uuid "9122bc0d-3d15-48a2-9e29-6be9f4eba431")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/2953c156-b0e9-4c50-bb04-afd737c2b019"
 					(reference "R405")
-					(unit 1)
-				)
-			)
-			(project "rails_signal_feedback_dcc-railcom-8x50_3v3"
-				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "DecoderInputStages"
-				(path "/d655cdba-9804-4737-91eb-8abf65eedb18"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailSwitch"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8dbd326e-72bb-40d4-858a-dc9fedaab895"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -3450,31 +2964,46 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 110.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 110.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 110.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "9aeba180-66e9-4ac7-96e4-92e44174b705")
+			(uuid "456d4d7f-3f7c-4056-ab13-4e449968404d")
 		)
 		(pin "2"
-			(uuid "7abcb48a-c22d-41a7-a875-f5b7324df2e5")
+			(uuid "a7b583e0-c285-458a-9c4f-9a95770a84d7")
 		)
 		(pin "3"
-			(uuid "13551ecd-5c1e-414c-a683-0089cafc9e6a")
+			(uuid "2b90bcd8-1874-469b-abda-3499d784bf22")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/2953c156-b0e9-4c50-bb04-afd737c2b019"
 					(reference "Q404")
-					(unit 1)
-				)
-			)
-			(project "rails_signal_feedback_dcc-railcom-8x50_3v3"
-				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailSwitch"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8dbd326e-72bb-40d4-858a-dc9fedaab895"
-					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -3535,100 +3064,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "166a378f-ef92-42f0-9d03-d8a22bb163ab")
+			(uuid "e7d0eed0-1aa3-41fb-adaf-88f507785570")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/2953c156-b0e9-4c50-bb04-afd737c2b019"
 					(reference "#PWR0401")
-					(unit 1)
-				)
-			)
-			(project "rails_signal_feedback_dcc-railcom-8x50_3v3"
-				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "DecoderInputStages"
-				(path "/d655cdba-9804-4737-91eb-8abf65eedb18"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailSwitch"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8dbd326e-72bb-40d4-858a-dc9fedaab895"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 152.4 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4c83e37-a291-492c-a2d0-fbd6ff5690a2")
-		(property "Reference" "D402"
-			(at 156.21 96.8374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 156.21 99.3774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 152.4 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 152.4 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a359d727-1f61-4587-8275-03ecf8e54ab9")
-		)
-		(pin "1"
-			(uuid "83079f64-2878-4fa8-adc9-9a9b8f697849")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
-					(reference "D402")
 					(unit 1)
 				)
 			)
@@ -3714,34 +3155,43 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "493d8f8d-c599-4b87-bdd7-75ff8d77ce85")
+			(uuid "47af2c71-febc-4d0f-ad1a-5ea45638e0e8")
 		)
 		(pin "2"
-			(uuid "2133c8f8-992c-448b-8a40-3a81ac05f8cc")
+			(uuid "74f2bb44-7d7d-420c-91cf-fc9397e961d5")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/2953c156-b0e9-4c50-bb04-afd737c2b019"
 					(reference "R404")
-					(unit 1)
-				)
-			)
-			(project "rails_signal_feedback_dcc-railcom-8x50_3v3"
-				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "DecoderInputStages"
-				(path "/d655cdba-9804-4737-91eb-8abf65eedb18"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailSwitch"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8dbd326e-72bb-40d4-858a-dc9fedaab895"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -3753,9 +3203,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c70e39b1-2112-4f16-a400-359149d6b01c")
 		(property "Reference" "J401"
 			(at 151.13 55.8799 0)
@@ -3802,24 +3252,51 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 153.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 153.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 153.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
-			(uuid "eb207efd-f647-4954-9677-7ce379f56940")
+			(uuid "04199c60-481a-4a84-88d4-b8ede326f123")
 		)
 		(pin "4"
-			(uuid "4b879ad3-16d6-4f94-ac33-5f6c0651530d")
+			(uuid "73c5a0ab-f0ce-4f41-ae5f-69877d51f94b")
 		)
 		(pin "2"
-			(uuid "ee1a33d5-aba8-4e77-b0e4-866e0d5f0204")
+			(uuid "5b9eec2d-e569-4b99-8a7b-b5217267ec16")
 		)
 		(pin "1"
-			(uuid "83efc55b-4912-4457-9c2f-e7faab367773")
+			(uuid "98170bc6-8a04-4844-b2b6-7e85f0c890be")
 		)
 		(pin "5"
-			(uuid "6a3fbe29-d95d-4880-8c6c-eb99dd3179c3")
+			(uuid "424775cb-ce3a-4c50-ba57-2779d1ec9d3c")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/2953c156-b0e9-4c50-bb04-afd737c2b019"
 					(reference "J401")
 					(unit 1)
 				)
@@ -3926,28 +3403,43 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 60.96 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 60.96 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 60.96 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "b8bd013d-17de-46a8-9acb-9fa8bd597261")
+			(uuid "fd05a52a-d3c1-45c2-898a-f2a47516e5bc")
 		)
 		(pin "1"
-			(uuid "8b89ecd9-e1a9-49c5-8e19-b770297be7ec")
+			(uuid "2ecdbd20-4a70-406e-b095-9a5fdf6d01cf")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/c26b2be2-b4d9-462d-a2f7-a5c9a0731a86"
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/2953c156-b0e9-4c50-bb04-afd737c2b019"
 					(reference "D401")
-					(unit 1)
-				)
-			)
-			(project "rails_signal_feedback_dcc-railcom-8x50_3v3"
-				(path "/6d7aefd8-fcb8-4935-b99c-c7045c3b702f"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailSwitch"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8dbd326e-72bb-40d4-858a-dc9fedaab895"
-					(reference "D?")
 					(unit 1)
 				)
 			)
