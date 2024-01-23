@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "a2eb98cc-2269-4640-86d6-954ead8d7595")
 	(paper "A4")
 	(lib_symbols
@@ -1478,7 +1478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b461b9-6fde-4733-a704-e48791a1b484")
-		(property "Reference" "#PWR0903"
+		(property "Reference" "#PWR0703"
 			(at 78.74 50.8 0)
 			(effects
 				(font
@@ -1526,9 +1526,15 @@
 			(uuid "8da7b537-a3cf-44ca-be13-d91faec427ae")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a9360f8b-b1cc-42f1-9c21-011e70a7c774"
+					(reference "#PWR0703")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0bfd6d18-10ce-426c-863e-9c05fb8adf3f"
-					(reference "#PWR0903")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1544,7 +1550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "104bfac7-38f7-4f75-9bac-a8e089b22df7")
-		(property "Reference" "#PWR0907"
+		(property "Reference" "#PWR0707"
 			(at 166.37 49.53 0)
 			(effects
 				(font
@@ -1592,9 +1598,15 @@
 			(uuid "60ced395-873d-4836-bf7e-e9d6894ef5f0")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a9360f8b-b1cc-42f1-9c21-011e70a7c774"
+					(reference "#PWR0707")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0bfd6d18-10ce-426c-863e-9c05fb8adf3f"
-					(reference "#PWR0907")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1610,7 +1622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19dc9bdf-b8a9-4b0b-919d-9b3145b8f6e8")
-		(property "Reference" "U902"
+		(property "Reference" "U702"
 			(at 166.0241 78.74 0)
 			(effects
 				(font
@@ -1656,6 +1668,15 @@
 			)
 		)
 		(property "LCSC" "C15134"
+			(at 163.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "LIS3DH_LGA-16"
 			(at 163.83 63.5 0)
 			(effects
 				(font
@@ -1713,9 +1734,15 @@
 			(uuid "6fc39725-14f9-42b5-9fe5-457f09cdb742")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a9360f8b-b1cc-42f1-9c21-011e70a7c774"
+					(reference "U702")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0bfd6d18-10ce-426c-863e-9c05fb8adf3f"
-					(reference "U902")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -1731,7 +1758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23d84a36-3273-4638-b2bc-fa4ffbf9c253")
-		(property "Reference" "#PWR0901"
+		(property "Reference" "#PWR0701"
 			(at 46.99 63.5 0)
 			(effects
 				(font
@@ -1779,9 +1806,15 @@
 			(uuid "6f325ef2-dd25-4e6d-8a9d-1400c0af3175")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a9360f8b-b1cc-42f1-9c21-011e70a7c774"
+					(reference "#PWR0701")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0bfd6d18-10ce-426c-863e-9c05fb8adf3f"
-					(reference "#PWR0901")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1797,7 +1830,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "25ea1956-69d8-48bd-b62e-6ad31bd381c6")
-		(property "Reference" "C901"
+		(property "Reference" "C701"
 			(at 96.52 59.69 90)
 			(effects
 				(font
@@ -1813,7 +1846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 100.33 66.3448 0)
 			(effects
 				(font
@@ -1840,6 +1873,15 @@
 				(hide yes)
 			)
 		)
+		(property "OLI_ID" "100nF_0805"
+			(at 96.52 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "76972f66-fd4a-4d09-ae40-472582267eff")
 		)
@@ -1847,9 +1889,15 @@
 			(uuid "2e4652e5-5293-4a82-9df4-e041aef57eac")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a9360f8b-b1cc-42f1-9c21-011e70a7c774"
+					(reference "C701")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0bfd6d18-10ce-426c-863e-9c05fb8adf3f"
-					(reference "C901")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -1865,7 +1913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "820e8f79-e6c4-4432-9d0e-4962d653dc6f")
-		(property "Reference" "#PWR0902"
+		(property "Reference" "#PWR0702"
 			(at 76.2 87.63 0)
 			(effects
 				(font
@@ -1913,9 +1961,15 @@
 			(uuid "81522073-d024-499d-ad4b-5351824f303e")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a9360f8b-b1cc-42f1-9c21-011e70a7c774"
+					(reference "#PWR0702")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0bfd6d18-10ce-426c-863e-9c05fb8adf3f"
-					(reference "#PWR0902")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1931,7 +1985,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8cf66646-316e-4977-9fce-36363e647419")
-		(property "Reference" "U901"
+		(property "Reference" "U701"
 			(at 78.3941 77.47 0)
 			(effects
 				(font
@@ -2022,9 +2076,15 @@
 			(uuid "a7a06be1-3115-44e4-b8bd-721a13523b13")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a9360f8b-b1cc-42f1-9c21-011e70a7c774"
+					(reference "U701")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0bfd6d18-10ce-426c-863e-9c05fb8adf3f"
-					(reference "U901")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -2040,7 +2100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd90a812-4290-47ec-a8af-6fa9e69620ad")
-		(property "Reference" "#PWR0904"
+		(property "Reference" "#PWR0704"
 			(at 102.87 77.47 0)
 			(effects
 				(font
@@ -2088,9 +2148,15 @@
 			(uuid "efd4cfd0-21d9-4049-8c10-412163ad3fb9")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a9360f8b-b1cc-42f1-9c21-011e70a7c774"
+					(reference "#PWR0704")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0bfd6d18-10ce-426c-863e-9c05fb8adf3f"
-					(reference "#PWR0904")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2106,7 +2172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0ba0097-1f61-408d-85c5-70e119ebb61c")
-		(property "Reference" "#PWR0905"
+		(property "Reference" "#PWR0705"
 			(at 133.35 71.12 0)
 			(effects
 				(font
@@ -2154,9 +2220,15 @@
 			(uuid "7f877416-ccfa-47f4-89db-d3fbd17be16a")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a9360f8b-b1cc-42f1-9c21-011e70a7c774"
+					(reference "#PWR0705")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0bfd6d18-10ce-426c-863e-9c05fb8adf3f"
-					(reference "#PWR0905")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2172,7 +2244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4987ffe-e9f8-47c8-915e-f7e43d2010b1")
-		(property "Reference" "#PWR0906"
+		(property "Reference" "#PWR0706"
 			(at 163.83 87.63 0)
 			(effects
 				(font
@@ -2220,9 +2292,15 @@
 			(uuid "452d31ea-ad23-44a6-9260-58d0bb7b0969")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a9360f8b-b1cc-42f1-9c21-011e70a7c774"
+					(reference "#PWR0706")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0bfd6d18-10ce-426c-863e-9c05fb8adf3f"
-					(reference "#PWR0906")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)

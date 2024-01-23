@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "0ed6639a-cde6-4452-b9e1-77c370bade86")
 	(paper "A4")
 	(lib_symbols
@@ -350,7 +350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "518a93f3-1d42-41dc-8092-13e0696edd79")
-		(property "Reference" "D701"
+		(property "Reference" "D?"
 			(at 48.26 43.18 90)
 			(effects
 				(font
@@ -413,15 +413,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C191023"
-			(at 50.8 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field-1" ""
 			(at 50.8 41.91 0)
 			(effects
@@ -440,13 +431,19 @@
 		(instances
 			(project "power_ac-dc-bridge-light"
 				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
-					(reference "D701")
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/bf7aab3b-3930-4bc3-865d-386c1fe7edc1"
+					(reference "D1301")
 					(unit 1)
 				)
 			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
-					(reference "D701")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -461,7 +458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74843875-5f68-4b9c-8fc1-aa316926ad5d")
-		(property "Reference" "D702"
+		(property "Reference" "D?"
 			(at 55.88 31.75 0)
 			(effects
 				(font
@@ -522,15 +519,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C191023"
-			(at 55.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field-1" ""
 			(at 55.88 38.1 0)
 			(effects
@@ -549,13 +537,19 @@
 		(instances
 			(project "power_ac-dc-bridge-light"
 				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
-					(reference "D702")
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/bf7aab3b-3930-4bc3-865d-386c1fe7edc1"
+					(reference "D1302")
 					(unit 1)
 				)
 			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
-					(reference "D702")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -571,7 +565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab26fca9-2585-48bf-bed9-dd07b797cfb3")
-		(property "Reference" "D703"
+		(property "Reference" "D?"
 			(at 55.88 52.07 0)
 			(effects
 				(font
@@ -632,15 +626,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C191023"
-			(at 55.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field-1" ""
 			(at 55.88 45.72 0)
 			(effects
@@ -659,13 +644,19 @@
 		(instances
 			(project "power_ac-dc-bridge-light"
 				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
-					(reference "D703")
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/bf7aab3b-3930-4bc3-865d-386c1fe7edc1"
+					(reference "D1303")
 					(unit 1)
 				)
 			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
-					(reference "D703")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -681,7 +672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd750bbf-19fe-4dae-ab51-afd0413f32fa")
-		(property "Reference" "D704"
+		(property "Reference" "D?"
 			(at 62.23 43.18 90)
 			(effects
 				(font
@@ -746,15 +737,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C191023"
-			(at 59.69 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field-1" ""
 			(at 59.69 41.91 0)
 			(effects
@@ -773,21 +755,22 @@
 		(instances
 			(project "power_ac-dc-bridge-light"
 				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
-					(reference "D704")
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/bf7aab3b-3930-4bc3-865d-386c1fe7edc1"
+					(reference "D1304")
 					(unit 1)
 				)
 			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
-					(reference "D704")
+					(reference "D?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )

@@ -9376,7 +9376,7 @@
 		(property "Reference" "U501"
 			(at 9.3345 21.7805 90)
 			(layer "B.SilkS")
-			(uuid "459b5f7d-2fe5-4e34-b41c-5bfeea5629f0")
+			(uuid "0664f116-57a6-4b9c-8e0c-174f8cb399a9")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -9388,7 +9388,7 @@
 		(property "Value" "MOUDLE-SEEEDUINO-XIAO-ESP32C3"
 			(at 8.89 10.795 90)
 			(layer "B.Fab")
-			(uuid "20a7a457-eaf3-4511-a007-fb3d6b734678")
+			(uuid "5bdfe457-6674-4bc5-a3a5-0f9e7a3abd24")
 			(effects
 				(font
 					(size 0.48 0.48)
@@ -9402,7 +9402,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7a4a61f6-55fa-4bfc-86e4-5d49405619c1")
+			(uuid "d4009cac-81aa-4725-8166-165ff251ec26")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9415,7 +9415,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a8b55665-cf70-4911-b5f6-8aa5c2f406fd")
+			(uuid "0f070ee0-2aea-493d-8226-054d93667038")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9428,7 +9428,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1e74a3ff-313d-448b-9179-842e643ff984")
+			(uuid "676bbe04-df22-426c-a143-247971ee021c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9451,8 +9451,6 @@
 			)
 		)
 		(path "/73623b68-3f11-49c2-b33b-f7aef9e34c5f/4bbbb0e8-54c0-4fb0-8c0d-18b287b511bb")
-		(sheetname "MCU Carrier Board")
-		(sheetfile "io-carrier-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 17.8 0)
@@ -9462,7 +9460,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "fb0de2e7-cce7-43e6-9644-9c82afe2c3df")
+			(uuid "68e434eb-d1ca-4ba4-8c90-a02a77e2401c")
 		)
 		(fp_line
 			(start 0 0)
@@ -9472,7 +9470,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "d104e624-008d-48e5-a349-2fbc36b00d75")
+			(uuid "98718d6c-a8e9-4caa-995a-a5ba71a3477c")
 		)
 		(fp_line
 			(start 13.395 15.072)
@@ -9482,7 +9480,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "9f51a6c1-924b-46f6-977d-7873b7883353")
+			(uuid "567bd188-df18-4b21-9bb7-5243bac02957")
 		)
 		(fp_line
 			(start 4.396 15.072)
@@ -9492,7 +9490,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "39476b88-9cfe-4e3f-a14c-e0df024b2f48")
+			(uuid "ece84caa-34fd-4c2a-a1a6-2cdb3c7028f0")
 		)
 		(fp_line
 			(start 0 20.3285)
@@ -9502,7 +9500,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f39fd1e1-985c-4df0-9843-d66ee7c5092b")
+			(uuid "adf50642-703d-4d05-943f-b1b7fe6ffbfb")
 		)
 		(fp_line
 			(start 17.8 21)
@@ -9512,7 +9510,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "7b535ba5-080b-45bc-a869-9b315bd8fcc8")
+			(uuid "91bb9bed-a973-4b4c-8a33-0348a0346375")
 		)
 		(fp_line
 			(start 0.671541 21)
@@ -9522,7 +9520,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "891b153f-8ac0-4a5c-a29a-113993306625")
+			(uuid "8504fdfd-ba2f-456f-b34a-1bf94e9a629c")
 		)
 		(fp_line
 			(start 13.395 22.424)
@@ -9532,7 +9530,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "d65f19f3-7b1a-4804-8bc3-9b4eca2ff09c")
+			(uuid "89170262-8ccb-459f-b8a7-6acb84235a7f")
 		)
 		(fp_line
 			(start 4.396 22.425)
@@ -9542,7 +9540,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "9777b2fe-7266-48d5-afa8-072ec2ea442e")
+			(uuid "a4d29eea-4cc6-4914-81d3-05afbb813693")
 		)
 		(fp_poly
 			(pts
@@ -9554,7 +9552,7 @@
 			)
 			(fill solid)
 			(layer "B.CrtYd")
-			(uuid "5bd523db-9767-4be9-b229-2f5ab73e34b7")
+			(uuid "92be6a5a-a8cb-4b8b-8c2a-407e61024ee4")
 		)
 		(pad "1" thru_hole roundrect
 			(at 0.835 18.12 90)
@@ -9566,7 +9564,7 @@
 			(net 31 "/MCU Carrier Board/EMF_MOTOR0")
 			(pinfunction "A0")
 			(pintype "bidirectional")
-			(uuid "8a9bdb56-5790-4345-a158-f4ac889c20b5")
+			(uuid "07576fc9-b921-402b-9418-5bb369fb65bf")
 		)
 		(pad "2" thru_hole roundrect
 			(at 0.835 15.58 90)
@@ -9578,7 +9576,7 @@
 			(net 30 "/MCU Carrier Board/EMF_MOTOR1")
 			(pinfunction "A1")
 			(pintype "bidirectional")
-			(uuid "62de62f5-971d-49ee-8b2f-c54fea03c24a")
+			(uuid "8ad4f43c-f61d-47d0-a5f8-ec2c4a1a98ae")
 		)
 		(pad "3" thru_hole roundrect
 			(at 0.835 13.04 90)
@@ -9590,7 +9588,7 @@
 			(net 24 "DCC_MM")
 			(pinfunction "A2")
 			(pintype "bidirectional")
-			(uuid "6dab6fc2-2bf6-46f2-b8aa-6b4b81b3b803")
+			(uuid "48dd166b-c659-4a2b-936d-85303414dc40")
 		)
 		(pad "4" thru_hole roundrect
 			(at 0.835 10.5 90)
@@ -9602,7 +9600,7 @@
 			(net 25 "RAILCOM_DATA")
 			(pinfunction "A3")
 			(pintype "bidirectional")
-			(uuid "b691c76e-4ede-47ca-9ef7-a0f7c748f0f9")
+			(uuid "77240435-37b2-49ae-b195-cbd0aa3b636b")
 		)
 		(pad "5" thru_hole roundrect
 			(at 0.835 7.96 90)
@@ -9614,7 +9612,7 @@
 			(net 29 "/AUX1")
 			(pinfunction "A4")
 			(pintype "bidirectional")
-			(uuid "79ead383-5ef2-4a87-91cd-32a59c7be247")
+			(uuid "440cc0ac-dc2e-4a5b-8905-f2d7b52b3601")
 		)
 		(pad "6" thru_hole roundrect
 			(at 0.835 5.42 90)
@@ -9626,7 +9624,7 @@
 			(net 52 "/Audio Interfaces/I2C1")
 			(pinfunction "SDA_A5")
 			(pintype "bidirectional")
-			(uuid "e9e8066e-6462-426f-a918-4f12a68174b2")
+			(uuid "548f3e55-b8d8-4bb5-9664-7ad7fce5673a")
 		)
 		(pad "7" thru_hole roundrect
 			(at 0.835 2.88 90)
@@ -9638,7 +9636,7 @@
 			(net 53 "/Audio Interfaces/I2C0")
 			(pinfunction "SCL_A6")
 			(pintype "bidirectional")
-			(uuid "8b34dbb0-77e5-4ca3-8eff-9068bacfe754")
+			(uuid "55d43b07-91ee-40d5-a508-07f1617065ab")
 		)
 		(pad "8" thru_hole roundrect
 			(at 17 2.88 90)
@@ -9650,7 +9648,7 @@
 			(net 32 "/MCU Carrier Board/FUNC0")
 			(pinfunction "A7_RX")
 			(pintype "bidirectional")
-			(uuid "36e46c08-1088-403c-a113-5c9599dbfce7")
+			(uuid "da13d57d-1ed6-48e4-b65f-4a74ebbb77fc")
 		)
 		(pad "9" thru_hole roundrect
 			(at 17 5.42 90)
@@ -9662,7 +9660,7 @@
 			(net 34 "/MCU Carrier Board/FUNC1")
 			(pinfunction "A8_SCK")
 			(pintype "bidirectional")
-			(uuid "c9f14d39-e458-4cfa-bf6f-0a75b9a40b93")
+			(uuid "66bfa54d-dd84-4993-9c27-2edf1cdc64b7")
 		)
 		(pad "10" thru_hole roundrect
 			(at 17 7.96 90)
@@ -9674,7 +9672,7 @@
 			(net 27 "/MCU Carrier Board/MOTOR1")
 			(pinfunction "A9_MISO")
 			(pintype "bidirectional")
-			(uuid "6bca9f4f-27e4-4331-bcdf-0a191415a32f")
+			(uuid "c032e63a-2e39-478c-8d6d-68ae1036ad87")
 		)
 		(pad "11" thru_hole roundrect
 			(at 17 10.5 90)
@@ -9686,7 +9684,7 @@
 			(net 26 "/MCU Carrier Board/MOTOR0")
 			(pinfunction "A10_MOSI")
 			(pintype "bidirectional")
-			(uuid "42e1ba15-c118-43c8-bd74-b441db4b1747")
+			(uuid "5bc4729b-60b3-48f1-bbea-e66a5247fdd1")
 		)
 		(pad "12" thru_hole roundrect
 			(at 17 13.04 90)
@@ -9698,7 +9696,7 @@
 			(net 37 "+3V3")
 			(pinfunction "3V3")
 			(pintype "power_in")
-			(uuid "3fd3a97d-b6c2-4c48-8727-9b33aa4a64ca")
+			(uuid "e8de7d05-f828-418b-b806-78a8a683cf47")
 		)
 		(pad "13" thru_hole roundrect
 			(at 17 15.58 90)
@@ -9710,7 +9708,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "40e83a89-327c-46d0-82ac-fb9e54566137")
+			(uuid "a43b6bb2-0b36-465b-ac72-086f362dc6d5")
 		)
 		(pad "14" thru_hole roundrect
 			(at 17 18.12 90)
@@ -9722,7 +9720,7 @@
 			(net 22 "+5V")
 			(pinfunction "5V")
 			(pintype "power_in")
-			(uuid "77c57451-c83a-46b3-9537-cdcec6bed858")
+			(uuid "c7ae4810-4ce2-433f-b3bb-693961b05c78")
 		)
 	)
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"

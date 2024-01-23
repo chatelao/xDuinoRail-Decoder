@@ -3,4 +3,6 @@
   (lib (name "xiao ESP32C3_PCB")(type "KiCad")(uri "C:/Users/chatelain/Desktop/Seeeduino xiao ESP32C3 KiCAD Library/xiao ESP32C3_PCB.pretty")(options "")(descr ""))
   (lib (name "xDuinoRailShield")(type "KiCad")(uri "C:/Users/chatelain/Dropbox/Privat-2023/2023-11-11_DCC-EX-Shield/xDuinoRail-Decoder/kicad/xDuinoRailShield.pretty")(options "")(descr ""))
   (lib (name "BDR6133")(type "KiCad")(uri "C:/Users/chatelain/Dropbox/Privat-2023/2023-11-11_DCC-EX-Shield/xDuinoRail-Decoder/kicad/BDR6133.pretty")(options "")(descr ""))
+  (lib (name "Debug-Shield-Lib")(type "KiCad")(uri "${KIPRJMOD}/Debug-Shield-Lib.pretty")(options "")(descr ""))
+  (lib (name "TagConnect")(type "KiCad")(uri "${KIPRJMOD}/TagConnect.pretty")(options "")(descr ""))
 )

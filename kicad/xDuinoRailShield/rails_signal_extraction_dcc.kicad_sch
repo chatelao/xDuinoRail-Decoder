@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "f9a870df-aaf2-427d-b524-30792058699c")
 	(paper "A4")
 	(title_block
@@ -2800,9 +2800,21 @@
 					(unit 1)
 				)
 			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "R2104")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "R304")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2818,7 +2830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bc0077b-46f2-4396-8ebe-7ec024bbdfe8")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR02103"
 			(at 57.15 135.89 0)
 			(effects
 				(font
@@ -2866,8 +2878,20 @@
 			(uuid "724a9656-da7f-4419-bcb1-264234a1fa43")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "#PWR02103")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
 					(reference "#PWR0302")
 					(unit 1)
 				)
@@ -2963,9 +2987,21 @@
 					(unit 1)
 				)
 			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "Q2101")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "Q301")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2981,7 +3017,7 @@
 		(on_board no)
 		(dnp yes)
 		(uuid "397ede9a-2253-4dc6-80dc-decee926b504")
-		(property "Reference" "D301"
+		(property "Reference" "D2101"
 			(at 62.23 39.37 90)
 			(effects
 				(font
@@ -3069,8 +3105,20 @@
 			(uuid "09146644-8276-4146-9f28-17f475887d60")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "D2101")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
+					(reference "D301")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
 					(reference "D301")
 					(unit 1)
 				)
@@ -3087,7 +3135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42b9937c-a18d-4b04-a3cb-057f769ea009")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR02102"
 			(at 57.15 73.66 0)
 			(effects
 				(font
@@ -3135,8 +3183,20 @@
 			(uuid "75e7478e-f2b0-4bde-a0d8-38cd61c14f5c")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "#PWR02102")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
 					(reference "#PWR0301")
 					(unit 1)
 				)
@@ -3153,7 +3213,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "70326659-7336-4b6c-80f0-efdfd908af78")
-		(property "Reference" "R303"
+		(property "Reference" "R2103"
 			(at 66.04 76.2 90)
 			(effects
 				(font
@@ -3221,8 +3281,20 @@
 			(uuid "55e9dfee-8e9d-4817-aa69-896a641ea465")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "R2103")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
+					(reference "R303")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
 					(reference "R303")
 					(unit 1)
 				)
@@ -3239,7 +3311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a082a6e-c818-460c-8147-54bb93ae3d86")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR02101"
 			(at 48.26 102.87 0)
 			(effects
 				(font
@@ -3287,8 +3359,20 @@
 			(uuid "0bf00965-888a-43a3-ae28-373e9ea0a6f7")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "#PWR02101")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
+					(reference "#PWR0303")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
 					(reference "#PWR0303")
 					(unit 1)
 				)
@@ -3305,7 +3389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c942b88-750f-4fdc-bc2c-361fb020d18b")
-		(property "Reference" "R307"
+		(property "Reference" "R2107"
 			(at 180.34 104.14 90)
 			(effects
 				(font
@@ -3373,8 +3457,20 @@
 			(uuid "55897760-4c60-41c0-b45c-de82a2610561")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "R2107")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
+					(reference "R307")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
 					(reference "R307")
 					(unit 1)
 				)
@@ -3445,9 +3541,21 @@
 					(unit 1)
 				)
 			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "#PWR02105")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "#PWR0305")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3463,7 +3571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8beecfe0-6f7f-44b1-b8a2-bff218b42b8d")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR02104"
 			(at 69.85 118.11 0)
 			(effects
 				(font
@@ -3511,8 +3619,20 @@
 			(uuid "0e5dc68e-d463-499b-a53f-b6a7faeccb0e")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "#PWR02104")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
+					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
 					(reference "#PWR0304")
 					(unit 1)
 				)
@@ -3529,7 +3649,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9ff31c4f-5d54-409c-9f29-2201e0908d39")
-		(property "Reference" "U302"
+		(property "Reference" "U2102"
 			(at 48.26 115.57 0)
 			(effects
 				(font
@@ -3606,8 +3726,20 @@
 			(uuid "2f3a24a2-59bb-40d2-b982-f4ddba56c2b8")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "U2102")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
+					(reference "U302")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
 					(reference "U302")
 					(unit 1)
 				)
@@ -3624,7 +3756,7 @@
 		(on_board no)
 		(dnp yes)
 		(uuid "c58b2885-ccb3-433d-bb83-46c4de689dfe")
-		(property "Reference" "C301"
+		(property "Reference" "C2101"
 			(at 46.99 39.37 0)
 			(effects
 				(font
@@ -3694,8 +3826,20 @@
 			(uuid "ead6e3b3-55c0-4bab-9a61-c51ef54c0c6b")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "C2101")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
+					(reference "C301")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
 					(reference "C301")
 					(unit 1)
 				)
@@ -3785,9 +3929,21 @@
 					(unit 1)
 				)
 			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "R2105")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "R305")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3803,7 +3959,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dc67d283-50a9-4c6a-9ba4-56160217a65e")
-		(property "Reference" "R302"
+		(property "Reference" "R2102"
 			(at 63.5 111.76 90)
 			(effects
 				(font
@@ -3871,8 +4027,20 @@
 			(uuid "b4e0f137-fe61-4837-8d11-7ead80e35fde")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "R2102")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
+					(reference "R302")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
 					(reference "R302")
 					(unit 1)
 				)
@@ -3889,7 +4057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0797c61-864b-4094-a39d-051cb3f05407")
-		(property "Reference" "R5"
+		(property "Reference" "R2106"
 			(at 171.45 104.14 90)
 			(effects
 				(font
@@ -3957,6 +4125,12 @@
 			(uuid "3e246109-7a06-422f-90af-f485f1320c28")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "R2106")
+					(unit 1)
+				)
+			)
 			(project "DecoderInputStages"
 				(path "/d655cdba-9804-4737-91eb-8abf65eedb18"
 					(reference "R5")
@@ -3966,6 +4140,12 @@
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
 					(reference "R306")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3981,7 +4161,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f3442632-3eff-4ad8-bbcd-ac83d0c1b2ee")
-		(property "Reference" "R301"
+		(property "Reference" "R2101"
 			(at 43.18 30.48 90)
 			(effects
 				(font
@@ -4049,8 +4229,20 @@
 			(uuid "7797123a-99a2-480b-84e3-c8781b40eb33")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "R2101")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
+					(reference "R301")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
 					(reference "R301")
 					(unit 1)
 				)
@@ -4067,7 +4259,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fd4faa7e-4d70-426d-99fc-74d65fb274b4")
-		(property "Reference" "U301"
+		(property "Reference" "U2101"
 			(at 48.26 72.39 0)
 			(effects
 				(font
@@ -4153,8 +4345,20 @@
 			(uuid "efd3f613-32d0-4d76-abc0-7a63107566ab")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
+					(reference "U2101")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b84a333b-f29e-43df-b84d-edef752a64aa"
+					(reference "U301")
+					(unit 1)
+				)
+			)
+			(project "rails_signal_extraction_dcc"
+				(path "/f9a870df-aaf2-427d-b524-30792058699c"
 					(reference "U301")
 					(unit 1)
 				)

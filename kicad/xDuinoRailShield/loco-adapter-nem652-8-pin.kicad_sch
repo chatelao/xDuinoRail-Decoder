@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "5e3bb3ff-c126-45cf-ab1e-9fd90e110c73")
 	(paper "A4")
 	(lib_symbols
@@ -541,13 +541,13 @@
 		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
 		(at 55.88 72.39 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "25835fd4-15c9-433b-aa40-7aa48bd31300")
-		(property "Reference" "J102"
+		(property "Reference" "J1101"
 			(at 57.15 63.5 0)
 			(effects
 				(font
@@ -563,7 +563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 			(at 55.88 72.39 0)
 			(effects
 				(font
@@ -624,23 +624,24 @@
 			(uuid "ee0fd10e-cda9-4fed-a286-41073c5604b4")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/f5a19207-1931-497e-ab27-14087bb9e856"
+					(reference "J1101")
+					(unit 1)
+				)
+			)
 			(project "loco-adapter-nem652-8-pin"
 				(path "/5e3bb3ff-c126-45cf-ab1e-9fd90e110c73"
-					(reference "J102")
+					(reference "J?")
 					(unit 1)
 				)
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a459cb8a-26f3-41b6-8de3-7368533e27fd"
-					(reference "J102")
+					(reference "J?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )

@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "23a8c5a9-4091-4806-8e55-1615c40a1acc")
 	(paper "A4")
 	(title_block
@@ -929,7 +929,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0e5f0bc5-9c35-4385-bbdc-d1b54f8d7298")
-		(property "Sheetname" "Power Supply"
+		(property "Sheetname" "rail-driver"
 			(at 43.7384 58.42 90)
 			(effects
 				(font
@@ -938,7 +938,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "rail-driver.kicad_sch"
 			(at 57.7346 58.42 90)
 			(effects
 				(font

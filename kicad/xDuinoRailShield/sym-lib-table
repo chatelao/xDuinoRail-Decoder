@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "MOUDLE-SEEEDUINO-XIAO-ESP32C3")(type "KiCad")(uri "C:/Users/chatelain/Desktop/Seeeduino xiao ESP32C3 KiCAD Library/MOUDLE-SEEEDUINO-XIAO-ESP32C3.kicad_sym")(options "")(descr ""))
   (lib (name "BDR6133")(type "KiCad")(uri "${KIPRJMOD}/BDR6133.kicad_sym")(options "")(descr ""))
+  (lib (name "Debug-Shield-Lib")(type "KiCad")(uri "${KIPRJMOD}/Debug-Shield-Lib.kicad_sym")(options "")(descr ""))
 )

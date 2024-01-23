@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "5e3bb3ff-c126-45cf-ab1e-9fd90e110c73")
 	(paper "A4")
 	(lib_symbols
@@ -1469,7 +1469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79013c8c-445d-442e-a9a9-35bc97423947")
-		(property "Reference" "J301"
+		(property "Reference" "J5"
 			(at 55.88 71.12 0)
 			(effects
 				(font
@@ -1504,6 +1504,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x11, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 54.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" ""
 			(at 54.61 90.17 0)
 			(effects
 				(font
@@ -1581,7 +1590,7 @@
 		(instances
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/ec041cac-ba8a-4e39-a1e2-0637cb1a7f49"
-					(reference "J301")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1609,7 +1618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c93b903e-d280-47a3-820f-4b8eb7960a63")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR013"
 			(at 92.71 93.98 0)
 			(effects
 				(font
@@ -1659,7 +1668,7 @@
 		(instances
 			(project "xDuinoRail-Debug"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/ec041cac-ba8a-4e39-a1e2-0637cb1a7f49"
-					(reference "#PWR0301")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)

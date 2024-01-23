@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "0ed6639a-cde6-4452-b9e1-77c370bade86")
 	(paper "A4")
 	(lib_symbols
@@ -1691,6 +1691,12 @@
 					(unit 1)
 				)
 			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69d2d8a2-04b4-49d2-b957-aa1d1287417e"
+					(reference "D705")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "D705")
@@ -1781,6 +1787,12 @@
 		(instances
 			(project "power_dc-dc-buck-7v2"
 				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
+					(reference "R701")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69d2d8a2-04b4-49d2-b957-aa1d1287417e"
 					(reference "R701")
 					(unit 1)
 				)
@@ -1878,6 +1890,12 @@
 					(unit 1)
 				)
 			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69d2d8a2-04b4-49d2-b957-aa1d1287417e"
+					(reference "C703")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "C703")
@@ -1970,6 +1988,12 @@
 					(unit 1)
 				)
 			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69d2d8a2-04b4-49d2-b957-aa1d1287417e"
+					(reference "C706")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "C706")
@@ -2039,6 +2063,12 @@
 		(instances
 			(project "power_dc-dc-buck-7v2"
 				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69d2d8a2-04b4-49d2-b957-aa1d1287417e"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -2164,6 +2194,12 @@
 					(unit 1)
 				)
 			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69d2d8a2-04b4-49d2-b957-aa1d1287417e"
+					(reference "U702")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "U702")
@@ -2252,6 +2288,12 @@
 		(instances
 			(project "power_dc-dc-buck-7v2"
 				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
+					(reference "L701")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69d2d8a2-04b4-49d2-b957-aa1d1287417e"
 					(reference "L701")
 					(unit 1)
 				)
@@ -2350,6 +2392,12 @@
 					(unit 1)
 				)
 			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69d2d8a2-04b4-49d2-b957-aa1d1287417e"
+					(reference "R702")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "R702")
@@ -2439,6 +2487,12 @@
 		(instances
 			(project "power_dc-dc-buck-7v2"
 				(path "/0ed6639a-cde6-4452-b9e1-77c370bade86"
+					(reference "C704")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69d2d8a2-04b4-49d2-b957-aa1d1287417e"
 					(reference "C704")
 					(unit 1)
 				)
@@ -2537,6 +2591,12 @@
 					(unit 1)
 				)
 			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69d2d8a2-04b4-49d2-b957-aa1d1287417e"
+					(reference "C707")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "C707")
@@ -2630,17 +2690,18 @@
 					(unit 1)
 				)
 			)
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69d2d8a2-04b4-49d2-b957-aa1d1287417e"
+					(reference "C701")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailSwitch"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/36fdb63c-0a19-4659-9df1-d7f58d97597f"
 					(reference "C701")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )

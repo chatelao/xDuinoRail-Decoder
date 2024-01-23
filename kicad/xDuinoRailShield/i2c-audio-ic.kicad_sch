@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "932af046-53af-4851-a7fc-6dfe05ef846e")
 	(paper "A4")
 	(title_block
@@ -191,918 +191,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector_Audio:AudioJack2_Ground"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack2_Ground"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono phone headphone TS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack2_Ground_0_1"
-				(rectangle
-					(start -2.54 -2.54)
-					(end -3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AudioJack2_Ground_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector_Generic:Conn_01x05"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_1_1"
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R_Potentiometer"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1330,102 +418,36 @@
 		)
 	)
 	(junction
-		(at 62.23 148.59)
+		(at 57.15 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "10f67ac9-1919-43c7-92c8-318822ad1e67")
+		(uuid "6b6ef21c-de90-4ca7-8544-4be54ceba1c8")
 	)
 	(junction
-		(at 148.59 149.86)
+		(at 57.15 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c1220343-9c45-4250-85d1-6dcf500bf836")
+		(uuid "a0d614cc-2483-478c-aa59-121d106f9f7d")
 	)
 	(junction
-		(at 147.32 66.04)
+		(at 57.15 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce603aa0-5b52-4030-b6a4-be3859396985")
 	)
-	(junction
-		(at 55.88 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1659494-fd65-412b-a1f5-3d8115c8fe5e")
-	)
 	(wire
 		(pts
-			(xy 152.4 147.32) (xy 143.51 147.32)
+			(xy 57.15 38.1) (xy 57.15 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c599fd3-389c-4a34-af14-e25181b57f6c")
+		(uuid "18359973-04e4-4c54-b358-c3cae87b405a")
 	)
 	(wire
 		(pts
-			(xy 148.59 135.89) (xy 148.59 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0da1ee68-9267-46c5-a6a1-635c120d4f30")
-	)
-	(wire
-		(pts
-			(xy 87.63 52.07) (xy 86.36 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12c80dde-8305-4908-9392-18231f237251")
-	)
-	(wire
-		(pts
-			(xy 62.23 137.16) (xy 62.23 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17c494c1-d930-4a7d-ba7a-99c3193900c5")
-	)
-	(wire
-		(pts
-			(xy 55.88 59.69) (xy 55.88 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e71b3fc-b949-4ba4-8c35-9729be39bedd")
-	)
-	(wire
-		(pts
-			(xy 91.44 45.72) (xy 101.6 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a64048f-5ee7-4bc2-9f4c-e25f3d597878")
-	)
-	(wire
-		(pts
-			(xy 62.23 148.59) (xy 62.23 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2acb0e77-ca6e-42ba-8fdb-0bdd504c9afe")
-	)
-	(wire
-		(pts
-			(xy 127 52.07) (xy 137.16 52.07)
+			(xy 36.83 45.72) (xy 46.99 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1435,7 +457,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 54.61) (xy 167.64 54.61)
+			(xy 67.31 48.26) (xy 77.47 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1445,107 +467,37 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 43.18) (xy 68.58 49.53)
+			(xy 52.07 57.15) (xy 57.15 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bb55b37-3e76-48ca-bf22-5a74f8c8bf99")
+		(uuid "49b212de-e499-471c-bf62-1f0912731b83")
 	)
 	(wire
 		(pts
-			(xy 55.88 57.15) (xy 55.88 59.69)
+			(xy 46.99 38.1) (xy 57.15 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46bac4ba-97df-44c6-9428-607d9ea2a812")
+		(uuid "51848da8-c886-4edf-bf5c-ebf6d3bbde63")
 	)
 	(wire
 		(pts
-			(xy 73.66 43.18) (xy 73.66 44.45)
+			(xy 57.15 57.15) (xy 57.15 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a0978e6-3cc9-4ccc-9492-0997ab36e122")
+		(uuid "6816bd27-60e8-4c4c-8261-19fb3b1159a7")
 	)
 	(wire
 		(pts
-			(xy 143.51 149.86) (xy 148.59 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d86d908-1a3a-4543-9e67-d3a1252a6bd5")
-	)
-	(wire
-		(pts
-			(xy 55.88 59.69) (xy 59.69 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e2c538b-853c-4562-a6bf-99819fd328c4")
-	)
-	(wire
-		(pts
-			(xy 91.44 60.96) (xy 91.44 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63204498-2638-476a-89c9-eebcfff16f98")
-	)
-	(wire
-		(pts
-			(xy 152.4 144.78) (xy 143.51 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64fe8bd6-420b-4fc0-960a-9e487e840614")
-	)
-	(wire
-		(pts
-			(xy 62.23 148.59) (xy 66.04 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "652426de-c54d-43c6-9e6a-c97e12621104")
-	)
-	(wire
-		(pts
-			(xy 66.04 143.51) (xy 57.15 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6bceba-4b5f-4a87-a70c-e68eb2459a9f")
-	)
-	(wire
-		(pts
-			(xy 57.15 140.97) (xy 62.23 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a7b3aeb-5230-4f73-97be-471cb3d2eb91")
-	)
-	(wire
-		(pts
-			(xy 119.38 53.34) (xy 119.38 57.15)
+			(xy 29.21 46.99) (xy 29.21 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1555,27 +507,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 48.26) (xy 91.44 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "899035e3-cfad-418c-914a-1e1c3df2317e")
-	)
-	(wire
-		(pts
-			(xy 152.4 139.7) (xy 143.51 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d57716a-92e3-4554-9124-d2a24d1981cc")
-	)
-	(wire
-		(pts
-			(xy 127 54.61) (xy 137.16 54.61)
+			(xy 36.83 48.26) (xy 46.99 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1585,27 +517,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 142.24) (xy 148.59 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5aa02ef-a836-4d1c-822b-b87989af04e4")
-	)
-	(wire
-		(pts
-			(xy 60.96 52.07) (xy 78.74 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6acb0a7-be00-4419-a059-0b7a59bd932c")
-	)
-	(wire
-		(pts
-			(xy 147.32 67.31) (xy 147.32 66.04)
+			(xy 57.15 60.96) (xy 57.15 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1615,17 +527,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 149.86) (xy 152.4 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7c79462-d46d-4a9c-bb40-603df58078ff")
-	)
-	(wire
-		(pts
-			(xy 147.32 43.18) (xy 147.32 46.99)
+			(xy 57.15 36.83) (xy 57.15 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1635,17 +537,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 146.05) (xy 57.15 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8a9fded-72fb-4bf3-96a5-88e1edba2f9c")
-	)
-	(wire
-		(pts
-			(xy 119.38 57.15) (xy 137.16 57.15)
+			(xy 29.21 50.8) (xy 46.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1655,17 +547,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 49.53) (xy 60.96 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfa9125b-0dc8-4ba5-826d-8db7a85bef72")
-	)
-	(wire
-		(pts
-			(xy 147.32 66.04) (xy 147.32 62.23)
+			(xy 57.15 59.69) (xy 57.15 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1675,27 +557,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 43.18) (xy 73.66 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e530c220-6928-4c84-9471-7af3e9aae972")
-	)
-	(wire
-		(pts
-			(xy 148.59 149.86) (xy 148.59 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1e3ed9d-9a91-4593-99fd-4cd95dda19bb")
-	)
-	(wire
-		(pts
-			(xy 147.32 66.04) (xy 167.64 66.04)
+			(xy 57.15 59.69) (xy 77.47 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1703,49 +565,9 @@
 		)
 		(uuid "f8674b46-e005-4e6c-8c6c-45789aacdb3c")
 	)
-	(wire
-		(pts
-			(xy 57.15 148.59) (xy 62.23 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcbe60f8-44fe-464e-89fd-6c8adea1b467")
-	)
-	(text "SUSI 5-pin"
+	(text "I2C Audio DAC"
 		(exclude_from_sim no)
-		(at 148.59 129.032 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-			)
-		)
-		(uuid "179145f1-e7aa-47a2-9a7d-5d475e96af0e")
-	)
-	(text "SUSI 4-pin"
-		(exclude_from_sim no)
-		(at 64.77 129.286 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-			)
-		)
-		(uuid "45e84deb-d6d5-48ba-9ae7-927da945dc79")
-	)
-	(text "https://normen.railcommunity.de/RCN-600.pdf\nhttps://normen.railcommunity.de/RCN-601.pdf"
-		(exclude_from_sim no)
-		(at 61.722 165.862 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "64b70154-7461-4ac3-bae8-48dc0b06bffa")
-	)
-	(text "Audio Jack 3.5mm"
-		(exclude_from_sim no)
-		(at 77.216 36.83 0)
+		(at 50.546 24.13 0)
 		(effects
 			(font
 				(size 3.048 3.048)
@@ -1754,7 +576,7 @@
 		(uuid "f1fb2690-7cc8-44b9-913d-d30a1756f2ee")
 	)
 	(label "I2C0"
-		(at 127 52.07 0)
+		(at 36.83 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1765,7 +587,7 @@
 		(uuid "3f8d9960-9221-4486-8eca-4aac7ef02b5e")
 	)
 	(label "SPEAKER0"
-		(at 167.64 66.04 180)
+		(at 77.47 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1776,7 +598,7 @@
 		(uuid "87c3dd46-0f0b-4659-8852-52ff1f213e95")
 	)
 	(label "I2C1"
-		(at 127 54.61 0)
+		(at 36.83 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1787,7 +609,7 @@
 		(uuid "a057d4d9-e3ef-479b-8942-3231379e8559")
 	)
 	(label "SPEAKER1"
-		(at 167.64 54.61 180)
+		(at 77.47 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1797,33 +619,33 @@
 		)
 		(uuid "f584ce13-b3f5-4433-9b51-07e9f791bc28")
 	)
-	(hierarchical_label "SUSI_CLOCK"
+	(hierarchical_label "GND"
 		(shape input)
-		(at 66.04 146.05 0)
+		(at 52.07 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "042c8bfd-a913-4e5c-adb8-20c7c7219058")
+		(uuid "02e14958-7e21-46be-a68d-69d5158e5f16")
 	)
-	(hierarchical_label "DAC_IN"
+	(hierarchical_label "+3V3"
 		(shape input)
-		(at 101.6 45.72 0)
+		(at 46.99 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "1916f120-8151-4fc7-a630-336f8179449f")
+		(uuid "0efe4311-9230-46c4-b8da-cf866c7942db")
 	)
 	(hierarchical_label "SPEAKER[0..1]"
 		(shape output)
-		(at 160.02 45.72 0)
+		(at 66.04 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1833,33 +655,9 @@
 		)
 		(uuid "290cd955-42c4-492f-908e-84f009e6828d")
 	)
-	(hierarchical_label "SUSI_TRIGGER"
-		(shape input)
-		(at 152.4 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "39bd9e7c-f57f-450b-9698-8af1505f54c7")
-	)
-	(hierarchical_label "U+"
-		(shape input)
-		(at 148.59 135.89 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3a0c652c-93b6-44dc-b914-5565b63cd992")
-	)
 	(hierarchical_label "I2C[0..1]"
 		(shape bidirectional)
-		(at 127 43.18 0)
+		(at 33.02 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1869,101 +667,17 @@
 		)
 		(uuid "6682a3b9-b68b-4ebc-95a1-12b8c14b02b1")
 	)
-	(hierarchical_label "SUSI_CLOCK"
-		(shape input)
-		(at 152.4 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "85b6afb3-c466-4fcd-b852-e6c1c61f7ec7")
-	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 59.69 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8c750ce0-d314-40ca-b4e9-32470b3b5ee6")
-	)
-	(hierarchical_label "U+"
-		(shape input)
-		(at 62.23 137.16 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a63ff2d7-ee34-4e9f-8f25-2b7ab4d642df")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 152.4 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a91e700d-553e-48bc-9d63-c43d92036e88")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 66.04 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bef25465-81c2-4a52-bf9f-3606709b4876")
-	)
-	(hierarchical_label "SUSI_DATA"
-		(shape input)
-		(at 152.4 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c2dc911b-5412-40f1-a152-6dcda126b1ba")
-	)
-	(hierarchical_label "SUSI_DATA"
-		(shape input)
-		(at 66.04 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "df9f881a-4cb5-4d1a-ba8e-05e28243879b")
-	)
 	(symbol
 		(lib_id "Analog_DAC:MCP4725xxx-xCH")
-		(at 147.32 54.61 0)
+		(at 57.15 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1a274abf-f712-43b4-9ec8-804ade6e19bc")
-		(property "Reference" "U201"
-			(at 142.24 48.26 0)
+		(property "Reference" "U501"
+			(at 52.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,15 +685,15 @@
 			)
 		)
 		(property "Value" "MCP4725xxx-xCH"
-			(at 158.75 61.468 0)
+			(at 68.58 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
-			(at 147.32 60.96 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 57.15 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +702,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf"
-			(at 147.32 54.61 0)
+			(at 57.15 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +711,16 @@
 			)
 		)
 		(property "Description" "12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6"
-			(at 147.32 54.61 0)
+			(at 57.15 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "MCP4725_SOT-23-6"
+			(at 57.15 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,15 +747,21 @@
 			(uuid "914b4e90-c110-48b5-9292-b1295be59ca3")
 		)
 		(instances
-			(project "audio_interfaces"
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/8f669943-ba18-4ac2-859a-f158cd2992b6"
+					(reference "U501")
+					(unit 1)
+				)
+			)
+			(project "i2c-audio-ic"
 				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "U201")
+					(reference "U?")
 					(unit 1)
 				)
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "U201")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -2040,79 +769,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2307fde2-32ec-46f9-8705-52fa77925ab2")
-		(property "Reference" "#PWR0204"
-			(at 91.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b79ec07c-f121-4c7c-bb26-8982054446bc")
-		)
-		(instances
-			(project "audio_interfaces"
-				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "#PWR0204")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR0204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 67.31 0)
+		(at 57.15 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2120,8 +777,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b092fc2-d93e-4351-9431-6d8c52199ae6")
-		(property "Reference" "#PWR0208"
-			(at 147.32 73.66 0)
+		(property "Reference" "#PWR0503"
+			(at 57.15 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +787,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 72.39 0)
+			(at 57.15 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,7 +795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 67.31 0)
+			(at 57.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2147,7 +804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 67.31 0)
+			(at 57.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,7 +813,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 67.31 0)
+			(at 57.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,332 +825,21 @@
 			(uuid "d07b17a4-4c7f-4c0b-9ac2-7f34da3db767")
 		)
 		(instances
-			(project "audio_interfaces"
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/8f669943-ba18-4ac2-859a-f158cd2992b6"
+					(reference "#PWR0503")
+					(unit 1)
+				)
+			)
+			(project "i2c-audio-ic"
 				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "#PWR0208")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR0208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 91.44 52.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "4cedc74b-d864-448a-8cd3-7064362bdcb1")
-		(property "Reference" "RV201"
-			(at 93.98 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 93.98 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_ACP_CA6-VSMD_Vertical"
-			(at 91.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 91.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field-1" ""
-			(at 91.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f0977e43-2cb5-4c36-a521-07bc5253bbed")
-		)
-		(pin "2"
-			(uuid "e869360c-bccf-4bb4-a569-d4b4f40343f6")
-		)
-		(pin "1"
-			(uuid "48e9756b-9412-4c89-8ed2-6ac771f0bbc7")
-		)
-		(instances
-			(project "audio_interfaces"
-				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "RV201")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "RV201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2_Ground")
-		(at 55.88 52.07 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "6c5502f0-1b24-4b23-9d98-de73756c2f9d")
-		(property "Reference" "J201"
-			(at 55.245 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AudioJack2_Ground"
-			(at 55.245 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
-			(at 55.88 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
-			(at 55.88 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field-1" ""
-			(at 55.88 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "T"
-			(uuid "9e6b0988-28b7-4d38-ab5e-988dc20177e9")
-		)
-		(pin "G"
-			(uuid "20dc5ef3-6948-4ad2-812a-fdd25069ade5")
-		)
-		(pin "S"
-			(uuid "ef057d43-75f9-4b41-8992-3dc8768228ff")
-		)
-		(instances
-			(project "audio_interfaces"
-				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "J201")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "J201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 55.88 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a14d712-18da-4dda-aaaa-43009fb693ca")
-		(property "Reference" "#PWR0201"
-			(at 55.88 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93b9ffd7-dd1a-472e-9d98-3912c1cd43b4")
-		)
-		(instances
-			(project "audio_interfaces"
-				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "#PWR0201")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR0201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 73.66 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a61f8c5-06ba-42f1-9260-38dcaf57874d")
-		(property "Reference" "#PWR0202"
-			(at 73.66 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.66 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e07dd9b8-d0db-46ca-90bc-7539ab667357")
-		)
-		(instances
-			(project "audio_interfaces"
-				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "#PWR0202")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR0202")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2501,7 +847,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 147.32 43.18 0)
+		(at 57.15 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2509,8 +855,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "854674cb-4844-4410-86c3-dcc44ca17e9c")
-		(property "Reference" "#PWR0207"
-			(at 147.32 46.99 0)
+		(property "Reference" "#PWR0502"
+			(at 57.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +865,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 147.32 38.1 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 43.18 0)
+			(at 57.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 43.18 0)
+			(at 57.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 147.32 43.18 0)
+			(at 57.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,242 +903,21 @@
 			(uuid "a776aa42-2d7c-4707-8222-d3c2e680914d")
 		)
 		(instances
-			(project "audio_interfaces"
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/8f669943-ba18-4ac2-859a-f158cd2992b6"
+					(reference "#PWR0502")
+					(unit 1)
+				)
+			)
+			(project "i2c-audio-ic"
 				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "#PWR0207")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR0207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 62.23 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85b683e6-2f28-4648-b28d-f3e8e223b31b")
-		(property "Reference" "#PWR0203"
-			(at 62.23 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "346f6d24-d112-469e-a5b1-a6d5d0b73037")
-		)
-		(instances
-			(project "audio_interfaces"
-				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "#PWR0203")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR0203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 148.59 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9aae0885-6507-4dd4-9c38-1e3362a89278")
-		(property "Reference" "#PWR0205"
-			(at 148.59 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "607fda7b-3da2-475e-a98f-86b73eda7cf3")
-		)
-		(instances
-			(project "audio_interfaces"
-				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "#PWR0205")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR0205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 82.55 52.07 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "cdf105ac-80fb-4b54-a3c1-1bd59bea4cb3")
-		(property "Reference" "C201"
-			(at 83.439 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100uF"
-			(at 83.439 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 51.1048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 82.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field-1" ""
-			(at 82.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b58121bc-9ebd-4654-959d-90b26f58e2f0")
-		)
-		(pin "1"
-			(uuid "97d91cc6-f383-4b7e-aa37-423940fc39c4")
-		)
-		(instances
-			(project "audio_interfaces"
-				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "C201")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "C201")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2800,7 +925,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 119.38 53.34 0)
+		(at 29.21 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2808,8 +933,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d99ff222-bd93-46a6-b5f5-11e76ae565c5")
-		(property "Reference" "#PWR0206"
-			(at 119.38 57.15 0)
+		(property "Reference" "#PWR0501"
+			(at 29.21 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +943,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 119.38 48.26 0)
+			(at 29.21 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 53.34 0)
+			(at 29.21 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 53.34 0)
+			(at 29.21 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 119.38 53.34 0)
+			(at 29.21 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,207 +981,24 @@
 			(uuid "19f3cf64-28a5-4811-9d31-c6f31873b105")
 		)
 		(instances
-			(project "audio_interfaces"
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/8f669943-ba18-4ac2-859a-f158cd2992b6"
+					(reference "#PWR0501")
+					(unit 1)
+				)
+			)
+			(project "i2c-audio-ic"
 				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "#PWR0206")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR0206")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 138.43 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "fbfd4729-3751-440e-9953-565e447fdace")
-		(property "Reference" "J203"
-			(at 135.89 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 135.89 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 138.43 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field-1" ""
-			(at 138.43 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1c6fdfc-193d-4d0b-aa8e-84c839786ac8")
-		)
-		(pin "5"
-			(uuid "d89b6140-56b8-49cd-872f-9331bf0710a0")
-		)
-		(pin "3"
-			(uuid "cf748ce8-77ae-4d5f-807c-482fd326928d")
-		)
-		(pin "4"
-			(uuid "311c597b-27fd-481c-b22c-e08b827b1ed0")
-		)
-		(pin "2"
-			(uuid "ba822f52-db8b-48bb-8a55-1385fba57bd3")
-		)
-		(instances
-			(project "audio_interfaces"
-				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "J203")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "J203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 52.07 146.05 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "fe74e3f2-27cf-40e1-b0de-1edccdf1793d")
-		(property "Reference" "J202"
-			(at 49.53 146.0501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 49.53 143.5101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 52.07 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field-1" ""
-			(at 52.07 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e20400c7-d6f0-4839-b164-feef0c5ab7a8")
-		)
-		(pin "4"
-			(uuid "a67aba31-93ee-42d4-95dc-0248dcfb304a")
-		)
-		(pin "2"
-			(uuid "f1c1512c-b550-47bb-8cc3-24f3e597f965")
-		)
-		(pin "1"
-			(uuid "dfdbb208-d30e-4ef3-af06-95cf666bc026")
-		)
-		(instances
-			(project "audio_interfaces"
-				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "J202")
-					(unit 1)
-				)
-			)
-			(project "xDuinoRailShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "J202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )

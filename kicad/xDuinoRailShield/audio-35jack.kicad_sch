@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "932af046-53af-4851-a7fc-6dfe05ef846e")
 	(paper "A4")
 	(lib_symbols
@@ -333,6 +333,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
 				(offset 1.016) hide)
@@ -592,14 +713,32 @@
 		)
 	)
 	(junction
+		(at 88.9 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7dc7462-6760-4b75-b29d-2d48950f3786")
+	)
+	(junction
+		(at 64.77 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0686513-643d-4e33-a115-c10e2d8f7c7e")
+	)
+	(junction
 		(at 36.83 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1659494-fd65-412b-a1f5-3d8115c8fe5e")
 	)
+	(junction
+		(at 88.9 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff0434d3-f903-4334-a614-7f9148aea25c")
+	)
 	(wire
 		(pts
-			(xy 68.58 40.64) (xy 67.31 40.64)
+			(xy 62.23 40.64) (xy 64.77 40.64)
 		)
 		(stroke
 			(width 0)
@@ -619,13 +758,33 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 34.29) (xy 76.2 34.29)
+			(xy 88.9 39.37) (xy 83.82 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278c1619-d454-4e7d-9663-b9b93e9df74d")
+	)
+	(wire
+		(pts
+			(xy 72.39 30.48) (xy 88.9 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2a64048f-5ee7-4bc2-9f4c-e25f3d597878")
+	)
+	(wire
+		(pts
+			(xy 88.9 30.48) (xy 92.71 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9ecf59-2a5a-4bbf-bc50-a7fa8e89e76c")
 	)
 	(wire
 		(pts
@@ -679,7 +838,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 36.83) (xy 72.39 34.29)
+			(xy 64.77 45.72) (xy 64.77 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8ee6d5-508c-4c30-b1be-14606b391349")
+	)
+	(wire
+		(pts
+			(xy 72.39 36.83) (xy 72.39 30.48)
 		)
 		(stroke
 			(width 0)
@@ -689,13 +858,73 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 40.64) (xy 59.69 40.64)
+			(xy 88.9 40.64) (xy 88.9 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d95f029-7f4a-4442-87b1-2db4bfe58ad1")
+	)
+	(wire
+		(pts
+			(xy 83.82 45.72) (xy 64.77 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9ea03f-0a56-4f59-a823-6c35fc0692d7")
+	)
+	(wire
+		(pts
+			(xy 88.9 49.53) (xy 88.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f20f46-4831-4696-a8b2-2b2be5efef8f")
+	)
+	(wire
+		(pts
+			(xy 41.91 40.64) (xy 54.61 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a6acb0a7-be00-4419-a059-0b7a59bd932c")
+	)
+	(wire
+		(pts
+			(xy 64.77 40.64) (xy 68.58 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7881328-4a01-495b-8279-f1ee2f23dd78")
+	)
+	(wire
+		(pts
+			(xy 83.82 39.37) (xy 83.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba15eb4d-d0cb-4f8f-8c15-626d84964930")
+	)
+	(wire
+		(pts
+			(xy 88.9 39.37) (xy 88.9 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da22d69a-91bb-41b5-8fe6-be0e10b47d09")
 	)
 	(wire
 		(pts
@@ -730,7 +959,7 @@
 	)
 	(hierarchical_label "DAC_IN"
 		(shape input)
-		(at 76.2 34.29 0)
+		(at 92.71 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -762,7 +991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2307fde2-32ec-46f9-8705-52fa77925ab2")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR01403"
 			(at 72.39 55.88 0)
 			(effects
 				(font
@@ -810,15 +1039,87 @@
 			(uuid "b79ec07c-f121-4c7c-bb26-8982054446bc")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/0b090c7d-2dbf-4422-85ab-db71394b3d88"
+					(reference "#PWR01403")
+					(unit 1)
+				)
+			)
 			(project "audio-35jack"
 				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "#PWR031")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR031")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3873b003-2415-4cc0-997e-132327815d6d")
+		(property "Reference" "#PWR01404"
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2814a08f-a73b-4caa-98ee-6323361d777f")
+		)
+		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/0b090c7d-2dbf-4422-85ab-db71394b3d88"
+					(reference "#PWR01404")
 					(unit 1)
 				)
 			)
@@ -830,11 +1131,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4cedc74b-d864-448a-8cd3-7064362bdcb1")
-		(property "Reference" "RV1"
+		(property "Reference" "RV1401"
 			(at 74.93 39.3699 0)
 			(effects
 				(font
@@ -843,7 +1144,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 74.93 41.9099 0)
 			(effects
 				(font
@@ -852,7 +1153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_ACP_CA6-VSMD_Vertical"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 72.39 40.64 0)
 			(effects
 				(font
@@ -879,6 +1180,15 @@
 				(hide yes)
 			)
 		)
+		(property "OLI_ID" "10k_0805"
+			(at 72.39 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f0977e43-2cb5-4c36-a521-07bc5253bbed")
 		)
@@ -889,15 +1199,100 @@
 			(uuid "48e9756b-9412-4c89-8ed2-6ac771f0bbc7")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/0b090c7d-2dbf-4422-85ab-db71394b3d88"
+					(reference "RV1401")
+					(unit 1)
+				)
+			)
 			(project "audio-35jack"
 				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "RV1")
+					(reference "RV?")
 					(unit 1)
 				)
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "RV1")
+					(reference "RV?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5325d0f6-a414-475e-b59e-23c8a4200fdf")
+		(property "Reference" "R1402"
+			(at 91.44 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 91.44 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 87.122 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "10k_0805"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f630f677-41cd-4572-9608-0d51cef1968f")
+		)
+		(pin "2"
+			(uuid "37dd59e1-1fca-42d5-adea-4110e8f76085")
+		)
+		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/0b090c7d-2dbf-4422-85ab-db71394b3d88"
+					(reference "R1402")
 					(unit 1)
 				)
 			)
@@ -910,9 +1305,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6c5502f0-1b24-4b23-9d98-de73756c2f9d")
-		(property "Reference" "J2"
+		(property "Reference" "J1401"
 			(at 36.195 31.75 0)
 			(effects
 				(font
@@ -965,15 +1360,21 @@
 			(uuid "ef057d43-75f9-4b41-8992-3dc8768228ff")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/0b090c7d-2dbf-4422-85ab-db71394b3d88"
+					(reference "J1401")
+					(unit 1)
+				)
+			)
 			(project "audio-35jack"
 				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "J2")
+					(reference "J?")
 					(unit 1)
 				)
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "J2")
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -989,7 +1390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a14d712-18da-4dda-aaaa-43009fb693ca")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR01401"
 			(at 36.83 55.88 0)
 			(effects
 				(font
@@ -1037,15 +1438,21 @@
 			(uuid "93b9ffd7-dd1a-472e-9d98-3912c1cd43b4")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/0b090c7d-2dbf-4422-85ab-db71394b3d88"
+					(reference "#PWR01401")
+					(unit 1)
+				)
+			)
 			(project "audio-35jack"
 				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "#PWR029")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR029")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1061,7 +1468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a61f8c5-06ba-42f1-9260-38dcaf57874d")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR01402"
 			(at 54.61 39.37 0)
 			(effects
 				(font
@@ -1109,15 +1516,21 @@
 			(uuid "e07dd9b8-d0db-46ca-90bc-7539ab667357")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/0b090c7d-2dbf-4422-85ab-db71394b3d88"
+					(reference "#PWR01402")
+					(unit 1)
+				)
+			)
 			(project "audio-35jack"
 				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "#PWR030")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "#PWR030")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1125,7 +1538,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 63.5 40.64 270)
+		(at 58.42 40.64 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1133,8 +1546,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdf105ac-80fb-4b54-a3c1-1bd59bea4cb3")
-		(property "Reference" "C9"
-			(at 64.389 33.02 90)
+		(property "Reference" "C1401"
+			(at 59.309 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1142,15 +1555,15 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 64.389 35.56 90)
+			(at 59.309 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 59.69 39.6748 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 54.61 39.6748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +1572,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 40.64 0)
+			(at 58.42 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1168,7 +1581,16 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 63.5 40.64 0)
+			(at 58.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "100uf_1206"
+			(at 58.42 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,23 +1605,103 @@
 			(uuid "97d91cc6-f383-4b7e-aa37-423940fc39c4")
 		)
 		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/0b090c7d-2dbf-4422-85ab-db71394b3d88"
+					(reference "C1401")
+					(unit 1)
+				)
+			)
 			(project "audio-35jack"
 				(path "/932af046-53af-4851-a7fc-6dfe05ef846e"
-					(reference "C9")
+					(reference "C?")
 					(unit 1)
 				)
 			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/89db4163-62dc-424d-9343-e2bee6963b15"
-					(reference "C9")
+					(reference "C?")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f688c3c3-455f-47c9-b49f-00f11dc28572")
+		(property "Reference" "R1401"
+			(at 91.44 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 91.44 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 87.122 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "10k_0805"
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2a5237f-33fd-4546-83d4-39ecda2edf3e")
+		)
+		(pin "2"
+			(uuid "f9d4cef7-7ef3-4fad-bff1-7444e04fee8b")
+		)
+		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/0b090c7d-2dbf-4422-85ab-db71394b3d88"
+					(reference "R1401")
+					(unit 1)
+				)
+			)
 		)
 	)
 )

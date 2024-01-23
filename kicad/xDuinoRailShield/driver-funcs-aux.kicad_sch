@@ -1,0 +1,4617 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "05e300d5-f5fa-4357-9552-f348c65b0d1e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "BDR6133:BDR6133"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.112 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BDR6133"
+				(at -3.302 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -7.112 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -7.112 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -7.112 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BDR6133_0_0"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 10.16 270)
+					(length 2.54)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "INA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "INB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BDR6133_1_0"
+				(pin no_connect line
+					(at -10.16 -2.54 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BDR6133_1_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driver_Motor:DRV8872DDA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DRV8872DDA"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8872.pdf"
+				(at -6.35 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, Fault Reporting, HTSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "H-bridge driver motor current limit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Texas*HTSOP*1EP*3.9x4.9mm*P1.27mm*EP2.95x4.9mm*Mask2.4x3.1mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DRV8872DDA_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "DRV8872DDA_1_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "nFAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "ISEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_Array:ULN2003A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 15.875 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ULN2003A"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "darlington transistor array"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* SSOP*4.4x5.2mm*P0.65mm* TSSOP*4.4x5mm*P0.65mm* SOIC*W*5.3x10.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ULN2003A_0_1"
+				(rectangle
+					(start -7.62 -12.7)
+					(end 7.62 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.778 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.508 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 5.08) (xy -3.556 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 5.08) (xy 4.064 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.731) (xy -1.016 6.731)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 5.08) (xy -0.508 10.16) (xy 2.921 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 6.096) (xy -3.556 4.064) (xy -2.032 5.08) (xy -3.556 6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.969) (xy -1.016 5.969) (xy -0.508 6.731) (xy 0 5.969)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ULN2003A_1_1"
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "I1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "O7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "O6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "O5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "O4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "O3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "I2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "I3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "I4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "I5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "I6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "I7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET:2N7002"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7002"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel Switching MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N7002_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "2N7002_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 146.05 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11d5de96-b894-42ff-a48a-6b99e7a2e468")
+	)
+	(junction
+		(at 44.45 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f2efc37-2fa5-4b3a-b5fa-4df421caffce")
+	)
+	(junction
+		(at 97.79 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fe5f51c-7fdf-4a1d-b780-46bf25d66fd9")
+	)
+	(junction
+		(at 146.05 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2c48842-078e-467d-9b1d-8f414b061993")
+	)
+	(no_connect
+		(at 201.93 92.71)
+		(uuid "0115f7f4-1468-44ed-a9f9-de3110140154")
+	)
+	(no_connect
+		(at 173.99 55.88)
+		(uuid "2afc3758-763e-4066-bce6-f2d633f216f3")
+	)
+	(no_connect
+		(at 181.61 53.34)
+		(uuid "2b9a06c3-e189-4f1c-a772-db932e8df124")
+	)
+	(no_connect
+		(at 201.93 55.88)
+		(uuid "2f9d7728-80e0-4e15-b915-b1d0d53c8b04")
+	)
+	(no_connect
+		(at 208.28 55.88)
+		(uuid "37a59011-ce87-49ac-b308-f6fc7ac1a645")
+	)
+	(no_connect
+		(at 201.93 58.42)
+		(uuid "3e414dea-aacf-4873-8567-b2a4fa5bf1ec")
+	)
+	(no_connect
+		(at 181.61 58.42)
+		(uuid "4060575a-f6fe-4afe-aec1-41463b8f21c0")
+	)
+	(no_connect
+		(at 181.61 50.8)
+		(uuid "4e9cb4cb-6bc2-4b5f-9bd6-73503b7957bd")
+	)
+	(no_connect
+		(at 201.93 95.25)
+		(uuid "5908c7df-ab68-496a-8b89-0e3364ff09d1")
+	)
+	(no_connect
+		(at 208.28 58.42)
+		(uuid "5ce342c8-4b49-4313-9ca0-700f05c1a7c3")
+	)
+	(no_connect
+		(at 181.61 100.33)
+		(uuid "6db282a1-2951-4381-ab44-584bc9e95753")
+	)
+	(no_connect
+		(at 107.95 50.8)
+		(uuid "8550528f-6c6e-422d-b2ca-0b6184f3008b")
+	)
+	(no_connect
+		(at 173.99 50.8)
+		(uuid "8b3c5e3a-2bf3-49ed-93d8-22b03cfbd98e")
+	)
+	(no_connect
+		(at 181.61 95.25)
+		(uuid "8dc55463-9c73-4d6f-bd81-4fc4be4669a6")
+	)
+	(no_connect
+		(at 208.28 53.34)
+		(uuid "92ee07e1-6d30-451a-960d-82108f37ed0e")
+	)
+	(no_connect
+		(at 181.61 55.88)
+		(uuid "a778b572-8ece-4a0a-baf2-79d453011af6")
+	)
+	(no_connect
+		(at 201.93 97.79)
+		(uuid "a93c70ac-8d04-4c3b-bd98-53b7cc05522d")
+	)
+	(no_connect
+		(at 201.93 50.8)
+		(uuid "b02b495d-ea00-41e1-be17-c9ca3443d4b0")
+	)
+	(no_connect
+		(at 173.99 58.42)
+		(uuid "b3932c00-26ca-4a09-a560-329b80248005")
+	)
+	(no_connect
+		(at 201.93 53.34)
+		(uuid "c23e2b14-4841-4255-9a31-68414e821d74")
+	)
+	(no_connect
+		(at 208.28 50.8)
+		(uuid "cb2985e5-a148-4669-94b5-61d6f6e1d90c")
+	)
+	(no_connect
+		(at 181.61 92.71)
+		(uuid "d449f772-b305-4e7d-97c4-e1d607a853d4")
+	)
+	(no_connect
+		(at 201.93 100.33)
+		(uuid "d5328e98-2364-4857-a62f-1a37957d110c")
+	)
+	(no_connect
+		(at 181.61 97.79)
+		(uuid "ddc2f96d-a1ae-4f54-be68-c7dfb43a664e")
+	)
+	(no_connect
+		(at 201.93 80.01)
+		(uuid "df943c93-7afb-4be3-8dd2-e08962294683")
+	)
+	(no_connect
+		(at 173.99 53.34)
+		(uuid "ef1117ed-592b-45be-a8ed-adc7aea04a6b")
+	)
+	(no_connect
+		(at 201.93 38.1)
+		(uuid "ef3a3fbb-6d27-4e10-8887-03e1c704b854")
+	)
+	(no_connect
+		(at 87.63 50.8)
+		(uuid "fe471eb0-b73b-464f-9469-33222a3220dc")
+	)
+	(wire
+		(pts
+			(xy 208.28 50.8) (xy 224.79 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03e06d78-5e67-4c9a-859b-ab56bd27752f")
+	)
+	(wire
+		(pts
+			(xy 208.28 58.42) (xy 224.79 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06abfa20-8b88-4bdc-98ba-a72663965307")
+	)
+	(wire
+		(pts
+			(xy 201.93 87.63) (xy 218.44 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1977ce83-a651-492c-bf6f-740e5b62fae1")
+	)
+	(wire
+		(pts
+			(xy 232.41 149.86) (xy 245.11 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf132c5-d8dd-498f-b1df-5bd837c56299")
+	)
+	(wire
+		(pts
+			(xy 201.93 85.09) (xy 218.44 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d27cf7-d062-4404-b76c-5b599ab081c8")
+	)
+	(wire
+		(pts
+			(xy 158.75 55.88) (xy 173.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "317b2293-3f7c-4517-972d-248d7597f089")
+	)
+	(wire
+		(pts
+			(xy 44.45 57.15) (xy 44.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3239c73f-bc06-467f-b489-a85f9215a977")
+	)
+	(wire
+		(pts
+			(xy 166.37 45.72) (xy 181.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ab2b1c-903d-48d3-aee2-9506a903cd31")
+	)
+	(wire
+		(pts
+			(xy 166.37 48.26) (xy 181.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361b6e8b-f322-4dd5-b3d8-341d540d942f")
+	)
+	(wire
+		(pts
+			(xy 97.79 31.75) (xy 97.79 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3824700d-6aa7-4fe1-b802-e96cf72e14c3")
+	)
+	(wire
+		(pts
+			(xy 97.79 57.15) (xy 97.79 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af397b0-f254-465e-8c4f-1c8118b60000")
+	)
+	(wire
+		(pts
+			(xy 219.71 157.48) (xy 224.79 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be9187b-dff6-472f-89c7-665c7bc77f14")
+	)
+	(wire
+		(pts
+			(xy 44.45 57.15) (xy 44.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f4f3fb2-2458-4725-94d9-561c8197906b")
+	)
+	(wire
+		(pts
+			(xy 107.95 45.72) (xy 121.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c746e7-b993-48f7-86f8-ac26fbc43d95")
+	)
+	(wire
+		(pts
+			(xy 193.04 127) (xy 205.74 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4862abc6-22ee-43e6-bb97-837ca7bdfe20")
+	)
+	(wire
+		(pts
+			(xy 166.37 85.09) (xy 181.61 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498a4d38-2a69-4abe-b50c-cbf7cc821e4d")
+	)
+	(wire
+		(pts
+			(xy 158.75 53.34) (xy 173.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c12059d-0dee-4969-a4b6-17abc7b087cb")
+	)
+	(wire
+		(pts
+			(xy 232.41 152.4) (xy 232.41 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a282b20-b1f8-4b53-8e93-fc9295836047")
+	)
+	(wire
+		(pts
+			(xy 166.37 43.18) (xy 181.61 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8273d4-7987-4d92-8a59-fe45cb5a4233")
+	)
+	(wire
+		(pts
+			(xy 76.2 43.18) (xy 87.63 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d72a01b-098f-468a-8098-6ffdc9cb0a20")
+	)
+	(wire
+		(pts
+			(xy 22.86 45.72) (xy 34.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6058e206-17d2-4618-845c-6cfe85e02648")
+	)
+	(wire
+		(pts
+			(xy 97.79 57.15) (xy 100.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60bc681b-9778-4fee-88a0-e8caaddf758b")
+	)
+	(wire
+		(pts
+			(xy 146.05 157.48) (xy 160.02 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f6bbeb-4ac2-4c55-a72e-cc25fe5fef8c")
+	)
+	(wire
+		(pts
+			(xy 201.93 90.17) (xy 218.44 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6478f098-6d49-42b9-a040-cea4a1e8c574")
+	)
+	(wire
+		(pts
+			(xy 45.72 33.02) (xy 45.72 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bec459d-5336-4026-904e-693b0738dc58")
+	)
+	(wire
+		(pts
+			(xy 128.27 124.46) (xy 146.05 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724434aa-cdc6-4803-8743-c242322fd2b4")
+	)
+	(wire
+		(pts
+			(xy 166.37 90.17) (xy 181.61 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73444f96-4226-4461-8bde-0060da507aba")
+	)
+	(wire
+		(pts
+			(xy 128.27 149.86) (xy 146.05 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abd0c13-ed8c-4813-9670-e4b1edd4fb24")
+	)
+	(wire
+		(pts
+			(xy 201.93 43.18) (xy 218.44 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aee5af4-a0d0-4000-b6c3-c1dd1897c19a")
+	)
+	(wire
+		(pts
+			(xy 44.45 57.15) (xy 46.99 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca13e96-8a40-499a-99ce-15d50a6267f2")
+	)
+	(wire
+		(pts
+			(xy 208.28 55.88) (xy 224.79 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd099c9-f7fd-4228-acf2-6e31449f4ad1")
+	)
+	(wire
+		(pts
+			(xy 67.31 43.18) (xy 54.61 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90df2ec7-612c-428f-bb01-23afc255221a")
+	)
+	(wire
+		(pts
+			(xy 201.93 48.26) (xy 218.44 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921cacf6-cb72-40cc-8e80-6d14d5be30f9")
+	)
+	(wire
+		(pts
+			(xy 193.04 152.4) (xy 193.04 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97345768-be53-4021-a01d-2339960f371b")
+	)
+	(wire
+		(pts
+			(xy 22.86 43.18) (xy 34.29 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a54715b-c240-4960-925e-93fc01408614")
+	)
+	(wire
+		(pts
+			(xy 67.31 45.72) (xy 54.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dccd50b-3249-413a-96bc-7a7fc0fe4929")
+	)
+	(wire
+		(pts
+			(xy 166.37 87.63) (xy 181.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a932694f-51ed-4e31-9877-4245063ee492")
+	)
+	(wire
+		(pts
+			(xy 193.04 149.86) (xy 205.74 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc0045f-da11-4167-8f67-d7550da42de6")
+	)
+	(wire
+		(pts
+			(xy 232.41 129.54) (xy 232.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b141847c-6f5d-4bfa-ba99-240636ede105")
+	)
+	(wire
+		(pts
+			(xy 179.07 157.48) (xy 185.42 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3253dae-4477-43d1-bef2-99400eb87802")
+	)
+	(wire
+		(pts
+			(xy 208.28 53.34) (xy 224.79 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99904c0-b519-4a20-b701-e559e24bba42")
+	)
+	(wire
+		(pts
+			(xy 43.18 33.02) (xy 43.18 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf371c79-ec52-4511-b914-b305b381b540")
+	)
+	(wire
+		(pts
+			(xy 179.07 134.62) (xy 185.42 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0820ed5-f5a9-4928-8cf6-899d70f8c9de")
+	)
+	(wire
+		(pts
+			(xy 219.71 134.62) (xy 224.79 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7526f66-d7a9-463c-a3f3-6aba2193cd72")
+	)
+	(wire
+		(pts
+			(xy 201.93 45.72) (xy 218.44 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9330148-340d-4747-a425-4d2e14e3f99c")
+	)
+	(wire
+		(pts
+			(xy 146.05 132.08) (xy 160.02 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9fcf94-4f94-4bcf-aa83-a3f71e91e157")
+	)
+	(wire
+		(pts
+			(xy 158.75 50.8) (xy 173.99 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7ff6f4-3edf-44ea-90dd-384751586f24")
+	)
+	(wire
+		(pts
+			(xy 76.2 45.72) (xy 87.63 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4f33eb-36dd-4e3c-bcbc-3791e2368f46")
+	)
+	(wire
+		(pts
+			(xy 232.41 127) (xy 245.11 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3364154-96c4-44eb-ac08-2af8112cd2f8")
+	)
+	(wire
+		(pts
+			(xy 107.95 43.18) (xy 121.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3893230-fac8-47e1-bbe8-e70a3c1396a1")
+	)
+	(wire
+		(pts
+			(xy 193.04 129.54) (xy 193.04 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62275f8-248b-48e6-afc2-2bf1567e356e")
+	)
+	(wire
+		(pts
+			(xy 97.79 55.88) (xy 97.79 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf9b0a1-773e-4a0a-b29b-1e494624339a")
+	)
+	(wire
+		(pts
+			(xy 158.75 58.42) (xy 173.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed24de4-8363-4152-a0f7-601cdb04e683")
+	)
+	(text "Output Driver"
+		(exclude_from_sim no)
+		(at 178.054 26.67 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "7128dfe5-4d62-41cf-89ec-af50d189f50c")
+	)
+	(text "Motor Driver"
+		(exclude_from_sim no)
+		(at 34.798 24.892 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e7b0bd8-c661-4330-97fe-306bf27b788e")
+	)
+	(label "AMP_FUNC1"
+		(at 218.44 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "064ce4fa-1217-4a92-b6ea-0eaeb548de88")
+	)
+	(label "AUX5"
+		(at 158.75 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0845dd63-b9c9-48a2-a169-bdf4a29fee58")
+	)
+	(label "MOTOR1"
+		(at 76.2 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "1023cd0b-7083-43de-b115-31907dcf28f1")
+	)
+	(label "AUX2"
+		(at 158.75 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13cedfa7-ad69-4596-951a-d744fbaa70b1")
+	)
+	(label "AMP_AUX5"
+		(at 224.79 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1493c660-fe5c-4b54-906d-dc6c70b859b5")
+	)
+	(label "AUX7"
+		(at 166.37 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bd22530-96be-4992-9339-84f391e4fb80")
+	)
+	(label "FUNC0"
+		(at 179.07 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e1d462e-6707-4aa9-96de-709045886996")
+	)
+	(label "AUX4"
+		(at 158.75 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f7eb9b8-73ed-4aa7-b070-602efeb64c7e")
+	)
+	(label "AMP_FUNC1"
+		(at 205.74 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f891498-1edc-46cc-9f30-1c880ac933ef")
+	)
+	(label "AMP_AUX1"
+		(at 245.11 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2208e3d1-9162-40ed-8cde-82153c78e22a")
+	)
+	(label "AUX2"
+		(at 219.71 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "225815e4-11bc-4c00-95f6-ec3c9ef97543")
+	)
+	(label "AMP_MOTOR0"
+		(at 67.31 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "286a31b9-cc5c-4f1d-920b-defec46afb57")
+	)
+	(label "AMP_AUX4"
+		(at 224.79 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2cdb6bf3-189d-4ea7-8fe7-433571efd4c2")
+	)
+	(label "AMP_AUX3"
+		(at 224.79 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "303a850c-7b57-49d2-998f-1a69a24e782c")
+	)
+	(label "AMP_AUX6"
+		(at 218.44 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "593bccfe-6b70-44cf-9cd2-2e71b3e62ed0")
+	)
+	(label "MOTOR0"
+		(at 22.86 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b681425-549c-42d5-84fb-f9e25e598049")
+	)
+	(label "AMP_MOTOR0"
+		(at 121.92 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "5eb8a327-b92b-4e7f-b11a-f0e6ae1a3fe1")
+	)
+	(label "FUNC0"
+		(at 166.37 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6167a743-7e16-45ff-ace0-acd7bbca4a80")
+	)
+	(label "MOTOR0"
+		(at 76.2 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "65026320-8fbb-48e4-8f56-2e6730c082a9")
+	)
+	(label "AMP_MOTOR1"
+		(at 67.31 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "734fedad-266e-4c09-b068-c03059a46fc5")
+	)
+	(label "AMP_AUX8"
+		(at 218.44 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8076d24a-c508-4831-8123-f9551e78c636")
+	)
+	(label "AUX6"
+		(at 166.37 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97cad048-cc85-40c9-975e-bff510aa1c7a")
+	)
+	(label "AUX1"
+		(at 166.37 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9838cb45-8d9e-461c-9374-8bffadc7aa2a")
+	)
+	(label "EMF_MOTOR1"
+		(at 160.02 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "996ab178-c2c5-48be-b896-612c0bae7106")
+	)
+	(label "AMP_AUX1"
+		(at 218.44 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9803ae5-ba8a-4a31-8519-879e52d6712c")
+	)
+	(label "AMP_FUNC0"
+		(at 205.74 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad6b64a3-240c-4cba-9707-34ec4ce38ed0")
+	)
+	(label "AMP_AUX7"
+		(at 218.44 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aeac579e-8e35-4ed1-bad4-6eab4f0a06f9")
+	)
+	(label "AMP_AUX2"
+		(at 224.79 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba687c07-f16f-4329-ba4f-7befaa8d4e34")
+	)
+	(label "AMP_FUNC0"
+		(at 218.44 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb5bd938-a5bc-4a47-8fe6-0502ff903c04")
+	)
+	(label "AUX1"
+		(at 219.71 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3ce9ce1-21f6-44e8-aa4f-f3375c9f4b91")
+	)
+	(label "MOTOR1"
+		(at 22.86 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca25e6fa-aefa-4fd3-8c5a-1b9990233bf8")
+	)
+	(label "AUX8"
+		(at 166.37 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce0e4e17-032e-49b7-a6a5-f46039f5481e")
+	)
+	(label "AMP_MOTOR1"
+		(at 121.92 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "d0b96ed5-7575-4ea1-989a-2de6345e2514")
+	)
+	(label "FUNC1"
+		(at 179.07 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8c42e57-7210-4e53-b372-ca1eb9024951")
+	)
+	(label "AMP_MOTOR1"
+		(at 128.27 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "db405048-665e-4654-9673-184bc84c0924")
+	)
+	(label "AMP_MOTOR0"
+		(at 128.27 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbe16cc7-72fd-44a4-8a66-3ab1803b2f1c")
+	)
+	(label "EMF_MOTOR0"
+		(at 160.02 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc09796f-3305-4035-9955-f08c27c471b6")
+	)
+	(label "AUX3"
+		(at 158.75 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e348be2e-cb23-4911-a30f-3e6eba14dfbe")
+	)
+	(label "AMP_AUX2"
+		(at 245.11 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e405502e-1a7b-4dae-900d-59c018ef824b")
+	)
+	(label "FUNC1"
+		(at 166.37 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f051f1c2-aab5-4629-b644-c3353ad1fb4a")
+	)
+	(hierarchical_label "AMP_AUX[1..8]"
+		(shape output)
+		(at 207.01 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18d8c44d-8420-43a1-81fa-e42c6c0711a3")
+	)
+	(hierarchical_label "AMP_MOTOR[0..1]"
+		(shape output)
+		(at 54.61 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c88d8c4-265c-4f70-a734-26efb4f796f7")
+	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 43.18 33.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cb6f32f-3e47-4ce2-a85f-988b13c98b61")
+	)
+	(hierarchical_label "U+"
+		(shape input)
+		(at 45.72 33.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "453a376b-d7ff-4571-9909-9386f2ed9289")
+	)
+	(hierarchical_label "MOTOR[0..1]"
+		(shape input)
+		(at 33.02 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8235e965-23cd-4b65-bec8-5da5d638f858")
+	)
+	(hierarchical_label "AMP_FUNC[0..1]"
+		(shape output)
+		(at 207.01 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fdf079b-b86b-4e37-9167-bb135d30cca0")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 100.33 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6adf25a-16a0-494b-a783-31cc5fde5e3a")
+	)
+	(hierarchical_label "AUX[1..8]"
+		(shape input)
+		(at 172.72 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8152619-999a-4577-8658-a7d4d91f0053")
+	)
+	(hierarchical_label "FUNC[0..1]"
+		(shape input)
+		(at 172.72 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cad4aeae-8b83-42ac-9a80-b3d7a528fcb1")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 46.99 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0831100-ac8b-4589-b35a-55e2afb226e4")
+	)
+	(hierarchical_label "U+"
+		(shape input)
+		(at 97.79 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5c9994f-df8a-48da-b103-10a3a74fad2e")
+	)
+	(hierarchical_label "EMF_MOTOR[0..1]"
+		(shape output)
+		(at 154.94 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea5af305-bbd2-4d1e-93b2-79d6eee3e76a")
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 229.87 157.48 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "14f19a94-4dde-4f9e-bf1c-4c43130af5c2")
+		(property "Reference" "Q804"
+			(at 236.22 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 236.22 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 234.95 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 234.95 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 229.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c2f595a5-d9ac-49ed-a855-7baf3fd6d7a8")
+		)
+		(pin "1"
+			(uuid "4af5c201-0edd-46f8-bb88-9b2133d84e85")
+		)
+		(pin "2"
+			(uuid "e21bb45f-8026-4a8b-8a12-53ac32c00fe3")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "Q804")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "Q804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 135.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16992495-bbeb-4988-91f6-d7f082e72fcf")
+		(property "Reference" "R804"
+			(at 143.51 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 143.51 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 147.828 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17513"
+			(at 146.05 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3d6e08e-b95c-4307-a534-7f6be7015ed6")
+		)
+		(pin "1"
+			(uuid "c708f667-6efb-438d-a07b-a3619a61980a")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "R804")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "R804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 161.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20282f4d-280e-4d53-8e85-b4f4dc5bb4cc")
+		(property "Reference" "R802"
+			(at 143.51 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 143.51 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 147.828 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17513"
+			(at 146.05 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4ec83fe-83e4-438d-9f82-2f779d011af1")
+		)
+		(pin "1"
+			(uuid "cf45cbc2-c656-4159-ae91-0499416ce94c")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "R802")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "R802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BDR6133:BDR6133")
+		(at 44.45 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bf60704-2b8b-4d89-8354-dc1a7621affe")
+		(property "Reference" "U801"
+			(at 36.576 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BDR6133"
+			(at 34.544 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BDR6133:BDR6133"
+			(at 36.322 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.322 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.322 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d315372-ebff-4a15-8261-38c078d3a800")
+		)
+		(pin "4"
+			(uuid "54b783b7-b911-44a4-9ce0-6f6cb9c63535")
+		)
+		(pin "7"
+			(uuid "9864a5d9-a5cf-4dd8-a813-a63685f4d1c7")
+		)
+		(pin "6"
+			(uuid "49a8342c-2efc-4a85-8c1a-f6ff1e14c6ec")
+		)
+		(pin "5"
+			(uuid "acf00098-ee09-4424-ba89-0ed36cd503e9")
+		)
+		(pin "3"
+			(uuid "9dccbef6-8236-413e-8e75-8fc00cc97a85")
+		)
+		(pin "8"
+			(uuid "1ea6d848-cdea-437c-826a-35f31e3ec18b")
+		)
+		(pin "2"
+			(uuid "ce8ae023-fcfd-40de-9a5f-02bf4d5d4544")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "U801")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "U801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a91f750-a3dc-4f4b-b4c2-dece587c3892")
+		(property "Reference" "#PWR0802"
+			(at 146.05 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25e48f81-b5de-4386-817f-ff766d17c829")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "#PWR0802")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "#PWR0802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:DRV8872DDA")
+		(at 97.79 45.72 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "4a03c026-adfe-4835-9eaa-fde52cc5c802")
+		(property "Reference" "U802"
+			(at 99.9841 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DRV8872DDA"
+			(at 99.9841 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
+			(at 102.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8872.pdf"
+			(at 91.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, Fault Reporting, HTSOP-8"
+			(at 97.79 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8bcabe0d-dcf7-43f0-80c7-b089f9cab2e7")
+		)
+		(pin "6"
+			(uuid "ec5580f9-479e-414d-8ef5-225daaaeb4b0")
+		)
+		(pin "7"
+			(uuid "9edc5d0d-624c-4a96-84f2-b1c95165b2d5")
+		)
+		(pin "8"
+			(uuid "e2f08411-070b-44b0-8e69-7a31ca8a01b9")
+		)
+		(pin "3"
+			(uuid "1d301307-be35-41c6-b069-df175f7cbd86")
+		)
+		(pin "1"
+			(uuid "f48e2115-06e5-4df1-9020-ce27a88f0b76")
+		)
+		(pin "5"
+			(uuid "5b254d71-585c-4222-8638-5309526a3c77")
+		)
+		(pin "4"
+			(uuid "1845b0cd-6b0b-450c-8706-f377d4dd99b0")
+		)
+		(pin "9"
+			(uuid "d55e84da-718d-4e96-afc9-64e313fbe556")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "U802")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "U802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 153.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f8653a7-77c3-4d82-86fc-ac1d81619dd2")
+		(property "Reference" "R801"
+			(at 143.51 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 143.51 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 147.828 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 146.05 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5153ba42-6d08-4c1a-9253-6068058cbc32")
+		)
+		(pin "1"
+			(uuid "fa1514fe-51bc-456e-be01-563447ef1ae4")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "R801")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "R801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6209358b-45a6-42c7-844d-65d8a8f3f266")
+		(property "Reference" "#PWR0807"
+			(at 193.04 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c540b02b-bd95-4e6c-a7db-6fafae0b58b8")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "#PWR0807")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "#PWR0807")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68f1fe05-089e-41b8-be4d-5c24f3bbf787")
+		(property "Reference" "#PWR0803"
+			(at 146.05 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17161bd8-149b-431c-8ac6-9f4cf2e4a45f")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "#PWR0803")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "#PWR0803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73c4f2a1-4e64-496f-81b4-005df9119c29")
+		(property "Reference" "#PWR0805"
+			(at 191.77 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61e7f11e-b132-4a86-942b-d966d9d55ede")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "#PWR0805")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "#PWR0805")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 229.87 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b08963e-2bfd-4723-9bc4-61304ce8d73d")
+		(property "Reference" "Q803"
+			(at 236.22 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 236.22 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 234.95 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 234.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 229.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8545"
+			(at 229.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fad6a562-75f5-4359-91af-8aa45689d150")
+		)
+		(pin "1"
+			(uuid "5fb34178-2d84-481e-b34e-03ad89d55790")
+		)
+		(pin "2"
+			(uuid "6f999eb9-c57c-42cf-a6f0-02ed6817e1f3")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "Q803")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "Q803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_Array:ULN2003A")
+		(at 191.77 48.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "7b3701a4-6b11-4f38-9e26-66e251fb48a3")
+		(property "Reference" "U803"
+			(at 191.77 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ULN2003A"
+			(at 191.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
+			(at 193.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
+			(at 194.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+			(at 191.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7512"
+			(at 191.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 191.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "70d57f32-464b-4a24-86cd-15dfe80a07bc")
+		)
+		(pin "3"
+			(uuid "11dc774b-9c5b-4ea8-a995-4069ca6d0c81")
+		)
+		(pin "2"
+			(uuid "3d26465b-8a00-4e02-9e98-f894890e876f")
+		)
+		(pin "13"
+			(uuid "ccb21faa-2b43-4dff-889a-b30cba51d794")
+		)
+		(pin "8"
+			(uuid "b2b4d2d8-5f50-4e36-9941-6b03abb369c7")
+		)
+		(pin "7"
+			(uuid "58988f8d-5493-436f-8716-737ce2aab551")
+		)
+		(pin "6"
+			(uuid "f5affbdf-1df5-48ea-970d-e006779bb81d")
+		)
+		(pin "11"
+			(uuid "aab14b93-66db-4714-96ed-0cb21135768c")
+		)
+		(pin "1"
+			(uuid "3bc70dfb-57a6-4bdd-b51c-a06fd8d380df")
+		)
+		(pin "4"
+			(uuid "655c0a82-0ec3-4cfa-b4c8-00fa4137bc10")
+		)
+		(pin "9"
+			(uuid "4a9d503b-3f5a-4f65-8147-63c1a503023e")
+		)
+		(pin "12"
+			(uuid "4823489e-0f2e-4249-a512-62ddd280f56d")
+		)
+		(pin "5"
+			(uuid "8b81fcf4-1a0f-48b2-90dc-919d7a1c129c")
+		)
+		(pin "16"
+			(uuid "dd87c523-cb54-4cd0-a29b-81d256a678d1")
+		)
+		(pin "10"
+			(uuid "89c13a0b-de1d-40d3-8d9e-8f01a3e2ee37")
+		)
+		(pin "14"
+			(uuid "5276eafe-8bd8-41c7-bcca-b433bce5e906")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "U803")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "U803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7df0e2d4-0656-497d-a60d-6957738885f3")
+		(property "Reference" "#PWR0810"
+			(at 232.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98b6b7bb-7dc3-4860-aa07-1f7f62c2b833")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "#PWR0810")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "#PWR0810")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81781f1e-cf8b-44b1-bc62-aac181a87b7b")
+		(property "Reference" "#PWR0809"
+			(at 232.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ed7ca55-9dd2-4ae6-8a51-4b3339d9aec9")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "#PWR0809")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "#PWR0809")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 190.5 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "818b04d4-a694-479b-a28a-040cb9fd1c4e")
+		(property "Reference" "Q801"
+			(at 196.85 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 196.85 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 195.58 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 195.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8545"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7ab62255-541b-4b1f-94d9-df3ab5e5399c")
+		)
+		(pin "1"
+			(uuid "d32e42ca-940b-497d-9a01-b838ce1a147d")
+		)
+		(pin "2"
+			(uuid "fb97c90d-2528-4349-ba84-11435360f968")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "Q801")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "Q801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89a750f4-913e-49c2-8bd4-b987c6418806")
+		(property "Reference" "#PWR0808"
+			(at 193.04 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0073a334-c36e-41b3-9759-6cadefdc816d")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "#PWR0808")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "#PWR0808")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a80b4eb-0ea6-425e-833a-8a8cb9a89eb2")
+		(property "Reference" "R803"
+			(at 143.51 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 143.51 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 147.828 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 146.05 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "943bcc72-801e-492e-92e2-119f59643d73")
+		)
+		(pin "1"
+			(uuid "3d9b12e2-13c5-451c-838e-0712c969db3c")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "R803")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "R803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fb85523-6e02-418e-a7c7-44f16af15647")
+		(property "Reference" "#PWR0806"
+			(at 191.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48925ea4-4216-4821-9f74-7c0b420ee3ad")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "#PWR0806")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "#PWR0806")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 190.5 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4a5afd4-5ccc-41c4-8acf-926e07220d6d")
+		(property "Reference" "Q802"
+			(at 196.85 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 196.85 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 195.58 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 195.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 190.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8545"
+			(at 190.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f057ae3c-7024-4f0a-b429-4356d4e658b7")
+		)
+		(pin "1"
+			(uuid "ac0d403b-14a7-403a-8bed-750e8f4dfc96")
+		)
+		(pin "2"
+			(uuid "63822315-ca39-4c94-b60f-7562730b0838")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "Q802")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "Q802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbb9fb57-292f-416d-aea7-cb73ec05dcc3")
+		(property "Reference" "#PWR0804"
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b270b223-e71d-42ff-a847-f1e2cdc014d5")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "#PWR0804")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "#PWR0804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4d4f361-9a2c-4c3a-b54e-e0d3f16fa59b")
+		(property "Reference" "#PWR0801"
+			(at 44.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9813329f-fa43-4a7b-90a9-4caf8ac112aa")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "#PWR0801")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "#PWR0801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_Array:ULN2003A")
+		(at 191.77 90.17 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "fb8f2fa1-6623-4001-8369-487d91d76e31")
+		(property "Reference" "U804"
+			(at 191.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ULN2003A"
+			(at 191.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
+			(at 193.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
+			(at 194.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7512"
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "e96a5215-2030-421a-a3c9-4d01643c1b75")
+		)
+		(pin "3"
+			(uuid "7056a548-962b-49a4-bb34-3b2151472603")
+		)
+		(pin "2"
+			(uuid "1d1bdc40-3b67-41a3-9eaa-a077f448510b")
+		)
+		(pin "13"
+			(uuid "9cae567f-32d4-49e3-bcec-850bfd6792b1")
+		)
+		(pin "8"
+			(uuid "46bd7034-a4c8-488f-8bdd-67a632aa9d66")
+		)
+		(pin "7"
+			(uuid "ccbd15ec-4ccb-4ffb-a2bf-836c0582cec4")
+		)
+		(pin "6"
+			(uuid "81824644-094f-4533-8088-62622802966c")
+		)
+		(pin "11"
+			(uuid "aa40e191-f413-42ae-9fd4-51fefa9f6236")
+		)
+		(pin "1"
+			(uuid "3d589639-f293-47ce-b19d-b4ffb4be7c35")
+		)
+		(pin "4"
+			(uuid "1d1f42e0-d250-46b1-afab-756e24cdf1e8")
+		)
+		(pin "9"
+			(uuid "3bc1d99c-60d1-48bf-961b-ee37839f973a")
+		)
+		(pin "12"
+			(uuid "cf263096-6a9e-4753-a04f-20bfea8fafb5")
+		)
+		(pin "5"
+			(uuid "dfc4553f-a57b-4df2-abdc-ba8f578bb39f")
+		)
+		(pin "16"
+			(uuid "5694bfaf-67fb-44ab-80f8-a552bd71aef2")
+		)
+		(pin "10"
+			(uuid "c67fa58c-44c4-4eab-99df-bb072ddb56ae")
+		)
+		(pin "14"
+			(uuid "7938d233-d855-4f4f-920c-56a142f81279")
+		)
+		(instances
+			(project "motor-n-power-drivers"
+				(path "/05e300d5-f5fa-4357-9552-f348c65b0d1e"
+					(reference "U804")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRailShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/10556c7b-ce49-4892-a771-0d8fda915d8b"
+					(reference "U804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

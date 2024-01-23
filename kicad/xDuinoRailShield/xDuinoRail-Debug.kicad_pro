@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -75,6 +75,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
@@ -131,7 +132,7 @@
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -461,7 +462,24 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.12,
+        "track_width": 0.15,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DCC_Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -473,10 +491,56 @@
     "net_colors": {
       "+1V1": "rgb(250, 182, 255)",
       "+3V3": "rgb(255, 55, 210)",
-      "GND": "rgb(123, 123, 123)"
+      "+U": "rgb(145, 46, 255)",
+      "+VBUS_H": "rgb(40, 244, 255)",
+      "/CENTRAL0": "rgb(255, 251, 158)",
+      "/CENTRAL1": "rgb(255, 206, 46)",
+      "/TRACK_A0": "rgb(255, 228, 59)",
+      "/TRACK_B0": "rgb(255, 194, 55)",
+      "/USB_DM": "rgb(252, 253, 255)",
+      "/USB_DP": "rgb(5, 255, 56)",
+      "GND": "rgb(123, 123, 123)",
+      "Net-(C1702-Pad1)": "rgb(255, 228, 59)",
+      "unconnected-(A501-A3-Pad22)": "rgb(255, 228, 59)",
+      "unconnected-(A501-~{RESET}-Pad28)": "rgb(255, 251, 158)",
+      "unconnected-(A901-A3-Pad22)": "rgb(255, 228, 59)",
+      "unconnected-(A901-~{RESET}-Pad28)": "rgb(255, 251, 158)"
     },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "DCC_Power",
+        "pattern": "/DCC*"
+      },
+      {
+        "netclass": "DCC_Power",
+        "pattern": "/TRACK*"
+      },
+      {
+        "netclass": "DCC_Power",
+        "pattern": "/CENT*"
+      },
+      {
+        "netclass": "DCC_Power",
+        "pattern": "/AMP_*"
+      },
+      {
+        "netclass": "DCC_Power",
+        "pattern": "+U"
+      },
+      {
+        "netclass": "DCC_Power",
+        "pattern": "+VBUS_H"
+      },
+      {
+        "netclass": "DCC_Power",
+        "pattern": "/CN_A*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+VBUS_H_THIN"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -496,10 +560,10 @@
     "annotate_start_num": 0,
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ",",
+      "field_delimiter": ";",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "---",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": "\""
@@ -558,12 +622,6 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Beschreibung",
           "name": "Description",
           "show": false
@@ -584,6 +642,30 @@
           "group_by": false,
           "label": "Field-1",
           "name": "Field-1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OLI_ID",
+          "name": "OLI_ID",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "rohs_cert_or_in_datasheet",
+          "name": "rohs_cert_or_in_datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
           "show": false
         }
       ],
@@ -621,6 +703,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -638,36 +728,116 @@
       "Stammblatt"
     ],
     [
-      "7c0b979b-2a85-4465-a6fd-5d3c922fae7f",
+      "90f5e1a1-7341-4e6d-b6ed-863362239436",
+      "zero-ohm-array-x3"
+    ],
+    [
+      "07d2d1fe-253f-41e4-9646-75bbae70953e",
+      "rails_signal_feedback_dcc-railcom_BC8x7"
+    ],
+    [
+      "c26b2be2-b4d9-462d-a2f7-a5c9a0731a86",
+      "rails_signal_feedback_dcc-railcom-8x50"
+    ],
+    [
+      "8f669943-ba18-4ac2-859a-f158cd2992b6",
+      "i2c-audio-ic"
+    ],
+    [
+      "d4eba6f3-4dd8-4668-857b-8d6a4e6721a4",
+      "zero-ohm-array-x4"
+    ],
+    [
+      "a9360f8b-b1cc-42f1-9c21-011e70a7c774",
+      "i2c-sensors-gyro-accelerometer"
+    ],
+    [
+      "2488bd8a-b941-4933-a015-ab833e7750d5",
+      "driver-motor"
+    ],
+    [
+      "74c2c530-d758-4d23-8e09-ea7d8d60ada5",
+      "centrale_nano"
+    ],
+    [
+      "c12f5f9a-7849-405e-b243-b38a75da6000",
+      "zero-ohm-array-x5"
+    ],
+    [
+      "f5a19207-1931-497e-ab27-14087bb9e856",
+      "loco-adapter-nem652-8-pin"
+    ],
+    [
+      "2529bc37-bc92-4948-8abc-c5ef6191063e",
+      "usb-c_power_dc-dc-15V_3v3-1A"
+    ],
+    [
+      "bf7aab3b-3930-4bc3-865d-386c1fe7edc1",
+      "rails_power_ac-dc-bridge-light"
+    ],
+    [
+      "0b090c7d-2dbf-4422-85ab-db71394b3d88",
+      "audio-35jack"
+    ],
+    [
+      "9d5a3fc9-0f4d-48f5-b3c3-b3deff2676c7",
+      "xiao_decoder"
+    ],
+    [
+      "7f8c68ad-2e57-4b18-8ec5-2c4eb2ecdd46",
+      "mcu"
+    ],
+    [
+      "b7417733-3203-4afd-8204-a5cf9a49c643",
       "mcu_rp2040-onboard"
     ],
     [
-      "ec041cac-ba8a-4e39-a1e2-0637cb1a7f49",
-      "loco-adapter-maerklin-21mtc"
+      "269a6a50-a098-48b4-b6f5-f365b6191ebc",
+      "mcu_flash"
     ],
     [
-      "a25ef325-35c0-450e-895f-b05e76b53aca",
-      "loco-adapter-nem651-6-pin"
+      "fef5913b-a617-4410-860f-028f23a52406",
+      "zero-ohm-array-x2"
     ],
     [
-      "9c61104c-2ec1-445b-adeb-4b37bd3fed02",
+      "1f9fb27c-da25-49ad-8c0e-517dc37fd13d",
+      "status-led"
+    ],
+    [
+      "20426e3e-9bb8-452e-80c9-fd06a292733f",
+      "rails_signal_extraction_dcc"
+    ],
+    [
+      "a69e15f3-9c14-4aca-9191-41e586ada203",
+      "centrale-railcom-feedback"
+    ],
+    [
+      "74710df9-7e61-48be-b0f8-0d4cba0f15c2",
+      "central_railcom-power-source"
+    ],
+    [
+      "cddc5dbc-4519-43fa-a1d8-85355b2ecf1b",
       "central_railcom-detector"
     ],
     [
-      "e428b020-e8a0-4fd3-b33d-3831684b9770",
-      "loco-track-terminal_central"
+      "89c38e83-9883-4a10-8423-964a888423c7",
+      "central_railcom-merger"
     ],
     [
-      "869ab187-d4c3-4427-843d-f3d1f0f0aa48",
+      "3b3a13db-6557-433d-96a5-218459e8b091",
       "loco-track-terminal_track_a"
     ],
     [
-      "379ceeb1-29cb-43d0-b953-00e5101be218",
+      "cbcba9a5-81e5-4be6-bbd1-91127981b75d",
       "loco-track-terminal_track_b"
     ],
     [
-      "18c41d66-a08e-42bb-9b61-924b7bc9b24e",
-      "rails_signal_feedback_dcc-railcom_BC8x7"
+      "b77f0077-1926-4790-a8ae-2d9cb2a861f8",
+      "loco-track-terminal_central"
+    ],
+    [
+      "c9228803-6046-4d10-82ec-3286241cf69a",
+      "centrale-driver-8874"
     ]
   ],
   "text_variables": {}

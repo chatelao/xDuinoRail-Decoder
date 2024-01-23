@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "6d7aefd8-fcb8-4935-b99c-c7045c3b702f")
 	(paper "A4")
 	(lib_symbols
@@ -446,164 +446,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:D"
 			(pin_numbers hide)
 			(pin_names
@@ -888,330 +730,6 @@
 				)
 			)
 		)
-		(symbol "Diode:1N4004"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4004"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4004_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4004_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Diode:1N5400"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N5400"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?201AD*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N5400_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N5400_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_names
@@ -1430,160 +948,128 @@
 		)
 	)
 	(junction
-		(at 203.2 105.41)
+		(at 114.3 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06ecb693-0872-4cf9-9ada-634958fa8032")
 	)
 	(junction
-		(at 170.18 59.69)
+		(at 81.28 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d3c9daa-b84b-4cd9-9909-333742560f8a")
 	)
 	(junction
-		(at 157.48 123.19)
+		(at 68.58 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ebfecd3-6bfe-47a6-982a-0eb441e22f59")
 	)
 	(junction
-		(at 44.45 64.77)
+		(at 114.3 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4017b4b0-132d-415e-b947-04f254651b70")
+		(uuid "456ccd20-9046-4c28-b1cd-b87f9d0e097f")
 	)
 	(junction
-		(at 78.74 92.71)
+		(at 36.83 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "533b952c-ae50-4a6b-8a68-e203b0c18852")
+		(uuid "553982bf-5292-49e7-ab67-c53d5a8d5cea")
 	)
 	(junction
-		(at 92.71 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5436d44f-44ef-45e0-91b9-30bd3095f2e9")
-	)
-	(junction
-		(at 157.48 48.26)
+		(at 68.58 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "581cb1d4-0586-435e-9423-0a5487ab914d")
 	)
 	(junction
-		(at 63.5 102.87)
+		(at 91.44 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5eff8958-4cad-48bf-a5a6-2e7ea1237287")
+		(uuid "606c2969-5c8a-4975-91fc-444db22ffbd6")
 	)
 	(junction
-		(at 157.48 111.76)
+		(at 68.58 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6930e401-2d20-4ec7-bd00-f9051fdca160")
 	)
 	(junction
-		(at 170.18 64.77)
+		(at 81.28 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "699e6194-8cf6-496e-a75a-f2f535bd5f23")
 	)
 	(junction
-		(at 203.2 41.91)
+		(at 114.3 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c829a69-a16f-49e3-b126-ae0706636ca7")
+	)
+	(junction
+		(at 114.3 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e3bc4c1-dac9-4b7c-b480-18a70090cc43")
 	)
 	(junction
-		(at 170.18 48.26)
+		(at 81.28 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75e61c29-07e7-4fc3-8619-e92ede956f35")
 	)
 	(junction
-		(at 92.71 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "774394d5-028b-45d5-a805-0fd602438784")
-	)
-	(junction
-		(at 203.2 129.54)
+		(at 114.3 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a936597-8fbe-4956-a091-95d0eee2b11d")
 	)
 	(junction
-		(at 170.18 128.27)
+		(at 81.28 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85628451-c28f-48da-aa28-f383374e6025")
 	)
 	(junction
-		(at 170.18 111.76)
+		(at 81.28 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8654b5aa-6bcb-4624-827e-f0a53afc4a4d")
 	)
 	(junction
-		(at 63.5 64.77)
+		(at 91.44 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e2aeed0-f14e-4e23-80d2-0d0c4dde1cea")
+		(uuid "8bb3254e-c4fe-4689-8b2b-c38785da2bd2")
 	)
 	(junction
-		(at 63.5 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3a60b13-6eb3-4fb1-a87e-500ca03a9167")
-	)
-	(junction
-		(at 170.18 123.19)
+		(at 81.28 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac31522d-9695-4c4c-9a1e-8d3d3dbc217e")
 	)
 	(junction
-		(at 203.2 66.04)
+		(at 114.3 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba1c4fd2-456e-4a73-90f7-837291bd6a0d")
+	)
+	(junction
+		(at 114.3 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce7a05ea-6012-4dfc-8f3b-090d7e4eac97")
 	)
 	(junction
-		(at 92.71 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2d468a6-da47-4a0e-b12c-b2f540c79e2a")
-	)
-	(junction
-		(at 157.48 59.69)
+		(at 68.58 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1ca273e-3cf2-4161-b817-c1e67d560897")
 	)
 	(wire
 		(pts
-			(xy 63.5 74.93) (xy 63.5 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06efeadc-2ae4-41c7-819d-f7ca8a4e17fd")
-	)
-	(wire
-		(pts
-			(xy 92.71 76.2) (xy 92.71 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e8920e9-540e-4bd9-8435-e724aab84f44")
-	)
-	(wire
-		(pts
-			(xy 167.64 128.27) (xy 170.18 128.27)
+			(xy 78.74 137.16) (xy 81.28 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1593,7 +1079,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 132.08) (xy 180.34 132.08)
+			(xy 36.83 104.14) (xy 43.18 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0febb539-5e12-4997-96a7-7db9911ec72b")
+	)
+	(wire
+		(pts
+			(xy 81.28 140.97) (xy 91.44 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1603,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 66.04) (xy 219.71 66.04)
+			(xy 114.3 74.93) (xy 130.81 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1613,7 +1109,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 123.19) (xy 157.48 128.27)
+			(xy 68.58 132.08) (xy 68.58 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1623,17 +1119,27 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 60.96) (xy 92.71 64.77)
+			(xy 114.3 40.64) (xy 121.92 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d0ba719-69ab-4b8b-847c-e4ed98746982")
+		(uuid "1d21cdec-2a43-4958-babf-d2601e83716f")
 	)
 	(wire
 		(pts
-			(xy 144.78 78.74) (xy 234.95 78.74)
+			(xy 92.71 72.39) (xy 91.44 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6a098f-1897-4e5f-9c7e-b6cc0b7d62a2")
+	)
+	(wire
+		(pts
+			(xy 55.88 87.63) (xy 146.05 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1643,17 +1149,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 64.77) (xy 63.5 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21050d0d-9ec9-4aee-8f43-f597437522b6")
-	)
-	(wire
-		(pts
-			(xy 170.18 123.19) (xy 170.18 128.27)
+			(xy 81.28 132.08) (xy 81.28 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1663,17 +1159,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 74.93) (xy 78.74 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23c921e7-5506-481b-afc7-1b6dbda9b834")
-	)
-	(wire
-		(pts
-			(xy 170.18 44.45) (xy 170.18 48.26)
+			(xy 81.28 53.34) (xy 81.28 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1683,7 +1169,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 48.26) (xy 160.02 48.26)
+			(xy 68.58 57.15) (xy 71.12 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1693,7 +1179,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 124.46) (xy 177.8 127)
+			(xy 88.9 133.35) (xy 88.9 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1703,7 +1189,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 35.56) (xy 176.53 39.37)
+			(xy 91.44 44.45) (xy 91.44 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1713,7 +1199,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 59.69) (xy 170.18 59.69)
+			(xy 78.74 68.58) (xy 81.28 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1723,17 +1209,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 82.55) (xy 63.5 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "303fba62-6ba3-4a3d-8ec5-55fe4445c89f")
-	)
-	(wire
-		(pts
-			(xy 157.48 59.69) (xy 160.02 59.69)
+			(xy 68.58 68.58) (xy 71.12 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1743,37 +1219,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 93.98) (xy 63.5 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bc5092b-96e1-4774-bd77-b4c3e41602d0")
-	)
-	(wire
-		(pts
-			(xy 92.71 52.07) (xy 92.71 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d7ddaec-ed30-4ef2-ab25-6ccaaed5b01b")
-	)
-	(wire
-		(pts
-			(xy 63.5 101.6) (xy 63.5 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40131f91-e27b-4662-aaf2-2ab6c8f1438e")
-	)
-	(wire
-		(pts
-			(xy 170.18 48.26) (xy 170.18 59.69)
+			(xy 81.28 57.15) (xy 81.28 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1783,27 +1229,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 52.07) (xy 104.14 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4908d5ff-8a9a-4186-8fb1-fc3883a191e9")
-	)
-	(wire
-		(pts
-			(xy 44.45 64.77) (xy 44.45 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d7b2399-4b28-42c5-82b3-b0eac8d77aa8")
-	)
-	(wire
-		(pts
-			(xy 170.18 48.26) (xy 234.95 48.26)
+			(xy 81.28 57.15) (xy 146.05 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1813,7 +1239,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 129.54) (xy 219.71 129.54)
+			(xy 114.3 138.43) (xy 130.81 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1823,7 +1249,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 127) (xy 180.34 127)
+			(xy 88.9 135.89) (xy 91.44 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1833,7 +1259,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 99.06) (xy 176.53 102.87)
+			(xy 87.63 107.95) (xy 87.63 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1843,7 +1269,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 111.76) (xy 157.48 111.76)
+			(xy 54.61 120.65) (xy 68.58 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1853,7 +1279,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 128.27) (xy 160.02 128.27)
+			(xy 68.58 137.16) (xy 71.12 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1863,7 +1289,27 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 33.02) (xy 203.2 30.48)
+			(xy 36.83 104.14) (xy 36.83 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643f12aa-2ca8-41a0-ade5-9363726b8685")
+	)
+	(wire
+		(pts
+			(xy 90.17 48.26) (xy 91.44 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65adbc4d-8b72-4315-9c84-cc64268d200f")
+	)
+	(wire
+		(pts
+			(xy 114.3 41.91) (xy 114.3 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1873,7 +1319,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 41.91) (xy 203.2 41.91)
+			(xy 106.68 50.8) (xy 114.3 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1883,7 +1329,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 59.69) (xy 170.18 64.77)
+			(xy 81.28 68.58) (xy 81.28 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1893,17 +1339,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 40.64) (xy 92.71 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71f08b9a-9a03-4ba1-809d-99cde277dc52")
-	)
-	(wire
-		(pts
-			(xy 170.18 107.95) (xy 180.34 107.95)
+			(xy 81.28 116.84) (xy 91.44 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1913,7 +1349,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 105.41) (xy 203.2 105.41)
+			(xy 106.68 114.3) (xy 114.3 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1923,17 +1359,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 80.01) (xy 104.14 80.01)
+			(xy 27.94 104.14) (xy 36.83 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75363381-2f1f-4351-bb08-9016c9b9168d")
+		(uuid "78a46fd7-4f71-41b3-a718-0e1f9d93774d")
 	)
 	(wire
 		(pts
-			(xy 176.53 102.87) (xy 180.34 102.87)
+			(xy 87.63 111.76) (xy 91.44 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1943,7 +1379,27 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 48.26) (xy 157.48 59.69)
+			(xy 114.3 129.54) (xy 121.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8726cd1e-880b-4d83-bdf7-c198ea3124d4")
+	)
+	(wire
+		(pts
+			(xy 36.83 80.01) (xy 36.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89362a49-04d5-403f-aa60-188c1f787879")
+	)
+	(wire
+		(pts
+			(xy 68.58 57.15) (xy 68.58 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1953,7 +1409,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 60.96) (xy 177.8 63.5)
+			(xy 91.44 68.58) (xy 91.44 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1963,7 +1419,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 105.41) (xy 218.44 105.41)
+			(xy 114.3 114.3) (xy 129.54 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1973,7 +1429,17 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 66.04) (xy 203.2 66.04)
+			(xy 43.18 104.14) (xy 43.18 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce4ac5d-cb85-4663-9362-820bbe17d243")
+	)
+	(wire
+		(pts
+			(xy 106.68 74.93) (xy 114.3 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1983,7 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 123.19) (xy 160.02 123.19)
+			(xy 68.58 132.08) (xy 71.12 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1993,7 +1459,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 64.77) (xy 170.18 64.77)
+			(xy 78.74 73.66) (xy 81.28 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2003,7 +1469,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 59.69) (xy 157.48 64.77)
+			(xy 68.58 68.58) (xy 68.58 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2013,17 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 82.55) (xy 92.71 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c981852-f3f5-4dd2-8019-f6a07baae5e1")
-	)
-	(wire
-		(pts
-			(xy 203.2 64.77) (xy 203.2 66.04)
+			(xy 114.3 73.66) (xy 114.3 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2033,7 +1489,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 44.45) (xy 180.34 44.45)
+			(xy 81.28 53.34) (xy 91.44 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2043,17 +1499,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 50.8) (xy 92.71 52.07)
+			(xy 114.3 40.64) (xy 114.3 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a560d8de-de02-42d5-848e-91791837d237")
+		(uuid "a27b5167-be0a-4420-95d4-5e16b533070f")
 	)
 	(wire
 		(pts
-			(xy 170.18 64.77) (xy 170.18 68.58)
+			(xy 81.28 73.66) (xy 81.28 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2063,7 +1519,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 128.27) (xy 170.18 132.08)
+			(xy 81.28 137.16) (xy 81.28 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2073,27 +1529,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 92.71) (xy 44.45 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab2b8f9a-2e24-4c2b-b6e7-6ebdb16f88b4")
-	)
-	(wire
-		(pts
-			(xy 44.45 102.87) (xy 63.5 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1e6fabb-785f-4f86-bc11-6153f397e378")
-	)
-	(wire
-		(pts
-			(xy 143.51 48.26) (xy 157.48 48.26)
+			(xy 54.61 57.15) (xy 68.58 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2103,7 +1539,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 64.77) (xy 160.02 64.77)
+			(xy 68.58 73.66) (xy 71.12 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2113,17 +1549,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 92.71) (xy 92.71 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba6f4340-ba8b-42e8-ac06-1cbd8eae2e32")
-	)
-	(wire
-		(pts
-			(xy 167.64 123.19) (xy 170.18 123.19)
+			(xy 78.74 132.08) (xy 81.28 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2133,7 +1559,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 41.91) (xy 219.71 41.91)
+			(xy 114.3 50.8) (xy 130.81 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2143,17 +1569,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 68.58) (xy 92.71 64.77)
+			(xy 90.17 72.39) (xy 91.44 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c31b45b7-9abc-4858-97a3-d84f64810d85")
+		(uuid "c42238af-af7a-4a9f-807c-c86fa4c583b6")
 	)
 	(wire
 		(pts
-			(xy 170.18 68.58) (xy 180.34 68.58)
+			(xy 81.28 77.47) (xy 91.44 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2163,17 +1589,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 90.17) (xy 92.71 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cace2d41-3a39-4156-8476-88ae3f0fef07")
-	)
-	(wire
-		(pts
-			(xy 170.18 111.76) (xy 234.95 111.76)
+			(xy 81.28 120.65) (xy 146.05 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2183,17 +1599,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 63.5) (xy 180.34 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf56124d-91ce-46e1-8bd6-c79e4e7bad2a")
-	)
-	(wire
-		(pts
-			(xy 157.48 111.76) (xy 157.48 123.19)
+			(xy 68.58 120.65) (xy 68.58 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2203,7 +1609,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 40.64) (xy 203.2 41.91)
+			(xy 114.3 49.53) (xy 114.3 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2213,7 +1619,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 129.54) (xy 203.2 129.54)
+			(xy 106.68 138.43) (xy 114.3 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2223,7 +1629,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 107.95) (xy 170.18 111.76)
+			(xy 81.28 116.84) (xy 81.28 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2233,17 +1639,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 39.37) (xy 180.34 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da61e926-8e79-4eac-8c61-b31109775d76")
-	)
-	(wire
-		(pts
-			(xy 203.2 128.27) (xy 203.2 129.54)
+			(xy 114.3 137.16) (xy 114.3 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2253,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 96.52) (xy 203.2 93.98)
+			(xy 114.3 102.87) (xy 114.3 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2263,7 +1659,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 111.76) (xy 170.18 111.76)
+			(xy 78.74 120.65) (xy 81.28 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2273,7 +1669,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 111.76) (xy 160.02 111.76)
+			(xy 68.58 120.65) (xy 71.12 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2283,7 +1679,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 104.14) (xy 203.2 105.41)
+			(xy 114.3 113.03) (xy 114.3 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2293,27 +1689,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 64.77) (xy 92.71 64.77)
+			(xy 114.3 66.04) (xy 121.92 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f31a4fa1-2fb0-4410-8c5c-fe72029842a8")
+		(uuid "f8f6261d-7fec-4510-8127-e8a59d7a8e23")
 	)
 	(wire
 		(pts
-			(xy 63.5 92.71) (xy 78.74 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f81ae9b0-a4be-4c7b-bcb7-fafcac8af873")
-	)
-	(wire
-		(pts
-			(xy 170.18 111.76) (xy 170.18 123.19)
+			(xy 81.28 120.65) (xy 81.28 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2323,17 +1709,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 121.92) (xy 63.5 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbbee642-8fc6-4990-a81f-19302a7b0af6")
-	)
-	(wire
-		(pts
-			(xy 167.64 48.26) (xy 170.18 48.26)
+			(xy 78.74 57.15) (xy 81.28 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2343,17 +1719,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 64.77) (xy 44.45 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc5ebf5a-7e0e-4473-b0df-5b148f311143")
-	)
-	(wire
-		(pts
-			(xy 143.51 139.7) (xy 233.68 139.7)
+			(xy 54.61 148.59) (xy 144.78 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2361,29 +1727,9 @@
 		)
 		(uuid "fd24532f-7ad9-4b02-8cf6-99496937d4a6")
 	)
-	(wire
-		(pts
-			(xy 63.5 121.92) (xy 63.5 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fef143b1-e346-43bc-9adb-f0b64c94ff6c")
-	)
-	(wire
-		(pts
-			(xy 63.5 104.14) (xy 63.5 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffc5ea0b-b7cf-4a76-b9d4-322fd9cdfb2e")
-	)
 	(text "https://normen.railcommunity.de/RCN-217.pdf"
 		(exclude_from_sim no)
-		(at 62.23 128.016 0)
+		(at 60.706 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2401,40 +1747,8 @@
 		)
 		(uuid "4bd3dc2a-2063-413e-999c-593cb966b599")
 	)
-	(text "5V / 270 = 18mV"
-		(exclude_from_sim no)
-		(at 109.982 40.894 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-		)
-		(uuid "7806982f-edcc-4071-bcbc-dcb4fd973f2b")
-	)
-	(text "3V3 / 180 = 18mV"
-		(exclude_from_sim no)
-		(at 109.728 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-		)
-		(uuid "99688756-4de5-4fc4-8f38-b3ad16ec8c72")
-	)
-	(text "Forward voltage of 1N4004 at 30mA"
-		(exclude_from_sim no)
-		(at 100.584 94.996 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cf27101f-3471-495f-ac1f-527c7d025c24")
-	)
 	(label "RAILCOM_A0"
-		(at 219.71 66.04 180)
+		(at 130.81 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2445,7 +1759,7 @@
 		(uuid "2650eb89-2677-496f-8f39-cf4bcae66cb0")
 	)
 	(label "RAILCOM_B1"
-		(at 218.44 105.41 180)
+		(at 129.54 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2456,7 +1770,7 @@
 		(uuid "2cbee3d0-7af1-43b3-8969-713c5f613d78")
 	)
 	(label "DCC_TRACK_B1"
-		(at 233.68 139.7 180)
+		(at 144.78 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2467,7 +1781,7 @@
 		(uuid "3800bafa-5e6c-4052-92e8-04fedae126da")
 	)
 	(label "DCC_TRACK_B0"
-		(at 234.95 111.76 180)
+		(at 146.05 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2478,7 +1792,7 @@
 		(uuid "3e9ebe44-7312-41a7-954f-a6c86d748020")
 	)
 	(label "DCC_CTRL0"
-		(at 143.51 111.76 0)
+		(at 54.61 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2489,7 +1803,7 @@
 		(uuid "3f31109c-f08e-4cfc-8815-ae57827b15ca")
 	)
 	(label "DCC_CTRL1"
-		(at 143.51 139.7 0)
+		(at 54.61 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2500,7 +1814,7 @@
 		(uuid "45721016-e2cf-443c-80d2-4a3018475d6e")
 	)
 	(label "RAILCOM_B0"
-		(at 219.71 129.54 180)
+		(at 130.81 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2511,7 +1825,7 @@
 		(uuid "636493ac-f230-4c60-a688-e7b87c62f79a")
 	)
 	(label "DCC_TRACK_A0"
-		(at 234.95 48.26 180)
+		(at 146.05 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2522,7 +1836,7 @@
 		(uuid "64b80abe-1950-41c0-a0fb-594c266d8a38")
 	)
 	(label "RAILCOM_A1"
-		(at 219.71 41.91 180)
+		(at 130.81 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2533,7 +1847,7 @@
 		(uuid "7de16c83-a95b-4193-95c8-52c7eb399bec")
 	)
 	(label "DCC_TRACK_A1"
-		(at 234.95 78.74 180)
+		(at 146.05 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2543,41 +1857,8 @@
 		)
 		(uuid "b1f7b4d5-1299-42e8-ad5f-6817c1cf6a34")
 	)
-	(label "DCC_CTRL1"
-		(at 21.59 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8d592fd-215d-4db1-8a0a-21f98327231e")
-	)
-	(label "DCC_NEG_HALF"
-		(at 45.72 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca1cba5f-2c49-4d2e-841e-d09f625af099")
-	)
 	(label "DCC_CTRL0"
-		(at 19.05 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc350e93-b1c9-4202-b7af-dd269d8eb728")
-	)
-	(label "DCC_CTRL0"
-		(at 143.51 48.26 0)
+		(at 54.61 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2587,19 +1868,8 @@
 		)
 		(uuid "def3b943-772c-4efc-8f1c-5491f9144c6e")
 	)
-	(label "-742mV"
-		(at 83.82 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f08e215d-25ee-4017-893b-224b0f48a21c")
-	)
 	(label "DCC_CTRL1"
-		(at 144.78 78.74 0)
+		(at 55.88 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2611,7 +1881,7 @@
 	)
 	(hierarchical_label "DCC_CTRL[0..1]"
 		(shape bidirectional)
-		(at 64.77 43.18 180)
+		(at 46.99 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2619,11 +1889,23 @@
 			)
 			(justify right)
 		)
-		(uuid "16db511c-c7ea-48ff-a500-48af1de8a96f")
+		(uuid "036753fd-65ab-4c2b-8bb6-7a14d78348a1")
 	)
-	(hierarchical_label "RC_TRACK_B[0..1]"
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 121.92 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "323193cb-49ca-49a7-82a0-3f987b7e574c")
+	)
+	(hierarchical_label "RAILCOM_B[0..1]"
 		(shape bidirectional)
-		(at 243.84 100.33 0)
+		(at 154.94 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2635,7 +1917,7 @@
 	)
 	(hierarchical_label "DCC_TRACK_A[0..1]"
 		(shape bidirectional)
-		(at 243.84 35.56 0)
+		(at 154.94 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2645,9 +1927,21 @@
 		)
 		(uuid "7cdb42bc-77b2-4f94-9302-5c7c0950fe8f")
 	)
-	(hierarchical_label "RC_TRACK_A[0..1]"
+	(hierarchical_label "-750mV"
+		(shape input)
+		(at 27.94 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84d2ce49-49e6-4edc-89e2-df46c0406212")
+	)
+	(hierarchical_label "RAILCOM_A[0..1]"
 		(shape bidirectional)
-		(at 243.84 29.21 0)
+		(at 154.94 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2657,9 +1951,45 @@
 		)
 		(uuid "95de324f-c1c8-4c08-9c71-d81a7a70680d")
 	)
+	(hierarchical_label "+18mV"
+		(shape input)
+		(at 90.17 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5628164-7c18-4c51-9f13-e683c1d6ba6b")
+	)
+	(hierarchical_label "-18mV"
+		(shape input)
+		(at 90.17 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfbb87b5-63da-4bc5-9ca3-eb581c58f528")
+	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 121.92 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e307efbf-111e-4230-b4f5-6f4eeb58b5fe")
+	)
 	(hierarchical_label "DCC_TRACK_B[0..1]"
 		(shape bidirectional)
-		(at 243.84 96.52 0)
+		(at 154.94 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2669,36 +1999,46 @@
 		)
 		(uuid "f29b1b3a-3fa5-4e05-aef9-070c8c927a7e")
 	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 121.92 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6e2cf84-c418-4acb-9bab-079a424c5635")
+	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 44.45 88.9 0)
+		(lib_id "Device:D")
+		(at 74.93 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "00f660b9-0a65-4019-848f-12991a2466bd")
-		(property "Reference" "C501"
-			(at 48.26 86.7409 0)
+		(uuid "09e471ef-f98f-4834-8b49-a4f1b9959004")
+		(property "Reference" "D2401"
+			(at 74.93 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "47uF"
-			(at 48.26 89.2809 0)
+		(property "Value" "SS54"
+			(at 74.93 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 45.4152 92.71 0)
+		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+			(at 74.93 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,7 +2047,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 88.9 0)
+			(at 74.93 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,8 +2055,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 44.45 88.9 0)
+		(property "Description" "Diode"
+			(at 74.93 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,16 +2064,43 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "96312c20-a029-4a87-9659-4f122754217f")
+		(property "Sim.Device" "D"
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "SS54_SMA"
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "a0ab534b-78a4-42c0-b6b6-3992bfdf4718")
+			(uuid "a7ffbc31-4f2c-4b18-9b3a-ffc3e94378b6")
+		)
+		(pin "1"
+			(uuid "4e0c75f7-8915-411f-99be-e3f359ad7f01")
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "C501")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "D2401")
 					(unit 1)
 				)
 			)
@@ -2741,15 +2108,15 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM339")
-		(at 187.96 41.91 0)
+		(at 99.06 50.8 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0c35457f-6e82-4c6a-b6f3-640546ab5ba3")
-		(property "Reference" "U501"
-			(at 187.96 31.75 0)
+		(property "Reference" "U2401"
+			(at 99.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +2124,7 @@
 			)
 		)
 		(property "Value" "LM339"
-			(at 187.96 34.29 0)
+			(at 99.06 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2132,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 186.69 39.37 0)
+			(at 97.79 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +2141,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 189.23 36.83 0)
+			(at 100.33 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2150,16 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 187.96 41.91 0)
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "LM339_SOIC-14"
+			(at 99.06 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,25 +2211,25 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "U501")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U2401")
 					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 63.5 107.95 0)
-		(unit 1)
+		(lib_id "Comparator:LM339")
+		(at 39.37 90.17 0)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "16bbef08-3974-45a7-a979-34e3ca092926")
-		(property "Reference" "R502"
-			(at 66.04 106.6799 0)
+		(uuid "379cb291-c541-4b91-84d5-4e3686111624")
+		(property "Reference" "U2401"
+			(at 38.1 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2861,8 +2237,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220R"
-			(at 66.04 109.2199 0)
+		(property "Value" "LM339"
+			(at 38.1 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2870,8 +2246,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 61.722 107.95 90)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 38.1 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,8 +2255,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 63.5 107.95 0)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 40.64 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,8 +2264,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 63.5 107.95 0)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 39.37 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,137 +2273,8 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "2bb75ecf-6900-4284-bbdd-3259ff854471")
-		)
-		(pin "1"
-			(uuid "934fe1c7-d128-43aa-8d54-104e6264f142")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "R502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1eedd53e-2551-4963-8053-0d8d2a064085")
-		(property "Reference" "R506"
-			(at 95.25 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33k"
-			(at 95.25 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 90.932 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eb992c69-b86f-4f88-8cb3-b403499f4122")
-		)
-		(pin "1"
-			(uuid "bbea86e2-8ade-4872-92c2-00fdb8f02066")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "R506")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 57.15 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28e2e52c-a1b5-4fb3-bea0-0aa052e73482")
-		(property "Reference" "R504"
-			(at 86.36 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 88.9 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 90.932 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 57.15 0)
+		(property "OLI_ID" "LM339_SOIC-14"
+			(at 39.37 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,111 +2283,59 @@
 			)
 		)
 		(pin "1"
-			(uuid "ada83a79-98e9-43ee-a517-ef6b50f878d0")
+			(uuid "c21f9983-a7d1-4245-adb5-fb60eb22ede9")
+		)
+		(pin "12"
+			(uuid "2f63a883-6710-4998-a84c-74cba1f37d40")
+		)
+		(pin "6"
+			(uuid "22b24c09-33aa-4738-a5cb-64c98e082b31")
+		)
+		(pin "3"
+			(uuid "14c81e17-1b88-446f-90ab-9356be11c378")
+		)
+		(pin "14"
+			(uuid "df52baab-c617-423e-8a1a-bd839af0d78c")
+		)
+		(pin "9"
+			(uuid "6d648482-f49e-4e41-911e-a04835368de7")
+		)
+		(pin "7"
+			(uuid "da7c649a-723f-459d-b26b-099e6b8f3049")
+		)
+		(pin "10"
+			(uuid "ec844d5b-ff2b-4698-bcd3-9e5dac22584d")
+		)
+		(pin "8"
+			(uuid "99d49e09-87d2-4954-8655-d1f5a4f0d392")
+		)
+		(pin "5"
+			(uuid "447e5bc9-5e43-4fd7-94e1-8c9696a12f40")
 		)
 		(pin "2"
-			(uuid "398d7e59-6e4c-4101-bb6c-e890a797b299")
+			(uuid "0def334c-4b72-46a5-ab49-fcbc71d32efd")
+		)
+		(pin "11"
+			(uuid "2c8a737d-4610-49e0-ac7d-58079d93a970")
+		)
+		(pin "4"
+			(uuid "ddf585e7-b425-449e-b8bd-c7602736b404")
+		)
+		(pin "13"
+			(uuid "f9b541a8-32b2-4c2f-a985-8a6058ea9c8c")
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "R504")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4004")
-		(at 63.5 78.74 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "477e3799-b0a1-4ab6-bdfd-2adbbd83a856")
-		(property "Reference" "D501"
-			(at 60.96 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4004"
-			(at 60.96 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 59.055 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 63.5 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 63.5 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 63.5 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 63.5 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3b1619a2-4b36-4e37-a580-ad3ee23948ab")
-		)
-		(pin "1"
-			(uuid "c4753c24-569c-4e09-8f16-023fb61af355")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "D501")
-					(unit 1)
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U2401")
+					(unit 5)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 176.53 35.56 0)
+		(at 91.44 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3148,8 +2343,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f1e6608-3175-4202-95dc-49aa84cfb13d")
-		(property "Reference" "#PWR0505"
-			(at 176.53 39.37 0)
+		(property "Reference" "#PWR02405"
+			(at 91.44 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +2353,7 @@
 			)
 		)
 		(property "Value" "+18mV"
-			(at 176.53 30.48 0)
+			(at 91.44 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +2361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 35.56 0)
+			(at 91.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,7 +2370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 35.56 0)
+			(at 91.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3184,7 +2379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 176.53 35.56 0)
+			(at 91.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,8 +2392,8 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "#PWR0505")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "#PWR02405")
 					(unit 1)
 				)
 			)
@@ -3206,7 +2401,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 203.2 60.96 0)
+		(at 114.3 69.85 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3214,16 +2409,16 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "547859ce-039a-44dc-bea1-3c8db68ec048")
-		(property "Reference" "R510"
-			(at 196.85 60.96 90)
+		(property "Reference" "R2404"
+			(at 107.95 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10K"
-			(at 199.39 60.96 90)
+		(property "Value" "10k"
+			(at 110.49 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,7 +2426,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 201.422 60.96 90)
+			(at 112.522 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,7 +2435,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 60.96 0)
+			(at 114.3 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,7 +2444,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 203.2 60.96 0)
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "10k_0805"
+			(at 114.3 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3265,247 +2469,8 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "R510")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 78.74 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5768ff14-8820-4379-9cbf-22c9c4e7e0bd")
-		(property "Reference" "#PWR0501"
-			(at 78.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 78.74 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 78.74 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff3439f2-98c8-4194-b98c-9be61f4c06a6")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "#PWR0501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 163.83 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bc62fa5-e6fd-4b47-94da-7ad8e1a43ca7")
-		(property "Reference" "D505"
-			(at 163.83 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS54"
-			(at 163.83 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
-			(at 163.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 163.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 163.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 163.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d91ca459-f4b0-4fe6-b3a3-41bbba347e44")
-		)
-		(pin "2"
-			(uuid "e851c12e-5e56-4c8b-a927-9437bfb131bd")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "D505")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4004")
-		(at 63.5 115.57 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "62d1a7d6-22af-4c18-80f1-ffeedd59c54a")
-		(property "Reference" "D502"
-			(at 60.96 114.2999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4004"
-			(at 60.96 116.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 59.055 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 63.5 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 63.5 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 63.5 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 63.5 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "559c763a-2b5a-4090-9b10-f9fec46fc8b5")
-		)
-		(pin "1"
-			(uuid "de7d1f7f-f5c9-4d81-a1b1-f34bd46aa424")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "D502")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "R2404")
 					(unit 1)
 				)
 			)
@@ -3513,7 +2478,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM339")
-		(at 187.96 105.41 0)
+		(at 99.06 114.3 0)
 		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
@@ -3521,8 +2486,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67a98eb8-655d-49a0-98f3-d7dd3f93be0d")
-		(property "Reference" "U501"
-			(at 187.96 115.57 0)
+		(property "Reference" "U2401"
+			(at 99.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,7 +2495,7 @@
 			)
 		)
 		(property "Value" "LM339"
-			(at 187.96 113.03 0)
+			(at 99.06 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +2503,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 186.69 107.95 0)
+			(at 97.79 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +2512,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 189.23 110.49 0)
+			(at 100.33 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +2521,16 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 187.96 105.41 0)
+			(at 99.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "LM339_SOIC-14"
+			(at 99.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,8 +2582,8 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "U501")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U2401")
 					(unit 4)
 				)
 			)
@@ -3617,7 +2591,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 203.2 120.65 0)
+		(at 114.3 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3625,8 +2599,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b76658d-22bd-461f-9732-593e1d5224ab")
-		(property "Reference" "#PWR0512"
-			(at 203.2 124.46 0)
+		(property "Reference" "#PWR02410"
+			(at 114.3 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,8 +2608,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 203.2 115.57 0)
+		(property "Value" "+3V3"
+			(at 114.3 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +2617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 120.65 0)
+			(at 114.3 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +2626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 120.65 0)
+			(at 114.3 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +2635,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 203.2 120.65 0)
+			(at 114.3 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,8 +2648,8 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "#PWR0512")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "#PWR02410")
 					(unit 1)
 				)
 			)
@@ -3683,15 +2657,15 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 177.8 60.96 0)
+		(at 91.44 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6ee26462-1bdf-4962-a24e-209debe726c8")
-		(property "Reference" "#PWR0507"
-			(at 177.8 58.42 0)
+		(property "Reference" "#PWR02406"
+			(at 91.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,8 +2673,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-18mv"
-			(at 177.8 55.88 0)
+		(property "Value" "-18mV"
+			(at 91.44 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +2682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 60.96 0)
+			(at 91.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +2691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 60.96 0)
+			(at 91.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +2700,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 177.8 60.96 0)
+			(at 91.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,40 +2713,41 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "#PWR0507")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "#PWR02406")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 163.83 111.76 270)
+		(lib_id "Device:D")
+		(at 74.93 73.66 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7386bdc6-ed7e-4bd0-853a-610e820a0c0a")
-		(property "Reference" "R508"
-			(at 163.83 105.41 90)
+		(uuid "71e064bd-9c9e-4664-969a-35b9459e5846")
+		(property "Reference" "D2402"
+			(at 74.93 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1R8"
-			(at 163.83 107.95 90)
+		(property "Value" "SS54"
+			(at 74.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 163.83 109.982 90)
+		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+			(at 74.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +2756,101 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 111.76 0)
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "SS54_SMA"
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43ec7234-8243-4feb-86e3-f27d1cb089c0")
+		)
+		(pin "1"
+			(uuid "85f8ccd0-8399-43e9-bb2b-28c9bdbeaa0d")
+		)
+		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "D2402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7386bdc6-ed7e-4bd0-853a-610e820a0c0a")
+		(property "Reference" "R2402"
+			(at 74.93 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1R8"
+			(at 74.93 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 74.93 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,7 +2859,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 111.76 0)
+			(at 74.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "1R8_0805"
+			(at 74.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,74 +2884,8 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "R508")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 92.71 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78da921d-c024-4c76-804c-1880cb60830a")
-		(property "Reference" "#PWR0502"
-			(at 92.71 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 92.71 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 92.71 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42565e46-e2ea-4314-8263-6e1b0563ed81")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "#PWR0502")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "R2402")
 					(unit 1)
 				)
 			)
@@ -3881,7 +2893,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 203.2 124.46 0)
+		(at 114.3 133.35 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3889,16 +2901,16 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79fa39ed-7deb-411a-946b-0daf783a4462")
-		(property "Reference" "R512"
-			(at 196.85 124.46 90)
+		(property "Reference" "R2406"
+			(at 107.95 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10K"
-			(at 199.39 124.46 90)
+		(property "Value" "10k"
+			(at 110.49 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +2918,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 201.422 124.46 90)
+			(at 112.522 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +2927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 124.46 0)
+			(at 114.3 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +2936,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 203.2 124.46 0)
+			(at 114.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "10k_0805"
+			(at 114.3 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,8 +2961,8 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "R512")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "R2406")
 					(unit 1)
 				)
 			)
@@ -3949,7 +2970,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 176.53 99.06 0)
+		(at 87.63 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3957,8 +2978,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c1cc463-84b6-431e-b8e2-f9313ed60079")
-		(property "Reference" "#PWR0506"
-			(at 176.53 102.87 0)
+		(property "Reference" "#PWR02403"
+			(at 87.63 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +2988,7 @@
 			)
 		)
 		(property "Value" "+18mV"
-			(at 176.53 93.98 0)
+			(at 87.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +2996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 99.06 0)
+			(at 87.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,7 +3005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 99.06 0)
+			(at 87.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +3014,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 176.53 99.06 0)
+			(at 87.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,8 +3027,8 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "#PWR0506")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "#PWR02403")
 					(unit 1)
 				)
 			)
@@ -4015,15 +3036,15 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 177.8 124.46 0)
+		(at 88.9 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "89cd2a9d-b098-4afd-952e-2531933a42f3")
-		(property "Reference" "#PWR0508"
-			(at 177.8 121.92 0)
+		(property "Reference" "#PWR02404"
+			(at 88.9 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,8 +3052,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-18mv"
-			(at 177.8 119.38 0)
+		(property "Value" "-18mV"
+			(at 88.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4040,7 +3061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 124.46 0)
+			(at 88.9 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,7 +3070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 124.46 0)
+			(at 88.9 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +3079,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 177.8 124.46 0)
+			(at 88.9 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4071,8 +3092,8 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "#PWR0508")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "#PWR02404")
 					(unit 1)
 				)
 			)
@@ -4080,15 +3101,15 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 104.14 80.01 0)
+		(at 43.18 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9345a637-1a8b-4d88-970b-1d45120b5a92")
-		(property "Reference" "#PWR0504"
-			(at 104.14 77.47 0)
+		(uuid "95c11f8f-0fd7-46bf-9110-b4ae9f2d57ac")
+		(property "Reference" "#PWR02402"
+			(at 43.18 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,8 +3117,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-18mv"
-			(at 104.14 74.93 0)
+		(property "Value" "-750mV"
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +3126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 80.01 0)
+			(at 43.18 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,7 +3135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 80.01 0)
+			(at 43.18 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +3144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 104.14 80.01 0)
+			(at 43.18 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,336 +3153,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea0b237f-57a4-4f96-ab3f-aeb0e01478ef")
+			(uuid "292dff26-0f25-490e-8899-18a70ca54854")
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "#PWR0504")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5400")
-		(at 163.83 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9cfbb9d1-0da6-4b88-a1e2-5ebcbb71b457")
-		(property "Reference" "D506"
-			(at 163.83 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS54"
-			(at 163.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
-			(at 163.83 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 163.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 163.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 163.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 163.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "115c5c26-1bd9-429e-9b7e-a8fb3e44d663")
-		)
-		(pin "2"
-			(uuid "1fa0b244-569c-43e5-9325-54129ddcfb1a")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "D506")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 46.99 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a13120e8-dcde-41f1-8bc6-4439cccad545")
-		(property "Reference" "R503"
-			(at 86.36 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "270K"
-			(at 88.9 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 90.932 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f7371be-456f-435d-a9f8-ee7367065ae7")
-		)
-		(pin "2"
-			(uuid "9f8bcd34-69fc-4237-9672-50bf79383c56")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "R503")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5400")
-		(at 163.83 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a52934d3-4500-49ba-a389-19ca4ae95cca")
-		(property "Reference" "D503"
-			(at 163.83 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS54"
-			(at 163.83 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
-			(at 163.83 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 163.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 163.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 163.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 163.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b99212fb-7246-4e09-b84f-420ba1766ebf")
-		)
-		(pin "2"
-			(uuid "bf767b5f-9770-4fe9-805f-0a012536fab3")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "D503")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5400")
-		(at 163.83 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad74a2fc-cdff-48a1-92c0-c6772209f2d8")
-		(property "Reference" "D504"
-			(at 163.83 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS54"
-			(at 163.83 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
-			(at 163.83 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 163.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 163.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 163.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 163.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a21da8b-3237-4a59-a24d-320d6f8bde0a")
-		)
-		(pin "2"
-			(uuid "28ab311f-e0a6-4326-a86d-ee824b95cfa8")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "D504")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "#PWR02402")
 					(unit 1)
 				)
 			)
@@ -4469,15 +3166,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 203.2 93.98 0)
+		(at 36.83 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c60c0391-5a42-49a6-a427-05bdb4347813")
-		(property "Reference" "#PWR0511"
-			(at 203.2 97.79 0)
+		(uuid "a3715b53-452b-443c-b09f-0deeb2d8295b")
+		(property "Reference" "#PWR02401"
+			(at 36.83 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,8 +3182,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 202.692 88.646 0)
+		(property "Value" "+3V3"
+			(at 36.83 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +3191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 93.98 0)
+			(at 36.83 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,7 +3200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 93.98 0)
+			(at 36.83 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +3209,262 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 203.2 93.98 0)
+			(at 36.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a5bc4ca-5b00-4015-b702-c99ff946bf18")
+		)
+		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "#PWR02401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 74.93 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad4fb0e6-4d84-4ace-868f-59f06c995e8d")
+		(property "Reference" "D2403"
+			(at 74.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS54"
+			(at 74.93 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "SS54_SMA"
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50d303e9-3aa6-47e2-9bc7-efb8ba03f335")
+		)
+		(pin "1"
+			(uuid "8e64833f-a3a8-487b-91c2-9dc13099667f")
+		)
+		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "D2403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 74.93 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c04def0a-52ac-47e0-a4c0-d22b4105a5de")
+		(property "Reference" "D2404"
+			(at 74.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS54"
+			(at 74.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+			(at 74.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 74.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 74.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "SS54_SMA"
+			(at 74.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b4f8534-f145-481e-aa4b-3349e87c4473")
+		)
+		(pin "1"
+			(uuid "28317723-3864-4922-af5c-ef164a141ca6")
+		)
+		(instances
+			(project "xDuinoRail-Debug"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "D2404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 114.3 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c60c0391-5a42-49a6-a427-05bdb4347813")
+		(property "Reference" "#PWR02409"
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 113.792 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 114.3 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,78 +3477,8 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "#PWR0511")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 63.5 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c65eb87f-ec32-4991-bef7-25bc113c214a")
-		(property "Reference" "R501"
-			(at 66.04 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220R"
-			(at 66.04 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 61.722 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 63.5 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c16f10e2-7987-4a65-99e5-101b54331f9e")
-		)
-		(pin "1"
-			(uuid "6fceb9cd-b0e3-4e7c-acb0-fac553d9b153")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "R501")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "#PWR02409")
 					(unit 1)
 				)
 			)
@@ -4604,7 +3486,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 203.2 57.15 0)
+		(at 114.3 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4612,8 +3494,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd2851cc-2338-4397-b354-f7cb962479a7")
-		(property "Reference" "#PWR0510"
-			(at 203.2 60.96 0)
+		(property "Reference" "#PWR02408"
+			(at 114.3 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,8 +3503,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 203.2 52.07 0)
+		(property "Value" "+3V3"
+			(at 114.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +3512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 57.15 0)
+			(at 114.3 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +3521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 57.15 0)
+			(at 114.3 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +3530,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 203.2 57.15 0)
+			(at 114.3 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,130 +3543,24 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "#PWR0510")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "#PWR02408")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LM339")
-		(at 81.28 85.09 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0f8fd5f-37c2-46ed-86d1-77fa05e92e14")
-		(property "Reference" "U501"
-			(at 80.01 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM339"
-			(at 80.01 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 80.01 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 81.28 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c21f9983-a7d1-4245-adb5-fb60eb22ede9")
-		)
-		(pin "12"
-			(uuid "c737bc86-dfc6-4c6c-b7ed-ed36f3df7c67")
-		)
-		(pin "6"
-			(uuid "22b24c09-33aa-4738-a5cb-64c98e082b31")
-		)
-		(pin "3"
-			(uuid "7c1ea9e9-d033-44ca-971b-2d93ae1352e6")
-		)
-		(pin "14"
-			(uuid "df52baab-c617-423e-8a1a-bd839af0d78c")
-		)
-		(pin "9"
-			(uuid "6d648482-f49e-4e41-911e-a04835368de7")
-		)
-		(pin "7"
-			(uuid "da7c649a-723f-459d-b26b-099e6b8f3049")
-		)
-		(pin "10"
-			(uuid "ec844d5b-ff2b-4698-bcd3-9e5dac22584d")
-		)
-		(pin "8"
-			(uuid "99d49e09-87d2-4954-8655-d1f5a4f0d392")
-		)
-		(pin "5"
-			(uuid "447e5bc9-5e43-4fd7-94e1-8c9696a12f40")
-		)
-		(pin "2"
-			(uuid "0def334c-4b72-46a5-ab49-fcbc71d32efd")
-		)
-		(pin "11"
-			(uuid "2c8a737d-4610-49e0-ac7d-58079d93a970")
-		)
-		(pin "4"
-			(uuid "ddf585e7-b425-449e-b8bd-c7602736b404")
-		)
-		(pin "13"
-			(uuid "f9b541a8-32b2-4c2f-a985-8a6058ea9c8c")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "U501")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 203.2 30.48 0)
+		(at 114.3 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d401a83d-6a79-47be-b756-e72dca4fc484")
-		(property "Reference" "#PWR0509"
-			(at 203.2 34.29 0)
+		(property "Reference" "#PWR02407"
+			(at 114.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,8 +3568,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 203.2 26.416 0)
+		(property "Value" "+3V3"
+			(at 114.3 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,7 +3577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 30.48 0)
+			(at 114.3 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4810,7 +3586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 30.48 0)
+			(at 114.3 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +3595,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 203.2 30.48 0)
+			(at 114.3 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,8 +3608,8 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "#PWR0509")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "#PWR02407")
 					(unit 1)
 				)
 			)
@@ -4841,7 +3617,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM339")
-		(at 187.96 66.04 0)
+		(at 99.06 74.93 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4849,8 +3625,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db419ec1-163d-4025-ae71-dcef6567dadc")
-		(property "Reference" "U501"
-			(at 188.214 58.928 0)
+		(property "Reference" "U2401"
+			(at 99.314 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,7 +3634,7 @@
 			)
 		)
 		(property "Value" "LM339"
-			(at 188.214 56.388 0)
+			(at 99.314 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4866,7 +3642,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 186.69 68.58 0)
+			(at 97.79 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +3651,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 189.23 71.12 0)
+			(at 100.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +3660,16 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 187.96 66.04 0)
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "LM339_SOIC-14"
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4936,74 +3721,8 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "U501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 104.14 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e336bebf-c22b-4e75-8f90-4fddf47cead9")
-		(property "Reference" "#PWR0503"
-			(at 104.14 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+18mV"
-			(at 104.14 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 104.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50d30e91-63e3-477c-9ac4-361af5661106")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "#PWR0503")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U2401")
 					(unit 1)
 				)
 			)
@@ -5011,7 +3730,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM339")
-		(at 187.96 129.54 0)
+		(at 99.06 138.43 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5019,8 +3738,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e577b770-e3dc-4094-a64a-11787d4dc653")
-		(property "Reference" "U501"
-			(at 187.96 119.38 0)
+		(property "Reference" "U2401"
+			(at 99.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5028,7 +3747,7 @@
 			)
 		)
 		(property "Value" "LM339"
-			(at 187.96 121.92 0)
+			(at 99.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +3755,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 186.69 127 0)
+			(at 97.79 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,7 +3764,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 189.23 124.46 0)
+			(at 100.33 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +3773,16 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 187.96 129.54 0)
+			(at 99.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "LM339_SOIC-14"
+			(at 99.06 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,8 +3834,8 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "U501")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "U2401")
 					(unit 3)
 				)
 			)
@@ -5115,7 +3843,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 203.2 36.83 0)
+		(at 114.3 45.72 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5123,16 +3851,16 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee166774-d47a-4632-a24e-df49bed786ed")
-		(property "Reference" "R509"
-			(at 196.85 36.83 90)
+		(property "Reference" "R2403"
+			(at 107.95 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10K"
-			(at 199.39 36.83 90)
+		(property "Value" "10k"
+			(at 110.49 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +3868,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 201.422 36.83 90)
+			(at 112.522 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +3877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 36.83 0)
+			(at 114.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +3886,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 203.2 36.83 0)
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "10k_0805"
+			(at 114.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,8 +3911,8 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "R509")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "R2403")
 					(unit 1)
 				)
 			)
@@ -5183,83 +3920,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 72.39 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eebe2437-6552-40fc-9652-7f2f34102247")
-		(property "Reference" "R505"
-			(at 86.36 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "820R"
-			(at 88.9 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 90.932 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37278f0d-ac01-4c24-9e54-541e5e34c5dd")
-		)
-		(pin "2"
-			(uuid "204c708c-d318-4781-bcbd-3f7597970125")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "R505")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 163.83 48.26 270)
+		(at 74.93 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f5ae235a-2536-47d3-86dc-e56984e7226d")
-		(property "Reference" "R507"
-			(at 163.83 41.91 90)
+		(property "Reference" "R2401"
+			(at 74.93 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +3936,7 @@
 			)
 		)
 		(property "Value" "1R8"
-			(at 163.83 44.45 90)
+			(at 74.93 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,7 +3944,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 163.83 46.482 90)
+			(at 74.93 55.372 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +3953,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 48.26 0)
+			(at 74.93 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +3962,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 48.26 0)
+			(at 74.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "1R8_0805"
+			(at 74.93 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,8 +3987,8 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "R507")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "R2401")
 					(unit 1)
 				)
 			)
@@ -5318,7 +3996,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 203.2 100.33 0)
+		(at 114.3 109.22 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5326,16 +4004,16 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f77b04d9-5b32-4344-85f9-710819b22265")
-		(property "Reference" "R511"
-			(at 196.85 100.33 90)
+		(property "Reference" "R2405"
+			(at 107.95 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10K"
-			(at 199.39 100.33 90)
+		(property "Value" "10k"
+			(at 110.49 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +4021,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 201.422 100.33 90)
+			(at 112.522 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,7 +4030,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 100.33 0)
+			(at 114.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,7 +4039,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 203.2 100.33 0)
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "10k_0805"
+			(at 114.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5377,8 +4064,8 @@
 		)
 		(instances
 			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/9c61104c-2ec1-445b-adeb-4b37bd3fed02"
-					(reference "R511")
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cddc5dbc-4519-43fa-a1d8-85355b2ecf1b"
+					(reference "R2405")
 					(unit 1)
 				)
 			)
