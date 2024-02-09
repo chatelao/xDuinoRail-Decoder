@@ -1,0 +1,21 @@
+(version 1)
+(rule "BCxxx neckdown"
+   (constraint track_width (min 0.15mm) (opt 0.25mm))
+   (constraint clearance (min 0.03mm) (opt 0.08mm))
+   (condition "A.intersectsCourtyard('Q1')"))
+
+(rule "BCxxx neckdown 2"
+   (constraint track_width (min 0.15mm) (opt 0.25mm))
+   (constraint clearance (min 0.03mm) (opt 0.08mm))
+   (condition "A.intersectsCourtyard('Q2')"))
+
+
+(rule "BCxxx neckdown 2"
+   (constraint track_width (min 0.15mm) (opt 0.25mm))
+   (constraint clearance (min 0.03mm) (opt 0.08mm))
+   (condition "A.intersectsCourtyard('J1203')"))
+
+(rule "Gyro neckdown"
+   (constraint track_width (min 0.15mm) (opt 0.25mm))
+   (constraint clearance (min 0.03mm) (opt 0.08mm))
+   (condition "A.intersectsCourtyard('U702')"))
