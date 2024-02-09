@@ -1890,16 +1890,16 @@
 		)
 	)
 	(junction
+		(at 78.74 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0521d279-026d-4643-9d3e-ab4c6f0dac43")
+	)
+	(junction
 		(at 57.15 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "268d39d9-b207-4aa3-b9f0-c1b8adcc46be")
-	)
-	(junction
-		(at 50.8 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e29a44c-4a12-48e5-ba24-d82de21d76ed")
 	)
 	(junction
 		(at 161.29 66.04)
@@ -1926,16 +1926,28 @@
 		(uuid "5b40a6e7-0a29-4d7c-9972-52313f844846")
 	)
 	(junction
+		(at 53.34 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "843357b9-757f-4e84-a192-d5f35ef688c0")
+	)
+	(junction
 		(at 161.29 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "898b0887-d2e7-4b71-a682-927f02c56dc8")
 	)
 	(junction
+		(at 53.34 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aadd2278-9cb6-4bcc-8515-a6d23de250bc")
+	)
+	(junction
 		(at 57.15 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92fbf015-3cec-438d-a31b-57b7358cb6d7")
+		(uuid "affa5b66-f34e-484a-bd8f-2bd0d346c855")
 	)
 	(junction
 		(at 161.29 83.82)
@@ -1950,10 +1962,34 @@
 		(uuid "c83c51c7-722e-4cfb-b72b-b65e0e08080d")
 	)
 	(junction
-		(at 69.85 85.09)
+		(at 57.15 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1f462c8-da98-4565-baa9-f6493210c46f")
+	)
+	(junction
+		(at 52.07 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d619854a-2627-4190-a9ff-fd15b39f2bac")
+	)
+	(junction
+		(at 52.07 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc8b8fec-9b8b-43d9-8539-248ea9eb1126")
+	)
+	(junction
+		(at 78.74 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb30eb85-fb1c-42a3-b374-04da918ae6d2")
+	)
+	(junction
+		(at 54.61 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f593d082-2fca-48b3-8c6a-531856f591d7")
 	)
 	(junction
 		(at 50.8 36.83)
@@ -1991,6 +2027,36 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 82.55) (xy 68.58 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077fe5f0-bee4-49d5-a06a-3af431605354")
+	)
+	(wire
+		(pts
+			(xy 54.61 48.26) (xy 54.61 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bbe1a23-5b08-480b-bdce-aa16e7147535")
+	)
+	(wire
+		(pts
+			(xy 54.61 48.26) (xy 64.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db56f78-7df2-4e6c-b745-af19b343127c")
+	)
+	(wire
+		(pts
 			(xy 30.48 36.83) (xy 39.37 36.83)
 		)
 		(stroke
@@ -2001,13 +2067,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 82.55) (xy 69.85 85.09)
+			(xy 54.61 46.99) (xy 53.34 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21532a9a-36e6-44b7-b860-27a7d9f29baa")
+		(uuid "1f28cb5a-2ed2-46e0-8340-46df1edfb078")
+	)
+	(wire
+		(pts
+			(xy 50.8 39.37) (xy 50.8 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20bab3ac-e53e-4280-bc54-c5b75b1b0a9b")
 	)
 	(wire
 		(pts
@@ -2041,6 +2117,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 46.99) (xy 50.8 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fcd2fb0-9440-4ddf-acd8-dffc0974ae22")
+	)
+	(wire
+		(pts
 			(xy 64.77 36.83) (xy 71.12 36.83)
 		)
 		(stroke
@@ -2058,6 +2144,16 @@
 			(type default)
 		)
 		(uuid "603aeff4-1efb-4353-8b20-95cdc835cd54")
+	)
+	(wire
+		(pts
+			(xy 78.74 78.74) (xy 76.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b7427d-440b-4657-8074-7d37a4723efa")
 	)
 	(wire
 		(pts
@@ -2141,6 +2237,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 78.74) (xy 57.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76478e48-96b3-4e71-9684-2adddbabc292")
+	)
+	(wire
+		(pts
 			(xy 151.13 83.82) (xy 161.29 83.82)
 		)
 		(stroke
@@ -2151,6 +2257,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 39.37) (xy 64.77 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d53aba-ab3c-42e7-89ea-3f5d93171540")
+	)
+	(wire
+		(pts
 			(xy 173.99 71.12) (xy 173.99 81.28)
 		)
 		(stroke
@@ -2158,6 +2274,16 @@
 			(type default)
 		)
 		(uuid "84b292da-25c6-4e1f-b7da-10a9ac7d0e74")
+	)
+	(wire
+		(pts
+			(xy 52.07 48.26) (xy 53.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c974e6-1e91-4cda-8711-28035c2b5877")
 	)
 	(wire
 		(pts
@@ -2191,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 74.93) (xy 57.15 82.55)
+			(xy 57.15 74.93) (xy 57.15 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2221,6 +2347,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 48.26) (xy 53.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f699937-c08d-4a39-9c54-37cf193b2491")
+	)
+	(wire
+		(pts
 			(xy 154.94 110.49) (xy 167.64 110.49)
 		)
 		(stroke
@@ -2231,7 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 44.45) (xy 64.77 44.45)
+			(xy 30.48 48.26) (xy 52.07 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2241,7 +2377,27 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 85.09) (xy 69.85 85.09)
+			(xy 64.77 48.26) (xy 64.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d109df-81d4-4cfa-8021-b0f248486638")
+	)
+	(wire
+		(pts
+			(xy 53.34 48.26) (xy 54.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa79591f-4636-4244-a9c6-782658c96a46")
+	)
+	(wire
+		(pts
+			(xy 82.55 85.09) (xy 78.74 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2281,16 +2437,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 85.09) (xy 69.85 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b35698f3-252f-40c6-a9bf-3403bc8a6a35")
-	)
-	(wire
-		(pts
 			(xy 46.99 36.83) (xy 50.8 36.83)
 		)
 		(stroke
@@ -2301,6 +2447,26 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 82.55) (xy 78.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b856fa6a-16cf-4089-8c9b-1ae6de83e505")
+	)
+	(wire
+		(pts
+			(xy 78.74 82.55) (xy 78.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b75c7d-e763-489f-8a7a-ab459b3f54c3")
+	)
+	(wire
+		(pts
 			(xy 161.29 85.09) (xy 161.29 83.82)
 		)
 		(stroke
@@ -2308,6 +2474,16 @@
 			(type default)
 		)
 		(uuid "b9ef3ea0-ff11-4894-800e-1d0faa738089")
+	)
+	(wire
+		(pts
+			(xy 52.07 48.26) (xy 52.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5fc901-7a38-4e93-adbd-757b66993c91")
 	)
 	(wire
 		(pts
@@ -2371,6 +2547,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 46.99) (xy 52.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c3bff8-6c96-49e8-819f-bc6927d5f78e")
+	)
+	(wire
+		(pts
 			(xy 50.8 36.83) (xy 64.77 36.83)
 		)
 		(stroke
@@ -2391,17 +2577,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 44.45) (xy 50.8 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3a47e0f-624a-43d3-97e8-f46ed4f3c3f6")
-	)
-	(wire
-		(pts
-			(xy 62.23 82.55) (xy 57.15 82.55)
+			(xy 68.58 78.74) (xy 57.15 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2418,6 +2594,26 @@
 			(type default)
 		)
 		(uuid "ea0fda64-40af-4652-bb10-dae3ef040d5a")
+	)
+	(wire
+		(pts
+			(xy 55.88 85.09) (xy 78.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef200337-543f-49c8-9e57-a23fb9b68b22")
+	)
+	(wire
+		(pts
+			(xy 78.74 78.74) (xy 78.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f138b8d2-a734-442b-9124-1f3386c5b702")
 	)
 	(wire
 		(pts
@@ -2490,7 +2686,7 @@
 		(uuid "e0de2919-7622-443b-8450-e5f74412b6cf")
 	)
 	(label "DCC1"
-		(at 30.48 44.45 0)
+		(at 30.48 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2623,7 +2819,7 @@
 	)
 	(hierarchical_label "DCC_MM_SIGNAL"
 		(shape output)
-		(at 73.66 85.09 0)
+		(at 82.55 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2681,7 +2877,7 @@
 		)
 		(uuid "aec19d02-0812-4857-8ffb-2340a7852f31")
 	)
-	(hierarchical_label "+5V"
+	(hierarchical_label "+3v3"
 		(shape input)
 		(at 59.69 72.39 0)
 		(fields_autoplaced yes)
@@ -2734,7 +2930,7 @@
 				)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "10k"
 			(at 165.1 60.96 0)
 			(effects
 				(font
@@ -2787,6 +2983,15 @@
 				(hide yes)
 			)
 		)
+		(property "OLI_ID" "10k_0805"
+			(at 161.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "359d0cd4-a6e8-41ff-b595-867ac4c37e55")
 		)
@@ -2800,9 +3005,9 @@
 					(unit 1)
 				)
 			)
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "R2104")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2821,6 +3026,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 72.39 82.55 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "241f6fe1-5b41-48c0-8afc-fcf26d5b4955")
+		(property "Reference" "R308"
+			(at 72.39 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 72.39 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 72.39 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27834"
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "10k_0805"
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4dc09a95-17a1-4919-b304-3cd166097255")
+		)
+		(pin "1"
+			(uuid "306e6c17-cb6f-4ac0-a9d3-33db8652baa9")
+		)
+		(instances
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "R308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 57.15 129.54 0)
 		(unit 1)
@@ -2830,7 +3130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bc0077b-46f2-4396-8ebe-7ec024bbdfe8")
-		(property "Reference" "#PWR02103"
+		(property "Reference" "#PWR0303"
 			(at 57.15 135.89 0)
 			(effects
 				(font
@@ -2878,9 +3178,9 @@
 			(uuid "724a9656-da7f-4419-bcb1-264234a1fa43")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "#PWR02103")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -2987,9 +3287,9 @@
 					(unit 1)
 				)
 			)
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "Q2101")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3009,16 +3309,15 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 64.77 40.64 90)
-		(mirror x)
+		(at 64.77 43.18 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp yes)
 		(uuid "397ede9a-2253-4dc6-80dc-decee926b504")
-		(property "Reference" "D2101"
-			(at 62.23 39.37 90)
+		(property "Reference" "D301"
+			(at 67.31 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3326,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 62.23 41.91 90)
+			(at 67.31 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,7 +3335,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 69.215 40.64 0)
+			(at 60.325 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3045,7 +3344,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 64.77 40.64 0)
+			(at 64.77 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,7 +3353,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 64.77 40.64 0)
+			(at 64.77 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,7 +3362,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 64.77 40.64 0)
+			(at 64.77 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +3371,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 64.77 40.64 0)
+			(at 64.77 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +3380,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 64.77 40.64 0)
+			(at 64.77 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +3389,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 64.77 40.64 0)
+			(at 64.77 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3105,9 +3404,9 @@
 			(uuid "09146644-8276-4146-9f28-17f475887d60")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "D2101")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "D301")
 					(unit 1)
 				)
 			)
@@ -3135,7 +3434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42b9937c-a18d-4b04-a3cb-057f769ea009")
-		(property "Reference" "#PWR02102"
+		(property "Reference" "#PWR0302"
 			(at 57.15 73.66 0)
 			(effects
 				(font
@@ -3144,12 +3443,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 57.15 64.77 0)
+		(property "Value" "+3v3"
+			(at 59.69 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3183,9 +3483,9 @@
 			(uuid "75e7478e-f2b0-4bde-a0d8-38cd61c14f5c")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "#PWR02102")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -3205,7 +3505,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 82.55 270)
+		(at 72.39 78.74 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3213,16 +3513,16 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "70326659-7336-4b6c-80f0-efdfd908af78")
-		(property "Reference" "R2103"
-			(at 66.04 76.2 90)
+		(property "Reference" "R303"
+			(at 72.39 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5k"
-			(at 66.04 78.74 90)
+		(property "Value" "10k"
+			(at 72.39 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3230,7 +3530,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 66.04 80.772 90)
+			(at 72.39 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3539,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 82.55 0)
+			(at 72.39 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3548,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 66.04 82.55 0)
+			(at 72.39 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +3557,7 @@
 			)
 		)
 		(property "LCSC" "C27834"
-			(at 66.04 82.55 0)
+			(at 72.39 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +3566,16 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 66.04 82.55 0)
+			(at 72.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "10k_0805"
+			(at 72.39 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,9 +3590,9 @@
 			(uuid "55e9dfee-8e9d-4817-aa69-896a641ea465")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "R2103")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -3311,7 +3620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a082a6e-c818-460c-8147-54bb93ae3d86")
-		(property "Reference" "#PWR02101"
+		(property "Reference" "#PWR0301"
 			(at 48.26 102.87 0)
 			(effects
 				(font
@@ -3359,9 +3668,9 @@
 			(uuid "0bf00965-888a-43a3-ae28-373e9ea0a6f7")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "#PWR02101")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -3384,12 +3693,12 @@
 		(at 180.34 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c942b88-750f-4fdc-bc2c-361fb020d18b")
-		(property "Reference" "R2107"
+		(property "Reference" "R307"
 			(at 180.34 104.14 90)
 			(effects
 				(font
@@ -3450,6 +3759,15 @@
 				(hide yes)
 			)
 		)
+		(property "OLI_ID" "10k_0805"
+			(at 180.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4daa89e4-f8fd-4cbf-89b9-6f581c42ed6b")
 		)
@@ -3457,9 +3775,9 @@
 			(uuid "55897760-4c60-41c0-b45c-de82a2610561")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "R2107")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "R307")
 					(unit 1)
 				)
 			)
@@ -3541,9 +3859,9 @@
 					(unit 1)
 				)
 			)
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "#PWR02105")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3571,7 +3889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8beecfe0-6f7f-44b1-b8a2-bff218b42b8d")
-		(property "Reference" "#PWR02104"
+		(property "Reference" "#PWR0304"
 			(at 69.85 118.11 0)
 			(effects
 				(font
@@ -3580,12 +3898,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 69.85 109.22 0)
+		(property "Value" "+3v3"
+			(at 72.39 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3619,9 +3938,9 @@
 			(uuid "0e5dc68e-d463-499b-a53f-b6a7faeccb0e")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "#PWR02104")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -3649,7 +3968,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9ff31c4f-5d54-409c-9f29-2201e0908d39")
-		(property "Reference" "U2102"
+		(property "Reference" "U302"
 			(at 48.26 115.57 0)
 			(effects
 				(font
@@ -3713,6 +4032,15 @@
 				(hide yes)
 			)
 		)
+		(property "OLI_ID" "EL817_SMD-4P"
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "b7068558-cefb-4fb4-a5af-91333e0f356e")
 		)
@@ -3726,9 +4054,9 @@
 			(uuid "2f3a24a2-59bb-40d2-b982-f4ddba56c2b8")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "U2102")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "U302")
 					(unit 1)
 				)
 			)
@@ -3748,7 +4076,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 50.8 40.64 0)
+		(at 50.8 43.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -3756,16 +4084,7 @@
 		(on_board no)
 		(dnp yes)
 		(uuid "c58b2885-ccb3-433d-bb83-46c4de689dfe")
-		(property "Reference" "C2101"
-			(at 46.99 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1nF"
+		(property "Reference" "C301"
 			(at 46.99 41.91 0)
 			(effects
 				(font
@@ -3774,8 +4093,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "1nF"
+			(at 46.99 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 49.8348 44.45 0)
+			(at 49.8348 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +4112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 40.64 0)
+			(at 50.8 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +4121,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 50.8 40.64 0)
+			(at 50.8 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,7 +4130,7 @@
 			)
 		)
 		(property "LCSC" "C46653"
-			(at 50.8 40.64 0)
+			(at 50.8 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,7 +4139,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 50.8 40.64 0)
+			(at 50.8 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,9 +4154,9 @@
 			(uuid "ead6e3b3-55c0-4bab-9a61-c51ef54c0c6b")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "C2101")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -3863,7 +4191,7 @@
 				)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "10k"
 			(at 165.1 73.66 0)
 			(effects
 				(font
@@ -3916,6 +4244,15 @@
 				(hide yes)
 			)
 		)
+		(property "OLI_ID" "10k_0805"
+			(at 161.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a5a2fad-7268-47b9-9cf6-0deb08577629")
 		)
@@ -3929,9 +4266,9 @@
 					(unit 1)
 				)
 			)
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "R2105")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3959,7 +4296,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dc67d283-50a9-4c6a-9ba4-56160217a65e")
-		(property "Reference" "R2102"
+		(property "Reference" "R302"
 			(at 63.5 111.76 90)
 			(effects
 				(font
@@ -4020,6 +4357,15 @@
 				(hide yes)
 			)
 		)
+		(property "OLI_ID" "220R_0805"
+			(at 63.5 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ae89a72-d6c8-4d4d-816c-5c4d6764150a")
 		)
@@ -4027,9 +4373,9 @@
 			(uuid "b4e0f137-fe61-4837-8d11-7ead80e35fde")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "R2102")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -4052,12 +4398,12 @@
 		(at 171.45 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0797c61-864b-4094-a39d-051cb3f05407")
-		(property "Reference" "R2106"
+		(property "Reference" "R306"
 			(at 171.45 104.14 90)
 			(effects
 				(font
@@ -4118,6 +4464,15 @@
 				(hide yes)
 			)
 		)
+		(property "OLI_ID" "10k_0805"
+			(at 171.45 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42650e8e-a2d3-4c43-b0c8-ab8370d5a63f")
 		)
@@ -4125,9 +4480,9 @@
 			(uuid "3e246109-7a06-422f-90af-f485f1320c28")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "R2106")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -4161,7 +4516,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f3442632-3eff-4ad8-bbcd-ac83d0c1b2ee")
-		(property "Reference" "R2101"
+		(property "Reference" "R301"
 			(at 43.18 30.48 90)
 			(effects
 				(font
@@ -4222,6 +4577,15 @@
 				(hide yes)
 			)
 		)
+		(property "OLI_ID" "1k3_0805"
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5923378d-40d7-470d-aedb-6ae8246719a9")
 		)
@@ -4229,9 +4593,9 @@
 			(uuid "7797123a-99a2-480b-84e3-c8781b40eb33")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "R2101")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -4259,7 +4623,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fd4faa7e-4d70-426d-99fc-74d65fb274b4")
-		(property "Reference" "U2101"
+		(property "Reference" "U301"
 			(at 48.26 72.39 0)
 			(effects
 				(font
@@ -4320,6 +4684,15 @@
 				(hide yes)
 			)
 		)
+		(property "OLI_ID" "6N137_SMD-6P"
+			(at 48.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "94c07b92-573d-4c6a-821d-c56c2a94bba8")
 		)
@@ -4345,9 +4718,9 @@
 			(uuid "efd3f613-32d0-4d76-abc0-7a63107566ab")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/20426e3e-9bb8-452e-80c9-fd06a292733f"
-					(reference "U2101")
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/69f4a7e3-aba3-4afd-a475-d72afc45af15"
+					(reference "U301")
 					(unit 1)
 				)
 			)

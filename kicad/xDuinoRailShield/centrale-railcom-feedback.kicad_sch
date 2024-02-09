@@ -5,6 +5,261 @@
 	(uuid "e8f9fd83-27d4-40ee-a2c1-fd6356795d83")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_names
@@ -125,6 +380,102 @@
 				)
 			)
 		)
+		(symbol "power:-5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-5V"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-5V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "-5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-5V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -229,12 +580,6 @@
 		(uuid "9667db9f-f732-42a0-bb4f-4fbe5a76c0a6")
 	)
 	(junction
-		(at 92.71 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97cbcc53-8e6c-4855-a7c3-ff2e9ba12e1f")
-	)
-	(junction
 		(at 59.69 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -258,6 +603,16 @@
 		)
 		(uuid "029e8acb-4618-4e35-bb82-6ece461d429d")
 	)
+	(wire
+		(pts
+			(xy 69.85 149.86) (xy 88.9 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02db44a6-8085-41f4-86ac-a3b3e31793bc")
+	)
 	(bus
 		(pts
 			(xy 38.1 105.41) (xy 41.91 105.41)
@@ -278,6 +633,16 @@
 		)
 		(uuid "166bc369-efef-418a-993f-255449dc22bb")
 	)
+	(wire
+		(pts
+			(xy 55.88 156.21) (xy 55.88 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b98159-0b87-4706-9c3f-35e5e9923496")
+	)
 	(bus
 		(pts
 			(xy 81.28 105.41) (xy 101.6 105.41)
@@ -288,15 +653,25 @@
 		)
 		(uuid "24e68be1-c56a-4ea4-99ed-8fd682d2d34a")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 66.04 53.34) (xy 92.71 53.34)
+			(xy 46.99 162.56) (xy 88.9 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "266ca359-f3a9-443d-ae90-1107928bbbc4")
+		(uuid "27922982-5ff4-4464-bee5-3218b8222d05")
+	)
+	(wire
+		(pts
+			(xy 69.85 152.4) (xy 88.9 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27df0f69-8627-4fa6-a45a-0ba37dc2bc4d")
 	)
 	(wire
 		(pts
@@ -308,15 +683,15 @@
 		)
 		(uuid "2c126442-39fe-445a-9810-1df9153a7a7e")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 137.16 86.36) (xy 151.13 86.36)
+			(xy 46.99 162.56) (xy 46.99 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34ad95b4-a04c-4402-a583-1562a68c5f04")
+		(uuid "2e3fb75f-c69f-4e55-88f0-afe01300a451")
 	)
 	(bus
 		(pts
@@ -398,15 +773,15 @@
 		)
 		(uuid "57bf1b56-0f65-4b60-af08-676a0a11b637")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 92.71 53.34) (xy 92.71 100.33)
+			(xy 62.23 154.94) (xy 88.9 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c36e9c6-3889-4624-b23c-d041512b95c5")
+		(uuid "5f7e2da4-bd3f-4c6b-8d42-e12b3080f590")
 	)
 	(wire
 		(pts
@@ -428,15 +803,25 @@
 		)
 		(uuid "63775264-949f-46eb-979f-3791d781d06a")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 137.16 93.98) (xy 137.16 86.36)
+			(xy 86.36 100.33) (xy 101.6 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6405a716-4cac-4714-859d-99cbcaf476b4")
+		(uuid "708f176b-bec2-485d-8f3d-0a6bc2c2f875")
+	)
+	(wire
+		(pts
+			(xy 82.55 157.48) (xy 82.55 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80929200-18a1-428a-8ccc-901b8e213e6d")
 	)
 	(bus
 		(pts
@@ -468,6 +853,16 @@
 		)
 		(uuid "97eae692-5d3d-4d5d-8dd4-d4758b6060a3")
 	)
+	(wire
+		(pts
+			(xy 55.88 160.02) (xy 88.9 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6651df-44a5-447c-9b5e-3eaf601349d1")
+	)
 	(bus
 		(pts
 			(xy 41.91 81.28) (xy 62.23 81.28)
@@ -477,6 +872,16 @@
 			(type default)
 		)
 		(uuid "b04ec5c7-4698-4b51-88b5-dd6daec23af4")
+	)
+	(bus
+		(pts
+			(xy 85.09 53.34) (xy 101.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f85d47-28f6-4e1d-ab76-b8b833d9b026")
 	)
 	(bus
 		(pts
@@ -510,23 +915,13 @@
 	)
 	(bus
 		(pts
-			(xy 130.81 93.98) (xy 137.16 93.98)
+			(xy 130.81 93.98) (xy 151.13 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c469ed7a-e58c-4f69-b5a8-67d1c35eec04")
-	)
-	(bus
-		(pts
-			(xy 92.71 100.33) (xy 101.6 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c70d97d9-5fe5-49f8-80cf-30e0c66ee16f")
 	)
 	(wire
 		(pts
@@ -538,15 +933,25 @@
 		)
 		(uuid "cb2b642d-3f94-473f-ac6b-54960139c03e")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 92.71 53.34) (xy 101.6 53.34)
+			(xy 88.9 157.48) (xy 82.55 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddcd5085-b44a-4a1b-b2dc-dedc7429a139")
+		(uuid "d7172263-b5f8-4ecb-a355-f4afdb8f3e3b")
+	)
+	(wire
+		(pts
+			(xy 62.23 147.32) (xy 62.23 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37503ce-d9ed-455d-b74e-4ea724f1a15e")
 	)
 	(label "TRACK_B[0..1]"
 		(at 41.91 29.21 0)
@@ -581,8 +986,19 @@
 		)
 		(uuid "4394296d-3ea9-4487-b79c-df2cb284d21d")
 	)
+	(label "RAILCOM_A1"
+		(at 69.85 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59bbe998-fd31-4259-81a7-120a64a89f50")
+	)
 	(label "TRACK_A[0..1]"
-		(at 137.16 86.36 0)
+		(at 137.16 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -604,7 +1020,7 @@
 		(uuid "7c2315c9-a9fa-4b16-832f-2d7b70ecd256")
 	)
 	(label "CENTRAL[0..1]"
-		(at 74.93 53.34 0)
+		(at 85.09 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -613,6 +1029,17 @@
 			(justify left bottom)
 		)
 		(uuid "a5a15dc9-54f1-4683-856a-4f9d8b3559cc")
+	)
+	(label "RAILCOM_A[0..1]"
+		(at 83.82 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a94a6055-5c8a-40a6-93fb-1de9059e8fe7")
 	)
 	(label "TRACK_B[0..1]"
 		(at 134.62 113.03 0)
@@ -635,6 +1062,39 @@
 			(justify left bottom)
 		)
 		(uuid "d4edd5ca-843d-478e-a3d4-ea7269d8a1bc")
+	)
+	(label "RAILCOM_B[0..1]"
+		(at 83.82 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5ecff3b-dcd3-43dc-9d31-8c551251645b")
+	)
+	(label "RAILCOM_A0"
+		(at 69.85 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f718ced4-4f9c-47e9-80f1-d62d4bc66087")
+	)
+	(label "CENTRAL0"
+		(at 86.36 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f85cb766-a417-464f-940e-872396d9bce0")
 	)
 	(hierarchical_label "TRACK_A[0..1]"
 		(shape bidirectional)
@@ -740,9 +1200,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "13f8fdd9-1a39-4285-a786-8f1bd2ca548d")
-		(property "Reference" "#PWR02208"
+		(property "Reference" "#PWR0312"
 			(at 114.3 78.74 0)
 			(effects
 				(font
@@ -751,12 +1210,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "18mV"
-			(at 114.3 69.85 0)
+		(property "Value" "+18mV"
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -790,9 +1250,9 @@
 			(uuid "e3bf1eb3-99fa-426f-ab78-29d5e92bdbd7")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
-					(reference "#PWR02208")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -808,7 +1268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18191dff-540c-4fe5-b37e-565c763da042")
-		(property "Reference" "#PWR02201"
+		(property "Reference" "#PWR0114"
 			(at 59.69 96.52 0)
 			(effects
 				(font
@@ -856,9 +1316,9 @@
 			(uuid "af1b315f-2326-4f32-889f-261832706d18")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
-					(reference "#PWR02201")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -874,7 +1334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "193e4ad6-2ff2-484a-b9cf-0de2ca88325f")
-		(property "Reference" "#PWR02203"
+		(property "Reference" "#PWR0307"
 			(at 104.14 38.1 0)
 			(effects
 				(font
@@ -922,9 +1382,9 @@
 			(uuid "0e74cf0f-9ce1-493c-a53b-a7c9829d323a")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
-					(reference "#PWR02203")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -938,9 +1398,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "21dfd633-cd3b-4a8a-b58e-4811f5e17dbc")
-		(property "Reference" "#PWR02207"
+		(property "Reference" "#PWR0311"
 			(at 111.76 38.1 0)
 			(effects
 				(font
@@ -949,12 +1408,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "18mV"
-			(at 111.76 29.21 0)
+		(property "Value" "+18mV"
+			(at 107.95 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -988,9 +1448,9 @@
 			(uuid "497b9db5-91d7-4be8-92ff-1a79a0021407")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
-					(reference "#PWR02207")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -1006,7 +1466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3806710b-70ed-4464-a347-6f1427cec4d9")
-		(property "Reference" "#PWR02210"
+		(property "Reference" "#PWR0314"
 			(at 118.11 83.82 0)
 			(effects
 				(font
@@ -1054,9 +1514,9 @@
 			(uuid "affbbdc4-325f-4438-88ad-8b3d2833352c")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
-					(reference "#PWR02210")
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -1072,7 +1532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47b30bf3-2b9f-46ed-a374-fba3007d17d8")
-		(property "Reference" "#PWR02206"
+		(property "Reference" "#PWR0310"
 			(at 110.49 83.82 0)
 			(effects
 				(font
@@ -1120,9 +1580,9 @@
 			(uuid "bf9f9a7e-723a-43bf-8735-6223c72dbe76")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
-					(reference "#PWR02206")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -1138,7 +1598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59309a87-ca37-4f9f-a1ec-f156f87b8900")
-		(property "Reference" "#PWR02209"
+		(property "Reference" "#PWR0313"
 			(at 115.57 43.18 0)
 			(effects
 				(font
@@ -1186,9 +1646,75 @@
 			(uuid "998ea137-5166-462f-b35d-66499c391ca8")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
-					(reference "#PWR02209")
+					(reference "#PWR0313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 62.23 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "732dbadc-8100-4d8a-b10c-446f491e8dc5")
+		(property "Reference" "#PWR0305"
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+18mV"
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 62.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae65f0b4-fe4a-46b3-837a-0f4b83e252bb")
+		)
+		(instances
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -1205,7 +1731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80cfa111-b8fd-4423-b978-731de149a640")
-		(property "Reference" "#PWR02202"
+		(property "Reference" "#PWR0113"
 			(at 59.69 132.08 0)
 			(effects
 				(font
@@ -1253,9 +1779,9 @@
 			(uuid "eb430035-2ab5-46c5-a3d2-8bb243536fb0")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
-					(reference "#PWR02202")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -1271,7 +1797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85ddeea1-53a3-47bc-be5d-5359949eb172")
-		(property "Reference" "#PWR02205"
+		(property "Reference" "#PWR0309"
 			(at 107.95 43.18 0)
 			(effects
 				(font
@@ -1319,9 +1845,9 @@
 			(uuid "eacde2c6-daea-409e-b0a8-3f7eadb025b0")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
-					(reference "#PWR02205")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -1337,7 +1863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "873f19ec-ccc6-407d-982c-dfc2c6faa6d7")
-		(property "Reference" "#PWR02204"
+		(property "Reference" "#PWR0308"
 			(at 106.68 78.74 0)
 			(effects
 				(font
@@ -1385,58 +1911,289 @@
 			(uuid "b0918fef-956e-44c2-aa3b-eeb115bf1dbc")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
-					(reference "#PWR02204")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 151.13 71.12)
-		(size 21.59 20.32)
+	(symbol
+		(lib_id "power:-5V")
+		(at 46.99 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94a636c5-db1d-4a9e-9501-c6f6d7bf815c")
+		(property "Reference" "#PWR0111"
+			(at 46.99 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-750mV"
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 46.99 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8074d04b-b677-4c40-b6a8-06c2549d9314")
+		)
+		(instances
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 93.98 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3b3a13db-6557-433d-96a5-218459e8b091")
-		(property "Sheetname" "loco-track-terminal_track_a"
-			(at 151.13 70.4084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "loco-track-terminal.kicad_sch"
-			(at 151.13 92.0246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "DCC[0..1]" bidirectional
-			(at 151.13 86.36 180)
+		(uuid "ab36da7f-8748-40e3-b3a4-3ed4fd1891b7")
+		(property "Reference" "J301"
+			(at 96.52 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "430a6cd0-d964-4556-8aa2-78bf0ba54bba")
+		)
+		(property "Value" "Conn_01x06"
+			(at 96.52 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x06_P4.6mm_D0.9mm_OD2.1mm_Relief"
+			(at 93.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "7e0b328f-933c-4609-a7aa-453f09e4a849")
+		)
+		(pin "2"
+			(uuid "d34520df-35b5-449c-b342-7f85c77268be")
+		)
+		(pin "1"
+			(uuid "bd977b35-9b66-4306-ada5-4944be8ada21")
+		)
+		(pin "4"
+			(uuid "307edf69-1c46-4975-b4e3-f85724a6fdcd")
+		)
+		(pin "5"
+			(uuid "76387348-fdb7-47e8-a1d6-eb17bcd86e28")
+		)
+		(pin "3"
+			(uuid "5852af89-020f-42ef-be9e-ca32ef41ca1e")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
-					(page "36")
+					(reference "J301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 55.88 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8e3dc35-8f7c-4286-a180-111332f92506")
+		(property "Reference" "#PWR0112"
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-18mV"
+			(at 55.88 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 55.88 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46fe4515-ccaa-42c5-bee0-a01f2dbab87a")
+		)
+		(instances
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 167.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f84cc31b-8f26-4682-87e6-e7aec9b6fac8")
+		(property "Reference" "#PWR0306"
+			(at 82.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af5496e1-25cf-461e-b591-30c8f87c6c7e")
+		)
+		(instances
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
+					(reference "#PWR0306")
+					(unit 1)
 				)
 			)
 		)
@@ -1469,16 +2226,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "DCC_CTRL[0..1]" bidirectional
-			(at 101.6 53.34 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "90b36e78-c62a-43c1-a7ff-8b989699dc54")
 		)
 		(pin "+3V3" input
 			(at 115.57 41.91 90)
@@ -1520,8 +2267,18 @@
 			)
 			(uuid "d57a2dbf-2a15-4895-a83a-7a4314cd2094")
 		)
+		(pin "DCC_CTRL[0..1]" bidirectional
+			(at 101.6 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2a4a02f2-0632-408a-821d-70ff1595b717")
+		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
 					(page "33")
 				)
@@ -1629,105 +2386,9 @@
 			(uuid "472ea33c-90a3-485c-939a-19d251ef09e4")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
 					(page "35")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 44.45 38.1)
-		(size 21.59 20.32)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b77f0077-1926-4790-a8ae-2d9cb2a861f8")
-		(property "Sheetname" "loco-track-terminal_central"
-			(at 44.45 37.3884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "loco-track-terminal.kicad_sch"
-			(at 44.45 59.0046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "DCC[0..1]" bidirectional
-			(at 66.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "000b165b-66d6-468e-bfa5-712a00754f6f")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
-					(page "38")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 151.13 105.41)
-		(size 21.59 20.32)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "cbcba9a5-81e5-4be6-bbd1-91127981b75d")
-		(property "Sheetname" "loco-track-terminal_track_b"
-			(at 151.13 104.6984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "loco-track-terminal.kicad_sch"
-			(at 151.13 126.3146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "DCC[0..1]" bidirectional
-			(at 151.13 113.03 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1f395f6f-4141-4563-a3c7-ba9e9c3a124e")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
-					(page "37")
 				)
 			)
 		)
@@ -1761,16 +2422,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "DCC_CTRL[0..1]" bidirectional
-			(at 101.6 100.33 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "79b7cd56-4d78-4f84-a56b-c0355da322e1")
 		)
 		(pin "DCC_TRACK_A[0..1]" bidirectional
 			(at 130.81 93.98 0)
@@ -1852,8 +2503,18 @@
 			)
 			(uuid "2337f3bb-bb5a-407a-a7e3-d4312cb14d13")
 		)
+		(pin "DCC_CTRL0" bidirectional
+			(at 101.6 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3ad4e7bc-4eda-4b08-b4e3-7850c604d37a")
+		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203"
 					(page "34")
 				)

@@ -484,7 +484,7 @@
 		)
 	)
 	(junction
-		(at 41.91 58.42)
+		(at 41.91 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17a843b9-5781-4eea-84f7-2c00c6600300")
@@ -493,27 +493,27 @@
 		(at 41.91 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6fcc7657-33c9-4522-a907-b1750d7419d1")
+		(uuid "625e5415-a87d-41c4-aa19-8139db3a2360")
 	)
 	(wire
 		(pts
-			(xy 34.29 39.37) (xy 41.91 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0068af52-0cda-4173-a3e5-6d4506676e78")
-	)
-	(wire
-		(pts
-			(xy 41.91 58.42) (xy 34.29 58.42)
+			(xy 41.91 55.88) (xy 34.29 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "072310a1-bc4c-4f4b-9539-a6b665d2b6d0")
+	)
+	(wire
+		(pts
+			(xy 43.18 39.37) (xy 41.91 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079c44a0-346d-425a-bd29-49626e0d3cda")
 	)
 	(wire
 		(pts
@@ -527,7 +527,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 58.42) (xy 34.29 57.15)
+			(xy 41.91 39.37) (xy 41.91 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d7686f-e890-466d-a60c-465128a18f33")
+	)
+	(wire
+		(pts
+			(xy 34.29 55.88) (xy 34.29 53.34)
 		)
 		(stroke
 			(width 0)
@@ -537,7 +547,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 41.91) (xy 57.15 58.42)
+			(xy 57.15 41.91) (xy 57.15 55.88)
 		)
 		(stroke
 			(width 0)
@@ -547,17 +557,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 39.37) (xy 41.91 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe7ba6d-98c6-4a1b-8f6c-5ce38e44c975")
-	)
-	(wire
-		(pts
-			(xy 67.31 39.37) (xy 41.91 39.37)
+			(xy 67.31 39.37) (xy 50.8 39.37)
 		)
 		(stroke
 			(width 0)
@@ -567,7 +567,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 58.42) (xy 41.91 58.42)
+			(xy 57.15 55.88) (xy 41.91 55.88)
 		)
 		(stroke
 			(width 0)
@@ -577,7 +577,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 39.37) (xy 34.29 41.91)
+			(xy 34.29 39.37) (xy 34.29 45.72)
 		)
 		(stroke
 			(width 0)
@@ -587,13 +587,23 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 58.42) (xy 41.91 55.88)
+			(xy 41.91 55.88) (xy 41.91 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dfe22162-b743-4cb0-b246-0a55c2aa0389")
+	)
+	(wire
+		(pts
+			(xy 41.91 39.37) (xy 34.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e553f17e-90f3-4cfc-93b9-122b8f1edffd")
 	)
 	(text "Screw Terminal & DCC-LEDs"
 		(exclude_from_sim no)
@@ -733,11 +743,33 @@
 					(unit 1)
 				)
 			)
+			(project "xDuinoRail-RailComShield"
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/0b9de3cc-5d50-4cde-9e34-f8388e2f8250"
+					(reference "J2801")
+					(unit 1)
+				)
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/c9bd1ec4-f347-4f0b-9acc-dcb6b1412a55"
+					(reference "J2801")
+					(unit 1)
+				)
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/1e22100e-818c-46d7-87b7-1acf1091aa02"
+					(reference "J2801")
+					(unit 1)
+				)
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/dc0816b8-2393-4e81-a0a7-6ceb8ab473a5"
+					(reference "J2801")
+					(unit 1)
+				)
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/9e0afe7c-d063-4942-8646-f52a17ec850d"
+					(reference "J2801")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 34.29 45.72 270)
+		(at 34.29 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -745,7 +777,7 @@
 		(dnp no)
 		(uuid "401bcddb-25d3-49d5-b95a-dc2eebf9d691")
 		(property "Reference" "D2801"
-			(at 30.48 45.4025 90)
+			(at 30.48 49.2125 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,7 +786,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 30.48 42.8625 90)
+			(at 30.48 46.6725 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -763,7 +795,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 34.29 45.72 0)
+			(at 34.29 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -772,7 +804,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 45.72 0)
+			(at 34.29 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -781,7 +813,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 34.29 45.72 0)
+			(at 34.29 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +822,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 34.29 45.72 0)
+			(at 34.29 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -799,7 +831,7 @@
 			)
 		)
 		(property "OLI_ID" "LED-RED_0603"
-			(at 34.29 45.72 0)
+			(at 34.29 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,11 +860,33 @@
 					(unit 1)
 				)
 			)
+			(project "xDuinoRail-RailComShield"
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/0b9de3cc-5d50-4cde-9e34-f8388e2f8250"
+					(reference "D2801")
+					(unit 1)
+				)
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/c9bd1ec4-f347-4f0b-9acc-dcb6b1412a55"
+					(reference "D2801")
+					(unit 1)
+				)
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/1e22100e-818c-46d7-87b7-1acf1091aa02"
+					(reference "D2801")
+					(unit 1)
+				)
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/dc0816b8-2393-4e81-a0a7-6ceb8ab473a5"
+					(reference "D2801")
+					(unit 1)
+				)
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/9e0afe7c-d063-4942-8646-f52a17ec850d"
+					(reference "D2801")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 41.91 44.45 0)
+		(at 46.99 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -840,7 +894,7 @@
 		(dnp no)
 		(uuid "a1557768-b7fc-4b03-acaf-4ea10518fcba")
 		(property "Reference" "R2802"
-			(at 44.45 43.18 0)
+			(at 44.45 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -849,7 +903,7 @@
 			)
 		)
 		(property "Value" "3k3"
-			(at 44.45 45.72 0)
+			(at 44.45 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -858,7 +912,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 40.132 44.45 90)
+			(at 46.99 37.592 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -867,7 +921,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 44.45 0)
+			(at 46.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -876,7 +930,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 41.91 44.45 0)
+			(at 46.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,7 +939,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 41.91 44.45 0)
+			(at 46.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -894,7 +948,7 @@
 			)
 		)
 		(property "OLI_ID" "3k3_0805"
-			(at 41.91 44.45 0)
+			(at 46.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,98 +977,25 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 34.29 53.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be29de89-08c7-4570-af9e-dbf375a35639")
-		(property "Reference" "R2801"
-			(at 31.75 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3k3"
-			(at 31.75 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 36.068 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 34.29 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field-1" ""
-			(at 34.29 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OLI_ID" "3k3_0805"
-			(at 34.29 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7de8e451-490d-478f-b87a-f6101655519a")
-		)
-		(pin "2"
-			(uuid "03bd2ca9-dd16-4fea-a809-fd06c5e06648")
-		)
-		(instances
-			(project "xDuinoRail-Debug"
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/b77f0077-1926-4790-a8ae-2d9cb2a861f8"
-					(reference "R2801")
+			(project "xDuinoRail-RailComShield"
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/0b9de3cc-5d50-4cde-9e34-f8388e2f8250"
+					(reference "R2802")
 					(unit 1)
 				)
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/3b3a13db-6557-433d-96a5-218459e8b091"
-					(reference "R2601")
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/c9bd1ec4-f347-4f0b-9acc-dcb6b1412a55"
+					(reference "R2802")
 					(unit 1)
 				)
-				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cbcba9a5-81e5-4be6-bbd1-91127981b75d"
-					(reference "R2701")
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/1e22100e-818c-46d7-87b7-1acf1091aa02"
+					(reference "R2802")
+					(unit 1)
+				)
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/dc0816b8-2393-4e81-a0a7-6ceb8ab473a5"
+					(reference "R2802")
+					(unit 1)
+				)
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/9e0afe7c-d063-4942-8646-f52a17ec850d"
+					(reference "R2802")
 					(unit 1)
 				)
 			)
@@ -1022,7 +1003,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 41.91 52.07 90)
+		(at 41.91 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1030,7 +1011,7 @@
 		(dnp no)
 		(uuid "ed0327fd-04d4-48b7-a697-2ac734e1c606")
 		(property "Reference" "D2802"
-			(at 45.72 52.3875 90)
+			(at 45.72 47.3075 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1039,7 +1020,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 45.72 54.9275 90)
+			(at 45.72 49.8475 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,7 +1029,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 41.91 52.07 0)
+			(at 41.91 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,7 +1038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 52.07 0)
+			(at 41.91 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +1047,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 41.91 52.07 0)
+			(at 41.91 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,7 +1056,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 41.91 52.07 0)
+			(at 41.91 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1084,7 +1065,7 @@
 			)
 		)
 		(property "OLI_ID" "LED-RED_0603"
-			(at 41.91 52.07 0)
+			(at 41.91 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,6 +1091,28 @@
 				)
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/cbcba9a5-81e5-4be6-bbd1-91127981b75d"
 					(reference "D2702")
+					(unit 1)
+				)
+			)
+			(project "xDuinoRail-RailComShield"
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/0b9de3cc-5d50-4cde-9e34-f8388e2f8250"
+					(reference "D2802")
+					(unit 1)
+				)
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/c9bd1ec4-f347-4f0b-9acc-dcb6b1412a55"
+					(reference "D2802")
+					(unit 1)
+				)
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/1e22100e-818c-46d7-87b7-1acf1091aa02"
+					(reference "D2802")
+					(unit 1)
+				)
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/dc0816b8-2393-4e81-a0a7-6ceb8ab473a5"
+					(reference "D2802")
+					(unit 1)
+				)
+				(path "/56a86e7e-bbd8-4082-b940-bda149826ff7/9e0afe7c-d063-4942-8646-f52a17ec850d"
+					(reference "D2802")
 					(unit 1)
 				)
 			)

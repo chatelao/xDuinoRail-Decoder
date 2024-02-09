@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "fcccac48-6e6b-491c-b569-290c1829c6bd")
 	(paper "A4")
 	(lib_symbols
@@ -325,7 +325,7 @@
 		)
 		(uuid "e9903db5-e110-4810-8d5d-36bef593ec6e")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "DCC1"
 		(shape input)
 		(at 39.37 67.31 180)
 		(fields_autoplaced yes)
@@ -371,7 +371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bb63b59-1aae-4014-a8d9-4ec60d8bd823")
-		(property "Reference" "R101"
+		(property "Reference" "R401"
 			(at 48.26 49.5299 0)
 			(effects
 				(font
@@ -380,7 +380,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 48.26 52.0699 0)
 			(effects
 				(font
@@ -389,7 +389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 43.942 50.8 90)
 			(effects
 				(font
@@ -416,6 +416,15 @@
 				(hide yes)
 			)
 		)
+		(property "OLI_ID" "10k_0805"
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48b7767d-fa66-48be-a264-cc1263220dc6")
 		)
@@ -423,6 +432,12 @@
 			(uuid "7f2b123b-1384-4e9e-8d98-530958d0dcbe")
 		)
 		(instances
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/de132676-c05c-4510-b783-d0cc70736386"
+					(reference "R401")
+					(unit 1)
+				)
+			)
 			(project "rails_signal_extraction_analog"
 				(path "/fcccac48-6e6b-491c-b569-290c1829c6bd"
 					(reference "R101")
@@ -441,7 +456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "227014e0-184e-459c-b38b-68d7370dcd4d")
-		(property "Reference" "R102"
+		(property "Reference" "R402"
 			(at 48.26 59.6899 0)
 			(effects
 				(font
@@ -450,7 +465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 48.26 62.2299 0)
 			(effects
 				(font
@@ -459,7 +474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 43.942 60.96 90)
 			(effects
 				(font
@@ -486,6 +501,15 @@
 				(hide yes)
 			)
 		)
+		(property "OLI_ID" "1k_0805"
+			(at 45.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c274ea4-2adc-4790-9760-9bfa6b264701")
 		)
@@ -493,6 +517,12 @@
 			(uuid "6bde3b1c-ca67-482c-ab18-600e48005e2f")
 		)
 		(instances
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/de132676-c05c-4510-b783-d0cc70736386"
+					(reference "R402")
+					(unit 1)
+				)
+			)
 			(project "rails_signal_extraction_analog"
 				(path "/fcccac48-6e6b-491c-b569-290c1829c6bd"
 					(reference "R102")
@@ -512,7 +542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad56f99c-d35b-4f87-8254-e741dc96ba3f")
-		(property "Reference" "#PWR0601"
+		(property "Reference" "#PWR0401"
 			(at 45.72 74.93 0)
 			(effects
 				(font
@@ -560,6 +590,12 @@
 			(uuid "a0d141cf-2347-4975-af1a-fd0826d804e2")
 		)
 		(instances
+			(project "xDuinoRail-Breakout-Railcom8x50"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/de132676-c05c-4510-b783-d0cc70736386"
+					(reference "#PWR0401")
+					(unit 1)
+				)
+			)
 			(project "xDuinoRailShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f59f9ae7-6afc-4bf7-ac97-b34cf3a86d49"
 					(reference "#PWR0601")
@@ -572,11 +608,6 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )

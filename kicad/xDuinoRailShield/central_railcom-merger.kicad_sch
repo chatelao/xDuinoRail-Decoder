@@ -973,6 +973,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_names
@@ -1197,20 +1333,73 @@
 		(uuid "279d9606-a56e-440f-b07d-73ec915b4dc1")
 	)
 	(junction
+		(at 166.37 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28673772-feb2-4c3f-a14c-4095c26f8246")
+	)
+	(junction
 		(at 144.78 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "413bc291-5f60-429d-874a-a17e10f287dc")
 	)
+	(junction
+		(at 166.37 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a7ceeaa-ac9d-4da3-8f35-e41f7de899e7")
+	)
+	(junction
+		(at 179.07 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc6b0675-8b9c-44a4-9c1a-f832b0ad3e6b")
+	)
+	(junction
+		(at 179.07 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb492bc5-29ec-4bb4-99b4-a71bd186a372")
+	)
+	(bus_entry
+		(at 181.61 -3.81)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecb9045-afb3-45df-8f1a-00342f732c4f")
+	)
 	(wire
 		(pts
-			(xy 68.58 55.88) (xy 55.88 55.88)
+			(xy 179.07 55.88) (xy 182.88 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12fe6817-dee2-4451-a2d9-f449db84289a")
+		(uuid "1e229f67-2ccc-496f-b341-75586a54b144")
+	)
+	(wire
+		(pts
+			(xy 68.58 40.64) (xy 55.88 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e812b5-52b2-4414-8db5-b4cf471928cb")
+	)
+	(wire
+		(pts
+			(xy 166.37 81.28) (xy 144.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc86a28-159b-419d-ac6d-46bb7c2f79a1")
 	)
 	(wire
 		(pts
@@ -1234,6 +1423,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 81.28) (xy 166.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ee8e6b-b8c6-4cd8-a589-2f93e45e73fc")
+	)
+	(wire
+		(pts
 			(xy 83.82 91.44) (xy 99.06 91.44)
 		)
 		(stroke
@@ -1244,13 +1443,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 60.96) (xy 68.58 60.96)
+			(xy 55.88 45.72) (xy 68.58 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ddd13a6-75dd-41f6-ad63-fd210b468f2b")
+		(uuid "6ca3b71b-f211-4ac6-ba6a-f0defe93d7e9")
 	)
 	(wire
 		(pts
@@ -1260,7 +1459,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "80b22c97-b34a-41b9-ab61-6e1d9a6ca226")
+		(uuid "74c54bd1-d31e-462b-a899-1bba021fd8e9")
+	)
+	(wire
+		(pts
+			(xy 68.58 55.88) (xy 55.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829d0ea8-4603-4186-81ea-867c44c63e2f")
+	)
+	(wire
+		(pts
+			(xy 166.37 55.88) (xy 179.07 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8775fd27-29c4-4612-bdf6-8c4ffcb95598")
 	)
 	(wire
 		(pts
@@ -1294,13 +1513,33 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 44.45) (xy 68.58 44.45)
+			(xy 83.82 43.18) (xy 99.06 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afb24b18-3956-4929-9e43-7edc735f59c7")
+		(uuid "a2a59e81-5a4c-436e-9bbf-46ee6007e41d")
+	)
+	(wire
+		(pts
+			(xy 166.37 73.66) (xy 166.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a441d63f-6d55-456a-b83a-269bd29e78fa")
+	)
+	(wire
+		(pts
+			(xy 166.37 55.88) (xy 166.37 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afcdcfd7-f700-41a1-94eb-5c6aa0f48289")
 	)
 	(wire
 		(pts
@@ -1324,17 +1563,27 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 41.91) (xy 99.06 41.91)
+			(xy 179.07 55.88) (xy 179.07 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bcc21415-c111-4e65-a5c5-eca3d7763419")
+		(uuid "bad3dfd3-bd1c-4616-85c8-e43ed64d865e")
 	)
 	(wire
 		(pts
-			(xy 144.78 55.88) (xy 152.4 55.88)
+			(xy 179.07 73.66) (xy 179.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5fcb21-a281-4481-aed8-5828675dc413")
+	)
+	(wire
+		(pts
+			(xy 144.78 55.88) (xy 166.37 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1344,7 +1593,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 81.28) (xy 144.78 81.28)
+			(xy 181.61 81.28) (xy 179.07 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1364,17 +1613,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 39.37) (xy 55.88 39.37)
+			(xy 55.88 60.96) (xy 68.58 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f362d079-a161-4842-b039-b6db14bdec7a")
+		(uuid "f1fa9f81-eb9f-4bce-9559-52f637747180")
 	)
 	(text "https://normen.railcommunity.de/RCN-217.pdf"
 		(exclude_from_sim no)
-		(at 60.706 190.5 0)
+		(at 66.04 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1403,8 +1652,8 @@
 		)
 		(uuid "1168a5bf-06bb-49bf-9bd4-3381dfd99d81")
 	)
-	(label "RAILCOM_A1"
-		(at 55.88 44.45 0)
+	(label "RAILCOM_A0"
+		(at 55.88 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1412,10 +1661,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2af7afa8-f785-4199-a08b-585940426952")
+		(uuid "16b4de38-9427-4c67-be4a-ecf0f6280a3c")
 	)
-	(label "RAILCOM_B0"
-		(at 55.88 55.88 0)
+	(label "RAILCOM_B1"
+		(at 55.88 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1423,7 +1672,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2f771bdc-dfea-467c-82c8-64d6fd69fee0")
+		(uuid "32bc1792-9050-4c6b-b68c-bdb986dd03f3")
 	)
 	(label "RAILCOM3"
 		(at 99.06 91.44 180)
@@ -1436,8 +1685,19 @@
 		)
 		(uuid "59e194c4-e2d5-40b8-96e7-2e6516eb54fa")
 	)
-	(label "RAILCOM_B1"
-		(at 55.88 60.96 0)
+	(label "RAILCOM0"
+		(at 99.06 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f9e6ec7-5104-4bd6-bd21-ec6acf0c8739")
+	)
+	(label "RAILCOM_B0"
+		(at 55.88 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1445,7 +1705,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7740fe0e-6b0f-4bd8-a58d-a558a4815b67")
+		(uuid "7f6c2379-2c43-48b2-bd46-37cffff24003")
 	)
 	(label "RAILCOM_C0"
 		(at 55.88 72.39 0)
@@ -1469,8 +1729,8 @@
 		)
 		(uuid "8e00c302-621e-4d9d-8874-1527d745e52b")
 	)
-	(label "GPIO0"
-		(at 149.86 92.71 180)
+	(label "RAILCOM1"
+		(at 99.06 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1478,10 +1738,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "9109c58b-bf8c-48c3-b75a-bf45c4ef99e5")
+		(uuid "8f064dd6-4e66-42fe-91ce-ed597e55a0b8")
 	)
-	(label "RAILCOM_A0"
-		(at 55.88 39.37 0)
+	(label "RAILCOM_A1"
+		(at 55.88 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1489,7 +1749,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c2793bed-7d01-4885-b82e-6ce375a4aaf0")
+		(uuid "a110d77e-2067-4282-b875-eb431ded5236")
 	)
 	(label "RAILCOM_D1"
 		(at 55.88 93.98 0)
@@ -1513,31 +1773,9 @@
 		)
 		(uuid "e3dfa56d-ef95-4573-a58d-073ff9316b10")
 	)
-	(label "RAILCOM0"
-		(at 99.06 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f7db1203-084e-4de0-8a81-cfab364c9f4e")
-	)
-	(label "RAILCOM1"
-		(at 99.06 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fde8bfbd-ba8f-4f01-ae46-dd5a98d8d5d3")
-	)
 	(hierarchical_label "RAILCOM[0..3]"
 		(shape output)
-		(at 106.68 66.04 0)
+		(at 102.87 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1549,7 +1787,7 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 152.4 55.88 0)
+		(at 182.88 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1609,7 +1847,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 161.29 81.28 0)
+		(at 181.61 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1629,7 +1867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a666882-4102-4fb7-be41-b8b6b63604f3")
-		(property "Reference" "#PWR02502"
+		(property "Reference" "#PWR0602"
 			(at 144.78 88.9 0)
 			(effects
 				(font
@@ -1677,9 +1915,9 @@
 			(uuid "b08e62f1-fbe8-473e-b615-96185e6a742a")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/89c38e83-9883-4a10-8423-964a888423c7"
-					(reference "#PWR02502")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -1695,7 +1933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bc520a1-2c3d-4850-8be0-53f6c24fe946")
-		(property "Reference" "U2501"
+		(property "Reference" "U601"
 			(at 76.2 49.53 0)
 			(effects
 				(font
@@ -1711,7 +1949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 76.2 58.42 0)
 			(effects
 				(font
@@ -1739,6 +1977,51 @@
 			)
 		)
 		(property "OLI_ID" "74HC02_SOIC-14"
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
 			(at 76.2 58.42 0)
 			(effects
 				(font
@@ -1790,9 +2073,9 @@
 			(uuid "ee1f85bb-13e4-446f-883a-8edc3fa86150")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/89c38e83-9883-4a10-8423-964a888423c7"
-					(reference "U2501")
+					(reference "U601")
 					(unit 2)
 				)
 			)
@@ -1807,7 +2090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42776219-7f76-4bc8-9099-4906e8f82f71")
-		(property "Reference" "#PWR02501"
+		(property "Reference" "#PWR0601"
 			(at 144.78 58.42 0)
 			(effects
 				(font
@@ -1855,9 +2138,9 @@
 			(uuid "342be0c9-792c-40ee-84cf-2ce2cf2b297f")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/89c38e83-9883-4a10-8423-964a888423c7"
-					(reference "#PWR02501")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -1865,7 +2148,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC02")
-		(at 76.2 41.91 0)
+		(at 76.2 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1873,8 +2156,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "458cd8b7-4954-4e55-83e2-0508914647c6")
-		(property "Reference" "U2501"
-			(at 76.2 33.02 0)
+		(property "Reference" "U601"
+			(at 76.2 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,15 +2165,15 @@
 			)
 		)
 		(property "Value" "74HC02"
-			(at 76.2 35.56 0)
+			(at 76.2 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
-			(at 76.2 41.91 0)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 76.2 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +2182,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc02"
-			(at 76.2 41.91 0)
+			(at 76.2 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +2191,7 @@
 			)
 		)
 		(property "Description" "quad 2-input NOR gate"
-			(at 76.2 41.91 0)
+			(at 76.2 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +2200,52 @@
 			)
 		)
 		(property "OLI_ID" "74HC02_SOIC-14"
-			(at 76.2 41.91 0)
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
+			(at 76.2 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,9 +2296,88 @@
 			(uuid "ee1f85bb-13e4-446f-883a-8edc3fa86151")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/89c38e83-9883-4a10-8423-964a888423c7"
-					(reference "U2501")
+					(reference "U601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166.37 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bbf2501-ec0a-49c7-aa9e-4057b696eac2")
+		(property "Reference" "C601"
+			(at 170.18 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 170.18 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 167.3352 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "100uF_1206"
+			(at 166.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6fd6e7ec-4c85-4c51-a943-378e8cd40f68")
+		)
+		(pin "1"
+			(uuid "ceb02bd4-9cab-4e95-b404-219cdb164b85")
+		)
+		(instances
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/89c38e83-9883-4a10-8423-964a888423c7"
+					(reference "C601")
 					(unit 1)
 				)
 			)
@@ -1986,7 +2393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b796a0db-80c2-42c9-b00a-6d0450f553de")
-		(property "Reference" "U2501"
+		(property "Reference" "U601"
 			(at 76.2 82.55 0)
 			(effects
 				(font
@@ -2002,7 +2409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 76.2 91.44 0)
 			(effects
 				(font
@@ -2030,6 +2437,51 @@
 			)
 		)
 		(property "OLI_ID" "74HC02_SOIC-14"
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
 			(at 76.2 91.44 0)
 			(effects
 				(font
@@ -2081,10 +2533,89 @@
 			(uuid "ee1f85bb-13e4-446f-883a-8edc3fa86152")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/89c38e83-9883-4a10-8423-964a888423c7"
-					(reference "U2501")
+					(reference "U601")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 179.07 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3a4bb87-75ca-4878-b561-dcff0d8a3d83")
+		(property "Reference" "C602"
+			(at 182.88 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 182.88 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 180.0352 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OLI_ID" "100nF_0805"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60cbf032-f916-4ef9-aff8-bcd600517a75")
+		)
+		(pin "1"
+			(uuid "6e611bc3-b283-432c-9bdb-f94ca77c4b44")
+		)
+		(instances
+			(project "xDuinoRail-Breakout-RailcomDetect"
+				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/89c38e83-9883-4a10-8423-964a888423c7"
+					(reference "C602")
+					(unit 1)
 				)
 			)
 		)
@@ -2097,9 +2628,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e7da6418-c542-4508-8eb2-28cedc2555f2")
-		(property "Reference" "U2501"
+		(property "Reference" "U601"
 			(at 76.2 66.04 0)
 			(effects
 				(font
@@ -2115,7 +2645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 76.2 74.93 0)
 			(effects
 				(font
@@ -2143,6 +2673,51 @@
 			)
 		)
 		(property "OLI_ID" "74HC02_SOIC-14"
+			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
 			(at 76.2 74.93 0)
 			(effects
 				(font
@@ -2194,9 +2769,9 @@
 			(uuid "ee1f85bb-13e4-446f-883a-8edc3fa86153")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/89c38e83-9883-4a10-8423-964a888423c7"
-					(reference "U2501")
+					(reference "U601")
 					(unit 3)
 				)
 			)
@@ -2212,7 +2787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb4e701f-369a-4ef4-b98a-aeeb8e7f0495")
-		(property "Reference" "U2501"
+		(property "Reference" "U601"
 			(at 151.13 67.3099 0)
 			(effects
 				(font
@@ -2230,7 +2805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 144.78 68.58 0)
 			(effects
 				(font
@@ -2258,6 +2833,51 @@
 			)
 		)
 		(property "OLI_ID" "74HC02_SOIC-14"
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs_cert_or_in_datasheet" ""
 			(at 144.78 68.58 0)
 			(effects
 				(font
@@ -2309,9 +2929,9 @@
 			(uuid "ee1f85bb-13e4-446f-883a-8edc3fa86154")
 		)
 		(instances
-			(project "xDuinoRail-Debug"
+			(project "xDuinoRail-Breakout-RailcomDetect"
 				(path "/3fe1c7d3-674a-46fe-b8de-0718a52fef91/a69e15f3-9c14-4aca-9191-41e586ada203/89c38e83-9883-4a10-8423-964a888423c7"
-					(reference "U2501")
+					(reference "U601")
 					(unit 5)
 				)
 			)
