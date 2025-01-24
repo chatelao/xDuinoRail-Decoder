@@ -11,7 +11,6 @@ component "I2C/TWI" as I2C
 component "USB-C\n- Mass storage\n- CVs\n- Firmware\n- Sounds" as USBC
 
 I2C <-> Decoder: "QWIIC / Stemma QT"
-Decoder <..> USBC : "
 
 component "MCU base boards" as MCU {
 
